@@ -18,7 +18,10 @@ uutilsynet. (2021). 1.4.12 Tekstavstand (Nivå AA) | Tilsynet for universell utf
 Yale University. (2021). Links | Usability & Web Accessibility. https://usability.yale.edu/web-accessibility/articles/links
 
 
+Dummy-text for reflection essay source:
 
+Simon Fraser University. (2021, april 19th). Moving From High School to University. 
+https://www.lib.sfu.ca/about/branches-depts/slc/learning/transition/high-school-university
 
 
 
