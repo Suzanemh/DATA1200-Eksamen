@@ -12,34 +12,56 @@
     other pages. May be short and simple. Common theme for site: Being a
     first-year student (at OsloMet).-->
 
-    <!--Navigation to the other sites-->
-    <nav class="navigation">
-        <ul>
-            <a href=""><li>Reflection essay</li></a>
-            <a href=""><li>Accessibility</li></a>
-            <a href=""><li>Topical information</li></a>
-            <a href=""><li>Fun</li></a>
-        </ul>
-    </nav>
-    <header class="introduction">
-        <div>
-            <h1>First year student!</h1>
-            <p>
-                Noe tekst
-            </p>
-            <img >
-        </div>
+
+    <!-- Lage en skip to content? Pakke inn neste side i <main>? Reflection-essay first? Bra for accessibility, screen readers kan hoppe over navigation ++
+         Må ordne sånn at linken #main funker, må gi en id til der vi vil den skal skippe til.-->
+    <header class="header" id="top">
+        <a class="skip-to-main" href="#main">Skip to content</a>
+        <!-- Navigation to the other sites. Sticky (always visible) -->
+        <nav class="navigation">
+            <ul>
+                <a href="reflection-essay.html"><li>Reflection essay</li></a>
+                <a href="accessibility.html"><li>Accessibility</li></a>
+                <a href="page4.html"><li>Topical information</li></a>
+                <a href="fun.html"><li>Fun</li></a>
+            </ul>
+        </nav>
     </header>
 
+    <!-- Contains intro-text and background image -->
+    <div class="introduction">
+        <h1>Lorem Ipsum</h1>
+        <p>
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!
+            Phasellus suscipit dapibus dapibus. Nam eleifend, ipsum at mollis ultricies, sem urna varius nibh, sed condimentum velit nunc non tortor.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed lacinia sollicitudin consequat. 
+            Nulla consectetur sem eu turpis volutpat pulvinar. Phasellus vitae volutpat quam. Donec tellus urna, dapibus eu mollis ac, cursus quis metus.
+        </p>
+    </div>
 
+
+    <!-- Contact information and link to top of page. Sticky (always visible) -->
     <footer>
-        <div>
-            <!--Contact information-->
-        </div>
+        <address>
+            Get in touch! Send an email to: 
+            <a href="mailto:hanne-lf@hotmail.com">hanne-lf@hotmail.com</a>
+             or phone me at: 
+            <a href="tel:+4798112211">+47 98 11 22 11</a>
+        </address>
         <div class="button-up">
-            <a href="#top"><img src="images/arrow.png" alt="link to top of page"></a>
+            <a href="#top"><img src="images/arrow.png" alt="click here to get to the top of the page"></a>
         </div>
     </footer>
+
+    <!-- Ting på denne siden som hjelper accessibility:
+         Semantiske tags: header, footer, navigation
+         Bruk av headings (<h1>) + korrekt bruk av headings (alltid starte med 1). Gjør det lettere å navigere på siden
+         Alt-tekst på bilde (pilen opp)
+         Declared språk i <head>. Gjør det lettere for søkemotorer og browsere.
+         Kilde: https://www.w3schools.com/html/html_accessibility.asp 
+
+         Skip-to-content knapp gjør at screen readers kan hoppe rett til hovedinnholdet på siden, så slipper leser å gå igjennom nav og annen "unyttig" info. 
+    -->
 
     
 </body>
