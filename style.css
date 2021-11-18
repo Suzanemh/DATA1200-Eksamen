@@ -93,3 +93,31 @@
   /*----------------------
       End of Button Skip
   ----------------------*/
+
+   /*----------------------
+     H1
+  ----------------------*/
+  h1{
+    text-align:center;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+   /*----------------------
+     H2
+  ----------------------*/
+  h2{
+    text-align:center;
+    text-align:center;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+ /*----------------------
+     H3
+  ----------------------*/
+  h3{
+    text-align:center;
+    text-align:center;
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
