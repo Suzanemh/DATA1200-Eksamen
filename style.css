@@ -9,7 +9,7 @@
     display: flex;
     height: 10vh;
     justify-content: space-between;
-    position: fixed;
+    
     top: 0;
     width: 100%;
     z-index: 100;
@@ -71,7 +71,7 @@
 /*----------------------
     Start of Button Skip
 ----------------------*/
-.Button-Skip-Up {
+.button-up {
     background-color: orange;
     border-radius: 16px;
     border: rgb(255, 150, 0) solid 2px;
@@ -80,18 +80,74 @@
     position: fixed;
     right: 0;
   }
-  .Button-Skip-Up img {
+  .button-up img {
     filter: invert(100%);
     padding: 8px;
     transform: rotate(-90deg);
     transition: 0.2s;
     width: 24px;
   }
-  .Button-Skip-Up img:hover {
+  .button-up img:hover {
     width: 70px;
   }
+
+  footer{
+    border: rgb(255, 150, 0) solid 2px;
+    bottom: 0;
+    margin: 12px 8px;
+    position: fixed;
+    left: 0;
+
+
+  }
+
+
   /*----------------------
       End of Button Skip
   ----------------------*/
+
+
+   /*----------------------
+     div class
+  ----------------------*/
+
+  
+ .accessibility{
+   width: auto;
+   margin: auto;
+   white-space:normal;
+   text-align: center;
+    line-height: 1.8;
+    text-indent: 50px;
+      font-size: 25px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+
+  .topic{
+    white-space:normal;
+      text-align:center;
+      width: auto;
+      margin: auto;
+      font-size: 25px;
+      text-indent: 50px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      line-height: 20px; 
+      
+      
+    }
+
+
+
+  div { text-align: center; }
+  ul { 
+    display: inline-block; text-align: left;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  
+
+   }
 
   
