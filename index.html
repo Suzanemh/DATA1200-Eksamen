@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Welcome</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--Welcome! (index.html): this page should be a general information page
     that helps the visitor understand what this site is, and navigate to the
     other pages. May be short and simple. Common theme for site: Being a
     first-year student (at OsloMet).-->
 
-
     <!-- Lage en skip to content? Pakke inn neste side i <main>? Reflection-essay first? Bra for accessibility, screen readers kan hoppe over navigation ++
          Må ordne sånn at linken #main funker, må gi en id til der vi vil den skal skippe til.-->
     <header class="header" id="top">
         <a class="skip-to-main" href="#main">Skip to content</a>
         <!-- Navigation to the other sites. Sticky (always visible) -->
-        <nav class="navigation">
-            <ul>
-                <a href="reflection-essay.html"><li>Reflection essay</li></a>
-                <a href="accessibility.html"><li>Accessibility</li></a>
-                <a href="page4.html"><li>Topical information</li></a>
-                <a href="fun.html"><li>Fun</li></a>
-            </ul>
+        <nav class="Navbar">
+            <div class="Logo">
+              <a href="#top"><img src="images/Oslomet.png" alt="Logo"></a>
+            </div>
+            <ul id="Navbar-ul">
+              <li><a class="Navbar-Links" href="#Reflection-essay">Reflection essay</a></li>
+              <li><a class="Navbar-Links" href="#Accessibility">Accessibility</a></li>
+              <li><a class="Navbar-Links" href="#Topical information">Topical information</a></li>
+              <li><a class="Navbar-Links" href="#FunPage">Fun</a></li>
+          </ul>
         </nav>
-    </header>
 
     <!-- Contains intro-text and background image -->
     <div class="introduction">
@@ -69,6 +76,6 @@
          https://www.w3.org/WAI/ER/tools/ 
     -->
 
-    
 </body>
+
 </html>

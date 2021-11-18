@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <!--Accessibility page: 
@@ -16,14 +20,175 @@ validated, and made coding-choices for universal design beyond what an
 automated test can do. You are welcome to use screenshots from the
 testing site and of your code. We shall read this text! While the content of
 your page is but a minor part of the assessment, this is the text that we
-are certain to read. (Grammar not important.)-->
+are certain to read. (Grammar not important.)
+ -->
+
 <body>
+    <!--Navigation to the other sites-->
+    <nav class="Navbar">
+        <div class="Logo">
+            <a href="#top"><img src="images/Oslomet.png" alt="Logo"></a>
+        </div>
+        <ul id="Navbar-ul">
+            <li><a class="Navbar-Links" href="#Reflection-essay">Reflection essay</a></li>
+            <li><a class="Navbar-Links" href="#Accessibility">Accessibility</a></li>
+            <li><a class="Navbar-Links" href="#Topical information">Topical information</a></li>
+            <li><a class="Navbar-Links" href="#FunPage">Fun</a></li>
+
+        </ul>
+    </nav>
     <div class="accessibility">
-        <h1>Overskrift</h1>
+        <h1>Reflection of accessibility testing</h1>
+        <h2>What is Accessibility Testing?</h2>
         <p>
-            Tekst
+            Technology is changing the way we live, but it needs to change how we access it, especially in the digital
+            age that provides innovation and new opportunities to everyone who consumes it. It requires a lot of effort
+            in creating a technology that can be used by ‘everyone’.
+
+            Accessibility Testing is defined as a type of Software Testing performed to ensure that the application
+            being tested is usable by people with disabilities like hearing, color blindness, old age and other
+            disadvantaged groups (Hamilton, 2021; TestingXperts, 2021)
+
         </p>
-        <img>
+        <figure>
+            <iframe src="https://giphy.com/embed/0ozmBje9bTxfPlKO7m"
+                alt="A GIF with the following words: Accessibility for all" width="480" height="480" frameBorder="0"
+                class="giphy-embed" allowFullScreen></iframe>
+            <p><a href="https://giphy.com/gifs/IntoAction-wheelchair-disabled-handicapped-0ozmBje9bTxfPlKO7m"></a>
+            </p>
+            <figcaption>Figure 1. GIF animation</figcaption>
+        </figure>
+
+        <h2>Why Accessibility Testing?</h2>
+        <p>
+            There are several reasons to test accessibility. Some of the reasons are:
+        </p>
+        <ul>
+            <li>Cater to market for Disabled People</li>
+
+            <li>Abide by Accessibility Legislations</li>
+            <li>Avoid Potential Law Suits</li>
+
+
+        </ul>
+        <p>
+            More information about these reasons can be found <a
+                href="https://www.testingxperts.com/blog/Why-Accessibility-Testing-is-Important#The%20Need%20For%20Accessibility%20Testing">
+                at testingxperts blogs post. </a>
+        </p>
+        <p>
+            Furthermore, there are great benefits to accessibility testing. Among other things, that (1) Increases the
+            website usage and market share, (2) Enhances the brand image, and (3) Makes the website accessible to
+            society (TestingXperts, 2021)
+        </p>
+
+        <figure>
+            <img src="images/benefits.png" alt="Benefits of accessibility (1) Increase the website usage and market sale,
+             (2) Enhances the brand image, and (3) Makes the website accessible to
+            society . " />
+
+            <figcaption>Figure 2. Benefits of accessibility testing</figcaption>
+        </figure>
+
+
+        <h2>How to do Accessibility Testing, and which tools can we use?</h2>
+        <p>
+            In this section, we will present how this website was designed, with accessibility as the main focus. The
+            structure of this section is (1) presentation of design and implementation that contributes to universal
+            design and (2) examples of its use.
+        </p>
+
+
+
+
+        <h3>Navigation bar</h3>
+        <p>Navigation is the way users find and traverse the different pages available on your site. For this reason, it
+            is imperative that navigation is accessible. By their nature, links are tab-able and all keyboard users and
+            screen readers will read them–so, if your navigation is coded with links, a screen reader should find them
+            (STVDIO, 2021).
+        </p>
+
+        <figure>
+            <img src="images/Navigation.png"
+                alt="Navigation is the way users find and traverse the different pages available on your site." />
+            <figcaption>Figure x. HTML code example of the use of navigation links</figcaption>
+        </figure>
+
+
+        <h3>Use of heading and paragraph tags</h3>
+        <p>Web pages must be readable by electronic “screen readers” — which are devices commonly used by the visually
+            impaired to surf the internet (Smith, 2018). Screen readers use heading tagsto navigate and prioritize the
+            content. The strategic use of heading tags will not only make
+            the site more easily manageable by screen readers but it will also make it more optimized for search
+            engines (Smith, 2018). Therefor, it is important that there is a connection between the heading and the
+            paragraph tag, so the website is more likely to be universally designed.</p>
+
+        <figure>
+            <img src="images/Use of tags.png" alt="Use of heading tags" />
+            <figcaption>Figure x. Use of heading tags in this website</figcaption>
+        </figure>
+
+        <h3>Use ALT text for images</h3>
+        <p>Screen readers can also read the text in the ALT tags in embedded image files. These tags usually contain a
+            description of any images, infographics, or other non-text information on the page. The more descriptive
+            the image, the better for the user (Smith, 2018).</p>
+
+        <figure>
+            <img src="images/Use of ALT text for images.png" alt="An example of use of ALT text on image" />
+            <figcaption>Figure x. Example of using ALT text on image on this website</figcaption>
+        </figure>
+
+
+        <h3>Use of descriptive links</h3>
+        <p>It’s important for link text to make sense without the surrounding sentences or content. The link text
+            alone should convey the function and purpose of the link. Link text should also be unique and easy to speak
+            out
+            loud (Yale University, 2021). In that case, Avoid link text like “Click Here,” “More,” and “Read More.”
+            These kinds of links can be confusing when a screen reader reads them out of context. </p>
+
+        <figure>
+            <img src="images/Avoid this type of text link.png" alt="What to avoid when refering to a link." />
+            <figcaption>Figure x. Avoid use of link text like "Click here" , "Here", "More" etc.
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Good way to use text link.png" alt="Use of descriptive link text" />
+            <figcaption>Figure x. How to rather refer to text links.
+            </figcaption>
+        </figure>
+
+        <h3>Text spacing</h3>
+        <p>The text spacing must be able to be overridden to make the text easier to read. The requirement is
+            specifically intended to meet (1) people with impaired vision, and (2) people with dyslexia
+            (uutilsynet,
+            2021).</p>
+
+        <figure>
+            <img src="images/TextSpacing.png" alt="Example of how text spacing should not be displayed" />
+            <figcaption>Figure x. Example of how text spacing should <strong>not</strong> be displayed.
+            </figcaption>
+        </figure>
+
+        <!--bytt ut bilde når vi har lagt til på css-->
+        <figure>
+            <img src="images/TextSpacing.png" alt="Example of how text spacing should be displayed" />
+            <figcaption>Figure x. Example of how text spacing should be displayed.</figcaption>
+        </figure>
+
+        <h3>Color contrast</h3>
+
     </div>
+
+
+    <footer>
+        <div>
+            <!--Contact information-->
+        </div>
+        <button class="Button-Skip-Up">
+            <a href="#top"><img src="images/arrow.png" alt="link to top of page"></a>
+        </button>
+    </footer>
 </body>
+
 </html>
