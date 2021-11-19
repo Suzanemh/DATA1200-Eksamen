@@ -7,21 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css" />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Accessibility</title>
 </head>
-<!--Accessibility page: 
-    It must contain a short presentation of accessibility
-(up to 500 words describing how the group tested the code for
-accessibility using an automated test. 
 
-Also explain how you checked,
-validated, and made coding-choices for universal design beyond what an
-automated test can do. You are welcome to use screenshots from the
-testing site and of your code. We shall read this text! While the content of
-your page is but a minor part of the assessment, this is the text that we
-are certain to read. (Grammar not important.)
- -->
 
 <body>
     <!--Navigation to the other sites-->
@@ -41,37 +31,37 @@ are certain to read. (Grammar not important.)
 
     <div class="accessibility">
         <h1>Reflection of accessibility testing</h1>
-        <h2>What is Accessibility Testing?</h2>
-        <div class="text">
-            <p>
-                Technology is changing the way we live, but it needs to change how we access it, especially
-                in the
-                digital
-                age that provides innovation and new opportunities to everyone who consumes it. It requires
-                a lot of
-                effort
-                in creating a technology that can be used by ‘everyone’.
+        <h2> <u>What is Accessibility Testing?</u></h2>
 
-                Accessibility Testing is defined as a type of Software Testing performed to ensure that the
-                application
-                being tested is usable by people with disabilities like hearing, color blindness, old age
-                and other
-                disadvantaged groups (Hamilton, 2021; TestingXperts, 2021)
+        <p>
+            Technology is changing the way we live, but it needs to change how we access it, especially
+            in the
+            digital
+            age that provides innovation and new opportunities to everyone who consumes it. It requires
+            a lot of
+            effort
+            in creating a technology that can be used by ‘everyone’.
 
+            Accessibility Testing is defined as a type of Software Testing performed to ensure that the
+            application
+            being tested is usable by people with disabilities like hearing, color blindness, old age
+            and other
+            disadvantaged groups (Hamilton, 2021; TestingXperts, 2021).
+
+        </p>
+
+
+
+
+        <figure>
+            <iframe src="https://giphy.com/embed/0ozmBje9bTxfPlKO7m"
+                alt="A GIF with the following words: Accessibility for all" title="GIF" width="480" height="480"
+                frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p><a href="https://giphy.com/gifs/IntoAction-wheelchair-disabled-handicapped-0ozmBje9bTxfPlKO7m"></a>
             </p>
+            <figcaption>Figure 1. GIF animation</figcaption>
+        </figure>
 
-        </div>
-        <div class="container">
-
-            <figure>
-                <iframe src="https://giphy.com/embed/0ozmBje9bTxfPlKO7m"
-                    alt="A GIF with the following words: Accessibility for all" width="480" height="480" frameBorder="0"
-                    class="giphy-embed" allowFullScreen></iframe>
-                <p><a href="https://giphy.com/gifs/IntoAction-wheelchair-disabled-handicapped-0ozmBje9bTxfPlKO7m"></a>
-                </p>
-                <figcaption>Figure 1. GIF animation</figcaption>
-            </figure>
-        </div>
 
 
         <h2>Why Accessibility Testing?</h2>
@@ -81,35 +71,42 @@ are certain to read. (Grammar not important.)
         </p>
         <ul>
             <li>Cater to market for Disabled People</li>
-
             <li>Abide by Accessibility Legislations</li>
             <li>Avoid Potential Law Suits</li>
 
 
         </ul>
-
-
         <p>
+
+
             More information about these reasons can be found <a
                 href="https://www.testingxperts.com/blog/Why-Accessibility-Testing-is-Important#The%20Need%20For%20Accessibility%20Testing">
                 at testingxperts blogs post. </a>
         </p>
-        <p>
-            Furthermore, there are great benefits to accessibility testing. Among other things, that (1)
-            Increases
-            the
-            website usage and market share, (2) Enhances the brand image, and (3) Makes the website
-            accessible to
-            society (TestingXperts, 2021)
-        </p>
 
-        <figure>
-            <img src="images/benefits.png" alt="Benefits of accessibility (1) Increase the website usage and market sale,
-             (2) Enhances the brand image, and (3) Makes the website accessible to
-            society." />
+        <div class="container">
+            <div class="text">
+                <p>
+                    Furthermore, there are great benefits to accessibility testing. Among other things, that (1)
+                    Increases
+                    the
+                    website usage and market share, (2) Enhances the brand image, and (3) Makes the website
+                    accessible to
+                    society (TestingXperts, 2021).
+                </p>
+            </div>
 
-            <figcaption>Figure 2. Benefits of accessibility testing</figcaption>
-        </figure>
+            <div class="text">
+                <figure>
+                    <img src="images/benefits.png" alt="Benefits of accessibility (1) Increase the website usage and market sale,
+                         (2) Enhances the brand image, and (3) Makes the website accessible to
+                        society." title="Benefits of accessibility " />
+
+                    <figcaption>Figure 2. Benefits of accessibility testing</figcaption>
+                </figure>
+            </div>
+        </div>
+
 
 
         <h2>How to do Accessibility Testing, and which tools can we use?</h2>
@@ -123,12 +120,31 @@ are certain to read. (Grammar not important.)
         </p>
 
         <h3>Navigation bar</h3>
+
+
+
         <div class="container">
-            <div class="image">
-                <img src="images/Navigation.png"
-                    alt="Navigation is the way users find and traverse the different pages available on your site." />
-                <figcaption>Figure x. HTML code example of the use of navigation links</figcaption>
-            </div>
+            <pre>
+                <code class="language-html">
+                                &lt;nav class=&quot;Navbar&quot;&gt;
+                                &lt;div class=&quot;Logo&quot;&gt;
+                                    &lt;a href=&quot;http://127.0.0.1:5500/index.html&quot;&gt;&lt;img src=&quot;images/Oslomet.png&quot; alt=&quot;Logo&quot;&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;ul id=&quot;Navbar-ul&quot;&gt;
+                                    &lt;li&gt;&lt;a class=&quot;Navbar-Links&quot; href=&quot;http://127.0.0.1:5500/Reflection-essay.html&quot;&gt;Reflection essay&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a class=&quot;Navbar-Links&quot; href=&quot;http://127.0.0.1:5500/Accessibility.html&quot;&gt;Accessibility&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a class=&quot;Navbar-Links&quot; href=&quot;http://127.0.0.1:5500/Page4.html&quot;&gt;Topical information&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a class=&quot;Navbar-Links&quot; href=&quot;http://127.0.0.1:5500/Fun.html&quot;&gt;Fun&lt;/a&gt;&lt;/li&gt;
+                        
+                                &lt;/ul&gt;
+                            &lt;/nav&gt;
+                </code>
+            </pre>
+
+
+
+
+
             <div class="text">
                 <p>Navigation is the way users find and traverse the different pages available on your site. For
                     this
@@ -152,7 +168,7 @@ are certain to read. (Grammar not important.)
         <div class="container">
             <div class="image">
                 <figure>
-                    <img src="images/Use of tags.png" alt="Use of heading tags" />
+                    <img src="images/Use of tags.png" alt="Use of heading tags" title="Code example of using tags" />
                     <figcaption>Figure x. Use of heading tags in this website</figcaption>
                 </figure>
             </div>
@@ -178,17 +194,18 @@ are certain to read. (Grammar not important.)
 
 
         <h3>Use ALT text for images</h3>
-        <div class="text-ALT">
-            <p>Screen readers can also read the text in the ALT tags in embedded image files. These tags usually
-                contain a
-                description of any images, infographics, or other non-text information on the page. The more
-                descriptive
-                the image, the better for the user (Smith, 2018).</p>
-        </div>
+
+        <p>Screen readers can also read the text in the ALT tags in embedded image files. These tags usually
+            contain a
+            description of any images, infographics, or other non-text information on the page. The more
+            descriptive
+            the image, the better for the user (Smith, 2018).</p>
+
 
 
         <figure>
-            <img src="images/Use of ALT text for images.png" alt="An example of use of ALT text on image" />
+            <img src="images/Use of ALT text for images.png" alt="An example of use of ALT text on image"
+                title="Code example of using ALT text" />
             <figcaption>Figure x. Example of using ALT text on image on this website</figcaption>
         </figure>
 
@@ -205,38 +222,19 @@ are certain to read. (Grammar not important.)
             These kinds of links can be confusing when a screen reader reads them out of context. </p>
 
         <figure>
-            <img src="images/Avoid this type of text link.png" alt="What to avoid when refering to a link." />
+            <img src="images/Avoid this type of text link.png" alt="What to avoid when refering to a link."
+                title="Code example of using weak word expression" />
             <figcaption>Figure x. Avoid use of link text like "Click here" , "Here", "More" etc.
             </figcaption>
         </figure>
 
         <figure>
-            <img src="images/Good way to use text link.png" alt="Use of descriptive link text" />
+            <img src="images/Good way to use text link.png" alt="Use of descriptive link text"
+                title="Code example of using strong word expression " />
             <figcaption>Figure x. How to rather refer to text links.
             </figcaption>
         </figure>
 
-        <h3>Text spacing</h3>
-        <p>The text spacing must be able to be overridden to make the text easier to read. The requirement
-            is
-            specifically intended to meet (1) people with impaired vision, and (2) people with dyslexia
-            (uutilsynet,
-            2021).</p>
-        <div class="container">
-
-
-            <figure>
-                <img src="images/TextSpacing.png" alt="Example of how text spacing should not be displayed" />
-                <figcaption>Figure x. Example of how text spacing should <strong>not</strong> be displayed.
-                </figcaption>
-            </figure>
-
-            <!--bytt ut bilde når vi har lagt til på css-->
-            <figure>
-                <img src="images/TextSpacing.png" alt="Example of how text spacing should be displayed" />
-                <figcaption>Figure x. Example of how text spacing should be displayed.</figcaption>
-            </figure>
-        </div>
 
         <h3>Color contrast</h3>
         <h3>Avoid parallax effects</h3>
@@ -252,9 +250,12 @@ are certain to read. (Grammar not important.)
             <a href="tel:+4798112211">+47 98 11 22 11</a>
         </address>
         <div class="button-up">
-            <a href="#top"><img src="images/arrow.png" alt="click here to get to the top of the page"></a>
+            <a href="#top"><img src="images/arrow.png" alt="click here to get to the top of the page"
+                    title="Click me to get to the top of the page"></a>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 </body>
 
 </html>
