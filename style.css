@@ -4,9 +4,13 @@
 
 
 
+
+
+
 body{
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 
   
 }
@@ -210,15 +214,16 @@ p{
 }
 
 
-/*----------------------
- div classes
+
+ /*----------------------
+Start content accesibility.html
 ----------------------*/
+
 .center{
   margin: auto;
   width: 50%;
   padding: 10px;
 }
-
 
 
 .language-html{
@@ -233,18 +238,6 @@ p{
 
   
 }
-
-.topic{
-  white-space:normal;
-  text-align:center;
-  width: auto;
-  margin: auto;
-  font-size: 25px;
-  text-indent: 50px;
-  line-height: 20px; 
-}
-
-    
 
 
 
@@ -265,13 +258,25 @@ p{
   margin:0;
 }
 
-/*----------------------
-   Figure caption
-----------------------*/
 figcaption{
   font-size: smaller;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
+}
+
+
+ /*----------------------
+Start content page4.html
+----------------------*/
+
+.topic{
+  white-space:normal;
+  text-align:center;
+  width: auto;
+  margin: auto;
+  font-size: 25px;
+  text-indent: 50px;
+  line-height: 20px; 
 }
 
 /*----------------------
