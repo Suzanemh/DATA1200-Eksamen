@@ -23,6 +23,10 @@ uutilsynet. (2021). 1.4.12 Tekstavstand (Nivå AA) | Tilsynet for universell utf
 Yale University. (2021). Links | Usability & Web Accessibility. https://usability.yale.edu/web-accessibility/articles/links
 
 
+WCAG. (2021). Understanding Success Criterion 2.3.3: Animation from Interactions. https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html
+
+
+
 Dummy-text for reflection essay source:
 
 Simon Fraser University. (2021, april 19th). Moving From High School to University. 
