@@ -1,11 +1,57 @@
 /*----------------------
   Mobile first!
 ----------------------*/
+@media only screen and (max-width: 1100px) {
+  .Logo {
+    display: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  #Navbar-ul {
+    align-items: center;
+    background-color: orange;
+    display: none;
+    flex-direction: column;
+    height: 93vh;
+    justify-content: space-evenly;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 7vh;
+    transform: translateX(100%);
+    transition: 0.4s ease-in-out;
+    width: 50%;
+  }
+  #Navbar-ul.Navbar-active {
+    display: flex;
+  }
+  #Navbar-ul.Navbar-active2 {
+    transform: translateX(0);
+  }
+  .Navbar li a {
+    padding: 25px;
+  }
+  #Navbar-Drop-Down {
+    cursor: pointer;
+    display: block;
+    padding: 18px;
+    position: absolute;
+    right: 0;
+    width: 28px;
+  }
+}
+
+
+/*----------------------
+    End of mobile screen
+----------------------*/
+
 
 body{
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: rgb(184, 167, 184);
+
+  
 }
 
 /*----------------------
@@ -88,6 +134,9 @@ body{
   transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
 }
 
+#Navbar-Drop-Down {
+  display: none;
+}
 .skip-to-content{
   left: 50%;
   text-decoration: none;
@@ -169,23 +218,30 @@ figure img, figure iframe {
 End content index.html
 ----------------------*/
 
-
 /*----------------------
- div classes
+h and p
 ----------------------*/
 
-
 h1, h2, p{
-  background-color: rgb(219, 201, 219);
+ 
   padding: 0;
 }
 
 h1, h2 {
   margin-bottom: 0;
   line-height: 40px;
+  
 }
 
 h1 {
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2.5;
+}
+
+h3{
   font-size: 2rem;
 }
 
@@ -196,8 +252,20 @@ p{
   line-height: 30px;
 }
 
+
+/*----------------------
+ div classes
+----------------------*/
+.center{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+
 .language-html{
-  background-color:whitesmoke !important;
+  background-color:white !important;
 }
 
 
@@ -205,6 +273,8 @@ p{
   margin: auto;
   width: 85%;
   padding: 10px;
+
+  
 }
 
 .topic{
@@ -219,60 +289,14 @@ p{
 
     
 
-/*----------------------
-   The ul list
-----------------------*/
-/*div { 
-  text-align: center; 
-}
 
-ul { 
-  display: inline-block; 
-  text-align: center;
-  font-size: medium;
-  font-family: 'Times New Roman', Times, serif;
-}
-*/
-
-
-/*----------------------
-  Picture and text align
-----------------------
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
-.text {
-    font-size: 20px;
-    text-align:left;
-    width: fit-content;
-    padding-left: 20px;
-}
-  
-img {
-  max-width: 120%
-}
-  
-.image {
-  flex-basis: 70%
-}
-
-
-.text.ALT{
-  font-size: 20px;
-  text-align:right;
-  width:min-content;
-  padding-left: 20px;
-}
-*/
 
 .container{
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 15px;
+  flex-wrap: wrap;
 }
 
 .text {
@@ -281,6 +305,7 @@ img {
   width: fit-content;
   padding-left: 20px;
   width: 400px; 
+  margin:0;
 }
 
 /*----------------------

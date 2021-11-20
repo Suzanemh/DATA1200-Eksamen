@@ -4,10 +4,15 @@ Website reference:
 
 Hamilton, T. (2021). Accessibility Testing Tutorial: What is, Tools & Examples. https://www.guru99.com/accessibility-testing.html
 
+Rascia, T. (2016). Adding Syntax Highlighting to Code Snippets in a Blog or Website. https://www.taniarascia.com/adding-syntax-highlighting-to-code-snippets/
+
+
+
 Smith, J. (2018). Website Accessibility Checklist: 10 Steps Towards Website Compliance. DotCMS Content Management System. https://dotcms.com/blog/post/website-accessibility-checklist-10-steps-towards-website-compliance
 
 
 STVDIO. (2021). Navigation | Accessibility Guidelines. http://web-accessibility.carnegiemuseums.org/code/navigation/
+
 
 
 

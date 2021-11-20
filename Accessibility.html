@@ -24,12 +24,13 @@
             <li><a href="page4.html">Topical information</a></li>
             <li><a href="fun.html">Fun</a></li>
         </ul>
+        <img id="Navbar-Drop-Down" src="imgages/three-horizontal-lines.png" alt="">
     </nav>
 
 
     <div class="accessibility">
         <h1>Reflection of accessibility testing</h1>
-        <h2> <u>What is Accessibility Testing?</u></h2>
+        <h2> What is Accessibility Testing?</h2>
 
         <p>
             Technology is changing the way we live, but it needs to change how we access it, especially
@@ -120,22 +121,19 @@
         <h3>Navigation bar</h3>
 
 
-
         <div class="container">
             <pre>
                 <code class="language-html">
-                                &lt;nav class=&quot;Navbar&quot;&gt;
-                                &lt;div class=&quot;Logo&quot;&gt;
-                                    &lt;a href=&quot;http://127.0.0.1:5500/index.html&quot;&gt;&lt;img src=&quot;images/Oslomet.png&quot; alt=&quot;Logo&quot;&gt;&lt;/a&gt;
-                                &lt;/div&gt;
-                                &lt;ul id=&quot;Navbar-ul&quot;&gt;
-                                    &lt;li&gt;&lt;a class=&quot;Navbar-Links&quot; href=&quot;http://127.0.0.1:5500/Reflection-essay.html&quot;&gt;Reflection essay&lt;/a&gt;&lt;/li&gt;
-                                    &lt;li&gt;&lt;a class=&quot;Navbar-Links&quot; href=&quot;http://127.0.0.1:5500/Accessibility.html&quot;&gt;Accessibility&lt;/a&gt;&lt;/li&gt;
-                                    &lt;li&gt;&lt;a class=&quot;Navbar-Links&quot; href=&quot;http://127.0.0.1:5500/Page4.html&quot;&gt;Topical information&lt;/a&gt;&lt;/li&gt;
-                                    &lt;li&gt;&lt;a class=&quot;Navbar-Links&quot; href=&quot;http://127.0.0.1:5500/Fun.html&quot;&gt;Fun&lt;/a&gt;&lt;/li&gt;
-                        
-                                &lt;/ul&gt;
-                            &lt;/nav&gt;
+                    &lt;nav class=&quot;navbar&quot;&gt;
+                    &lt;a class=&quot;logo&quot; href=&quot;index.html&quot;&gt;&lt;img src=&quot;images/Oslomet.png&quot; alt=&quot;OsloMet Logo&quot;&gt;&lt;/a&gt;
+                    &lt;a class=&quot;skip-to-content&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
+                    &lt;ul class=&quot;nav-list&quot;&gt;
+                        &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;reflection-essay.html&quot;&gt;Reflection essay&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;accessibility.html&quot;&gt;Accessibility&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;page4.html&quot;&gt;Topical information&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/nav&gt;
                 </code>
             </pre>
 
@@ -154,7 +152,9 @@
                     should
                     find
                     them
-                    (STVDIO, 2021).
+                    (STVDIO, 2021). The code on the left is inspired by Rascia (2016) which highlight code syntax in a
+                    website rather than adding a screenshot. This also allows screen readers to read the entire
+                    code.
                 </p>
 
             </div>
@@ -162,14 +162,17 @@
 
 
 
+
+
         <h3>Use of heading and paragraph tags</h3>
         <div class="container">
-            <div class="image">
-                <figure>
-                    <img src="images/Use of tags.png" alt="Use of heading tags" title="Code example of using tags" />
-                    <figcaption>Figure x. Use of heading tags in this website</figcaption>
-                </figure>
-            </div>
+            <pre>
+                <code class="language-html">
+                    &lt;h1&gt;Reflection of accessibility testing&lt;/h1&gt;
+                    &lt;h2&gt; What is Accessibility Testing?&lt;/h2&gt;
+                    &lt;h2&gt;Why Accessibility Testing?&lt;/h2&gt;
+                </code>
+            </pre>
             <div class="text">
                 <p>Web pages must be readable by electronic “screen readers” — which are devices commonly used
                     by
@@ -192,24 +195,33 @@
 
 
         <h3>Use ALT text for images</h3>
+        <div class="container">
 
-        <p>Screen readers can also read the text in the ALT tags in embedded image files. These tags usually
-            contain a
-            description of any images, infographics, or other non-text information on the page. The more
-            descriptive
-            the image, the better for the user (Smith, 2018).</p>
+            <pre>
+                <code class="language-html">
+                    alt=&quot;What to avoid when referring to a link.&quot;
+                    alt=&quot;Use of descriptive link text&quot;
+                    
+                </code>
+            </pre>
 
 
+            <div class="text">
+                <p>Screen readers can also read the text in the ALT tags in embedded image files. These tags usually
+                    contain a
+                    description of any images, infographics, or other non-text information on the page. The more
+                    descriptive
+                    the image, the better for the user (Smith, 2018).</p>
+            </div>
 
-        <figure>
-            <img src="images/Use of ALT text for images.png" alt="An example of use of ALT text on image"
-                title="Code example of using ALT text" />
-            <figcaption>Figure x. Example of using ALT text on image on this website</figcaption>
-        </figure>
+        </div>
+
 
 
         <h3>Use of descriptive links</h3>
-        <p>It’s important for link text to make sense without the surrounding sentences or content. The link
+
+        <p class="center">It’s important for link text to make sense without the surrounding sentences or content. The
+            link
             text
             alone should convey the function and purpose of the link. Link text should also be unique and
             easy to
@@ -217,21 +229,13 @@
             out
             loud (Yale University, 2021). In that case, Avoid link text like “Click Here,” “More,” and “Read
             More.”
-            These kinds of links can be confusing when a screen reader reads them out of context. </p>
+            These kinds of links can be confusing when a screen reader reads them out of context. In our website, we
+            provided this by giving a descriptive link.
+            Example of this is when we refer a link by writing: <br> <i>"More information about these reasons can be
+                found
+                at testingxperts blogs post."</i> </p>
 
-        <figure>
-            <img src="images/Avoid this type of text link.png" alt="What to avoid when refering to a link."
-                title="Code example of using weak word expression" />
-            <figcaption>Figure x. Avoid use of link text like "Click here" , "Here", "More" etc.
-            </figcaption>
-        </figure>
 
-        <figure>
-            <img src="images/Good way to use text link.png" alt="Use of descriptive link text"
-                title="Code example of using strong word expression " />
-            <figcaption>Figure x. How to rather refer to text links.
-            </figcaption>
-        </figure>
 
 
         <h3>Color contrast</h3>
@@ -242,9 +246,9 @@
 
     <footer>
         <address>
-            Get in touch! Send an email to: 
+            Get in touch! Send an email to:
             <a href="mailto:test@hotmail.com">student@gmail.com</a>
-             or call/text me at: 
+            or call/text me at:
             <a href="tel:+4798112211">+47 99110033</a>
         </address>
         <a class="button-up" href="#top"><img src="images/arrow.png" alt="click here to get to the top of the page"></a>
