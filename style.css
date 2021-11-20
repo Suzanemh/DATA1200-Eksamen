@@ -1,50 +1,7 @@
 /*----------------------
   Mobile first!
 ----------------------*/
-@media only screen and (max-width: 1100px) {
-  .Logo {
-    display: absolute;
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-  #Navbar-ul {
-    align-items: center;
-    background-color: orange;
-    display: none;
-    flex-direction: column;
-    height: 93vh;
-    justify-content: space-evenly;
-    margin: 0;
-    position: absolute;
-    right: 0;
-    top: 7vh;
-    transform: translateX(100%);
-    transition: 0.4s ease-in-out;
-    width: 50%;
-  }
-  #Navbar-ul.Navbar-active {
-    display: flex;
-  }
-  #Navbar-ul.Navbar-active2 {
-    transform: translateX(0);
-  }
-  .Navbar li a {
-    padding: 25px;
-  }
-  #Navbar-Drop-Down {
-    cursor: pointer;
-    display: block;
-    padding: 18px;
-    position: absolute;
-    right: 0;
-    width: 28px;
-  }
-}
 
-
-/*----------------------
-    End of mobile screen
-----------------------*/
 
 
 body{
