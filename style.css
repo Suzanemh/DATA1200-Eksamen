@@ -1,200 +1,279 @@
-
 /*----------------------
-    Start of Navbar
-----------------------*/
-.Navbar {
-    align-items: center;
-    background-color: white;
-    border-bottom: orange solid 2px;
-    display: flex;
-    height: 10vh;
-    justify-content: space-between;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-  }
-  .Logo {
-    margin-left: 10%;
-    white-space: nowrap;
-  }
-  .Logo img {
-    border-radius: 70%;
-    transition: 1s;
-    width: 6vh;
-  }
-  .Logo img:hover {
-    box-shadow: 0 0 15px 10px yellow;
-  }
-  .Logo a {
-    align-items: center;
-    border-radius: 50px;
-    color: black;
-    display: flex;
-    font-size: 1.5rem;
-    font-weight: 800;
-    padding-right: 18px;
-    text-decoration: none;
-    transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
-  }
-  
-  #Navbar-ul {
-    margin-right: 10%;
-  }
-  .Navbar li {
-    display: inline-block;
-    list-style: none;
-  }
-  .Navbar-Links {
-    border-radius: 20px;
-    color: black;
-    font-size: large;
-    font-weight: 700;
-    padding: 8px 12px;
-    text-decoration: none;
-    transition: background-color 0.6s ease, color 0.3s;
-  }
-  .Navbar-Links:hover {
-    background-color: orange;
-    color: white;
-  }
-  
-  .Navbar-Links.active {
-    background-color: orange;
-    color: white;
-  }
-  /*----------------------
-    End of Navbar
+  Mobile first!
 ----------------------*/
 
+body{
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(184, 167, 184);
+}
 
 /*----------------------
-    Start of Button Skip
+    Start of navbar
+----------------------*/
+.navbar {
+  background-color: white;
+  border-bottom: orange solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*flex-direction: column;*/
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  height: 40vh;
+  font-size: 13px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.navbar ul a{
+  display: block;
+  border-radius: 20px;
+  color: black;
+  font-weight: 700;
+  padding: 15px 12px;
+  text-decoration: none;
+  transition: background-color 0.6s ease, color 0.3s;
+}
+
+.navbar ul a:hover{
+  background-color: orange;
+  color: white;
+}
+
+.nav-list{
+  margin-right: 10%;
+}
+
+
+.navbar li {
+  display: inline-block;
+  list-style: none;
+}
+
+
+.logo {
+  float: left;
+  display: block;
+  padding: 10px;
+  margin-left: 5px;
+  white-space: nowrap;
+}
+
+.logo img{
+  border-radius: 70%;
+  transition: 1s;
+  width: 6vh;
+}
+
+.logo img:hover{
+  box-shadow: 0 0 15px 10px yellow;
+}
+
+.logo a {
+  align-items: center;
+  border-radius: 50px;
+  color: black;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-right: 18px;
+  text-decoration: none;
+  transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
+}
+
+.skip-to-content{
+  left: 50%;
+  text-decoration: none;
+  color: black;
+}
+
+/*----------------------
+  End of navbar
+----------------------*/
+
+
+/*----------------------
+    Start of footer and button skip-to-top
 ----------------------*/
 .button-up {
-    background-color: orange;
-    border-radius: 16px;
-    border: rgb(255, 150, 0) solid 2px;
-    bottom: 0;
-    margin: 12px 8px;
-    position: fixed;
-    right: 0;
-  }
-  .button-up img {
-    filter: invert(100%);
-    padding: 8px;
-    transform: rotate(-90deg);
-    transition: 0.2s;
-    width: 24px;
-  }
-  .button-up img:hover {
-    width: 70px;
-  }
+  background-color: orange;
+  border-radius: 16px;
+  border: rgb(255, 150, 0) solid 2px;
+  bottom: 0;
+  margin: 12px 8px;
+  position: fixed;
+  right: 0;
+}
 
-  footer{
-    border: rgb(255, 150, 0) solid 2px;
-    bottom: 0;
-    margin: 12px 8px;
-    position: fixed;
-    left: 0;
-    background-color: lightsalmon;
+.button-up img {
+  filter: invert(100%);
+  padding: 8px;
+  transform: rotate(-90deg);
+  transition: 0.2s;
+  width: 24px;
+}
+  
+.button-up img:hover {
+  width: 70px;
+}
 
-
-  }
-
-
-  /*----------------------
-      End of Button Skip
-  ----------------------*/
+footer{
+  border: rgb(255, 150, 0) solid 2px;
+  bottom: 0;
+  margin: 12px 8px;
+  left: 0;
+  position: fixed;
+  background-color: lightsalmon;
+  font-size: 13px;
+  max-width: 45vh;
+}
 
 
-   /*----------------------
-     div classes
-  ----------------------*/
+/*----------------------
+  End of footer and button skip-to-top
+----------------------*/
+
+/*----------------------
+Start content index.html
+----------------------*/
+
+.introduction img{
+  max-width: 30vh;
+  margin: 20px;
+  border: solid 3px orange;
+  
+}
+
+figure img, figure iframe {
+  max-width: 30vh;
+}
+
+.introduction, div {
+  margin: auto;
+  text-align: center;
+}
+
+.introduction h1 {
+  margin-top: 0;
+}
+
+
+/*----------------------
+End content index.html
+----------------------*/
+
+
+/*----------------------
+ div classes
+----------------------*/
+
+
+h1, h2, p{
+  background-color: rgb(219, 201, 219);
+  padding: 0;
+}
+
+h1, h2 {
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-size: 15px;
+  line-height: 30px;
+}
 
 .language-html{
+  background-color:whitesmoke !important;
+}
 
-background-color:whitesmoke !important;
-  }
 
-
- .accessibility{
+.accessibility{
   margin: auto;
   width: 85%;
   padding: 10px;
-  }
+}
 
-
-
-  .topic{
-
-    
-    white-space:normal;
-      text-align:center;
-      width: auto;
-      margin: auto;
-      font-size: 25px;
-      text-indent: 50px;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      line-height: 20px; 
-      
-    }
+.topic{
+  white-space:normal;
+  text-align:center;
+  width: auto;
+  margin: auto;
+  font-size: 25px;
+  text-indent: 50px;
+  line-height: 20px; 
+}
 
     
 
 /*----------------------
    The ul list
 ----------------------*/
-    div { text-align: center; }
-    ul { 
-      display: inline-block; 
-      text-align: center;
-      font-size: medium;
-      font-family: 'Times New Roman', Times, serif;
-     }
+/*div { 
+  text-align: center; 
+}
 
- /*----------------------
-     Picture and text align
-  ----------------------
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center
-  }
-  
-  img {
-    max-width: 120%
-  }
-  
-  .image {
-    flex-basis: 70%
-  }
-  
-  .text {
+ul { 
+  display: inline-block; 
+  text-align: center;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+*/
+
+
+/*----------------------
+  Picture and text align
+----------------------
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.text {
     font-size: 20px;
     text-align:left;
     width: fit-content;
     padding-left: 20px;
-    
-    
-    
-  }
+}
+  
+img {
+  max-width: 120%
+}
+  
+.image {
+  flex-basis: 70%
+}
 
-  .text.ALT{
-    font-size: 20px;
-    text-align:right;
-    width:min-content;
-    padding-left: 20px;
-  }
-  */
-  .container{
 
+.text.ALT{
+  font-size: 20px;
+  text-align:right;
+  width:min-content;
+  padding-left: 20px;
+}
+*/
+
+.container{
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 15px;
-  
 }
-
 
 .text {
   font-size: 20px;
@@ -204,9 +283,6 @@ background-color:whitesmoke !important;
   width: 400px; 
 }
 
-
-
-
 /*----------------------
    Figure caption
 ----------------------*/
@@ -214,5 +290,169 @@ figcaption{
   font-size: smaller;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
+}
+
+/*----------------------
+  TABLET SCREENS
+----------------------*/
+
+@media  screen and (min-width: 600px) and (max-width: 960px) {
+
+  /*start navbar*/
+  .navbar {
+    height: 15vh;
+    flex-direction: row;
+    font-size: 1rem;
+    flex-wrap: nowrap;
+  }
+  
+  .navbar ul {
+    display: inline-block;
+  }
+  
+  .navbar ul a{
+    display: block;
+    font-weight: 700;
+    padding: 15px 12px;
+    
+  }
+
+  /*End navbar*/
+  
+
+  /*Start content index.html*/
+
+  .introduction {
+    text-align: left;
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: rgb(219, 201, 219);
+    margin: 20px 10px;
+  }
+
+  .introduction img {
+    max-width: 55vh;
+    max-height: 35vh;
+    float: right;
+    border: none;
+    border: solid 2px orange;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 10px #888888;
+  }
+
+  #intro-photo {
+    float: left;
+  }
+
+  .introduction {
+    text-align: left;
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: rgb(219, 201, 219);
+    margin: 20px 10px;
+  }
+  
+  p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  /*End content index.html*/
+
+  /*Start footer*/
+  
+  footer{
+    font-size: 15px;
+    max-width: 80%;
+    padding: 7px;
+    margin-left: 10px;
+  }
+
+  /*End footer*/
+
+}
+
+/*----------------------
+  COMPUTER SCREENS
+----------------------*/
+
+@media screen and (min-width: 960px) {
+
+  /*start navbar*/
+  .navbar {
+    height: 10vh;
+    flex-direction: row;
+    font-size: 1rem;
+    flex-wrap: nowrap;
+  }
+  
+  .navbar ul {
+    display: inline-block;
+  }
+  
+  .navbar ul a{
+    display: block;
+    font-weight: 700;
+    padding: 15px 12px;
+    
+  }
+
+  /*End navbar*/
+
+  /*Start content index.html*/
+
+  .introduction {
+    text-align: left;
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: rgb(219, 201, 219);
+    margin: 20px 10px;
+  }
+
+  .introduction img {
+    max-width: 70vh;
+    float: right;
+    border: none;
+    border: solid 2px orange;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 10px #888888;
+  }
+
+  #intro-photo {
+    float: left;
+  }
+
+  .introduction {
+    text-align: left;
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    /*border: solid 3px orange;*/
+    background-color: rgb(219, 201, 219);
+    margin: 20px 10px;
+  }
+  
+  p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  
+  /*End content index.html*/
+
+  /*Start footer*/
+  
+  footer{
+    font-size: 15px;
+    max-width: 90%;
+    padding: 7px;
+    margin-left: 30px;
+  }
+
+  /*End footer*/
 
 }
