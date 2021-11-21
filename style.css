@@ -172,6 +172,50 @@ End content index.html
 ----------------------*/
 
 /*----------------------
+  Start content Reflection-essay.html
+----------------------*/
+
+.reflection {
+  
+  display: flex;
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: rgb(219, 201, 219);
+  margin: 20px 10px;
+  }
+
+ .reflection2 {
+  text-align: left;
+
+ }
+
+ .reflection2 figure {
+  float: right;
+ }
+
+ .reflection3 {
+  text-align: right;
+ 
+ }
+
+ .reflection3 figure {
+  float: left;
+ }
+
+  reflection img {
+  max-width: 30vh;
+  margin: 20px;
+  border: solid 3px orange;
+  
+  }
+  
+
+
+/*----------------------
+  End content Reflection-essay.html
+----------------------*/
+
+/*----------------------
 h and p
 ----------------------*/
 
