@@ -4,11 +4,10 @@
 
 body{
   margin: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-
-  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
+
+
 
 /*----------------------
     Start of navbar
@@ -90,9 +89,7 @@ body{
   transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
 }
 
-#Navbar-Drop-Down {
-  display: none;
-}
+
 .skip-to-content{
   left: 50%;
   text-decoration: none;
@@ -449,3 +446,5 @@ Start content page4.html
   /*End footer*/
 
 }
+
+
