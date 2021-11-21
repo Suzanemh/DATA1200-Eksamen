@@ -261,6 +261,16 @@ Start content accesibility.html
   float:inline-end;
 }
 
+.image{
+  width: fit-content;
+  padding-left: 20px;
+  width: 400px; 
+  margin:0;
+  float:inline-end;
+  max-width: 100%;  
+  height: auto; 
+}
+
 figcaption{
   font-size: 17px;
   font-style: italic;
