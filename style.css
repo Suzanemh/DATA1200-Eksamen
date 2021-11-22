@@ -146,7 +146,7 @@ footer{
 Start content index.html
 ----------------------*/
 
-.introduction img{
+.introduction img, .reflection2 img, .reflection3 img{
   max-width: 30vh;
   margin: 20px;
   border: solid 3px orange;
@@ -157,15 +157,16 @@ figure img, figure iframe {
   max-width: 30vh;
 }
 
-.introduction, div {
+.introduction, .reflection2, .reflection3, div, p, h1, h2 {
   margin: auto;
   text-align: center;
 }
 
-.introduction h1, h2 {
+.introduction, .reflection2, .reflection3, h1, h2 {
   margin-top: 0;
   line-height: 80px;
 }
+
   /*index.html er laget 2 ganger(?)*/
   /*Start content index.html*/
 
@@ -205,6 +206,7 @@ figure img, figure iframe {
   p {
     font-size: 17px;
     line-height: 25px;
+    margin-bottom: 50px;
   }
 
   /*End content index.html*/
@@ -219,7 +221,7 @@ End content index.html
   Start content Reflection-essay.html
 ----------------------*/
 
-
+/*
   .reflection h1 {
     text-align: center;
     
@@ -275,7 +277,7 @@ max-height: 35vh;
 margin-bottom: 10px;
 }
 
-
+*/
 
 /*----------------------
   End content Reflection-essay.html
@@ -300,11 +302,7 @@ h1 {
   font-size: 3rem;
 }
 
-h2{
-  font-size: 2rem;
-}
-
-h3{
+h2, h3{
   font-size: 2rem;
 }
 
