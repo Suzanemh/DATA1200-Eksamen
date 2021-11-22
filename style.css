@@ -285,6 +285,7 @@ figcaption{
 Start content page4.html
 ----------------------*/
 
+
 .topic{
   white-space:normal;
   text-align:center;
@@ -293,6 +294,8 @@ Start content page4.html
   font-size: 20px;
   text-indent: 50px;
   line-height: 20px;
+  border: 3px solid pink;
+
 
 }
 
@@ -412,6 +415,7 @@ Start content page4.html
     max-width: 90%;
     padding: 7px;
     margin-left: 30px;
+    position: relative;
   }
 
   /*End footer*/
