@@ -146,11 +146,19 @@ footer{
 Start content index.html + reflection-essay.html
 ----------------------*/
 
+.introduction, .reflection, .reflection2 {
+  display: flex;
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: rgb(219, 201, 219);
+  margin: 20px 10px;
+}
+
 .introduction img, .reflection img, .reflection2 img{
-  max-width: 30vh;
-  margin: 20px;
+  max-width: 40vh;
+  margin-top: 25px;
   border: solid 3px orange;
-  
+  box-shadow: 5px 5px 8px #888888;
 }
 
 figure img, figure iframe {
