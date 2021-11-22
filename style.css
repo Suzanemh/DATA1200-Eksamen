@@ -306,6 +306,7 @@ Start content page4.html
   padding: 10px;  
 }
 
+
 image {
   background-image: url(images/Fakenews.png);
   background-repeat: no-repeat;
@@ -319,10 +320,10 @@ image {
   width: auto;
   margin: auto;
   font-size: 20px;
-  line-height: 20px;  
+  line-height: 20px;
   background-image: url(images/Fakenews.png);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: bottom;  
 }
 
 .topic h1{
@@ -338,10 +339,6 @@ image {
 .topic a:hover{
   color:rgb(52, 41, 209);
 }
-
-
-
-
 
 
 
