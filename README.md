@@ -30,21 +30,23 @@ WCAG. (2021). Understanding Success Criterion 2.3.3: Animation from Interactions
 
 
 
-Dummy-text for reflection essay source:
+Dummy-text for reflection essay reference:
 
-Simon Fraser University. (2021, april 19th). Moving From High School to University. 
+Simon Fraser University. (2021, April 19th). Moving From High School to University. 
 https://www.lib.sfu.ca/about/branches-depts/slc/learning/transition/high-school-university
 
-Pictures for reflection-essay:
 
-OsloMet. (u.å.). Utviklingsstudier. Hentet 22. november 2021 fra 
+Pictures for reflection-essay reference:
+
+OsloMet. (n.d.). Utviklingsstudier. Obtained November 22nd 2021 from: 
 https://www.oslomet.no/studier/lui/utviklingsstudier
 
-Psychology today. (u.å.) 
-https://www.psychologytoday.com/us/basics/sleep
+Psychology today. (n.d.) Why Is Sleep Important?. Obtained November 22nd 2021 from https://www.psychologytoday.com/us/basics/sleep
 
+Ung.no. (2021, August 22nd). Student med nedsatt funksjonsevne? Dette har du rett på. Obtained November 22nd from: 
 https://www.ung.no/Funksjonsnedsettelser/3059_Tilrettelegging_p%C3%A5_h%C3%B8yskoler_og_universitet.html
 
+University of Bradford. (2020, July 21st). Starting university – getting yourself prepared. Obtained November 22nd from:
 http://blogs.brad.ac.uk/bradford-life/starting-university-getting-yourself-prepared/ 
 
 
