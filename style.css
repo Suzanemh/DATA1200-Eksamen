@@ -150,7 +150,7 @@ Start content index.html + reflection-essay.html
   display: flex;
   display: inline-block;
   flex-wrap: wrap;
-  background-color: rgb(219, 201, 219);
+  background-color: rgb(236, 228, 228);
   margin: 20px 10px;
 }
 
@@ -361,7 +361,6 @@ Start content page4.html
     display: flex;
     display: inline-block;
     flex-wrap: wrap;
-    background-color: rgb(219, 201, 219);
     margin: 20px 10px;
   }
 
@@ -445,7 +444,6 @@ Start content page4.html
   display: flex;
   display: inline-block;
   flex-wrap: wrap;
-  background-color: rgb(219, 201, 219);
   margin: 20px 10px;
 }
 
