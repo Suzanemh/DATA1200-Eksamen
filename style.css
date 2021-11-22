@@ -300,15 +300,25 @@ figcaption{
 Start content page4.html
 ----------------------*/
 
+.center1{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
 
 .topic{
   white-space:normal;
-  text-align:center;
+  text-align:left;
   width: auto;
   margin: auto;
   font-size: 20px;
-  text-indent: 50px;
   line-height: 20px;
+}
+
+.topic h1{
+  line-height: 80px;
+  margin-bottom: 60px;
+  margin-top: 50px;
 }
 
 
