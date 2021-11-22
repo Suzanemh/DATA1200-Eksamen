@@ -309,10 +309,6 @@ Start content page4.html
   font-size: 20px;
   text-indent: 50px;
   line-height: 20px;
-  display: flex;
-  display: inline-block;
-  flex-wrap: wrap;
-
 }
 
 
