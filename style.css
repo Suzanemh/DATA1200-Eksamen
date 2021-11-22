@@ -14,7 +14,7 @@ body{
 ----------------------*/
 .navbar {
   background-color: white;
-  border-bottom: rgba(255, 166, 0, 0.911) solid 2px;
+  border-bottom: rgba(10, 23, 80) solid 2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,7 +45,7 @@ body{
 }
 
 .navbar ul a:hover{
-  background-color: orange;
+  background-color:rgb(10, 23, 80);
   color: white;
 }
 
@@ -106,9 +106,9 @@ body{
     Start of footer and button skip-to-top
 ----------------------*/
 .button-up {
-  background-color: orange;
+  background-color: rgb(10, 23, 80);
   border-radius: 16px;
-  border: rgb(255, 150, 0) solid 2px;
+  border: rgb(10, 23, 80) solid 2px;
   bottom: 0;
   margin: 12px 8px;
   position: fixed;
@@ -128,14 +128,19 @@ body{
 }
 
 footer{
-  border: rgb(235, 224, 224, 0.6) solid 2px;
+  border: rgb(10, 23, 80) solid 2px;
   bottom: 0;
   margin: 12px 8px;
   left: 0;
   position: relative;
-  background-color: rgb(235, 224, 224, 0.6);
+  background-color: rgb(10, 23, 80);
   font-size: 13px;
   max-width: 45vh;
+  color:white;
+}
+
+footer a{
+  color:white;
 }
 
 
