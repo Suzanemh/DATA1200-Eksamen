@@ -162,9 +162,53 @@ figure img, figure iframe {
   text-align: center;
 }
 
-.introduction h1 {
+.introduction h1, h2 {
   margin-top: 0;
+  line-height: 80px;
 }
+  /*index.html er laget 2 ganger(?)*/
+  /*Start content index.html*/
+
+  .introduction {
+    text-align: left;
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: rgb(219, 201, 219);
+    margin: 20px 10px;
+  }
+
+  .introduction img {
+    max-width: 55vh;
+    max-height: 35vh;
+    float: right;
+    border: none;
+    border: solid 2px orange;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 10px #888888;
+  }
+
+  #intro-photo {
+    float: left;
+  }
+
+  .introduction {
+    text-align: left;
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: rgb(219, 201, 219);
+    margin: 20px 10px;
+  }
+  
+  p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  /*End content index.html*/
+
 
 
 /*----------------------
@@ -175,40 +219,62 @@ End content index.html
   Start content Reflection-essay.html
 ----------------------*/
 
-.reflection {
+
+  .reflection h1 {
+    text-align: center;
+    
+  }
+
+  .reflection h2 {
+    text-align: center;
+  }
+
+  .reflection2 {
+    text-align: left;
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: rgb(219, 201, 219);
+    margin: 20px 10px;
+  }
   
-  display: flex;
+ .reflection3 {
+  text-align: right;
   display: inline-block;
+  display: flex;
   flex-wrap: wrap;
   background-color: rgb(219, 201, 219);
   margin: 20px 10px;
   }
-
- .reflection2 {
-  text-align: left;
-
- }
-
- .reflection2 figure {
-  float: right;
- }
-
- .reflection3 {
-  text-align: right;
  
+ .reflection2 figure {
+    max-width: 55vh;
+    max-height: 35vh;
+    float: right;
+    border: none;
+    border: solid 2px orange;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 10px #888888;
  }
 
  .reflection3 figure {
+  max-width: 55vh;
+  max-height: 35vh;
   float: left;
- }
+  border: none;
+  border: solid 2px orange;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  box-shadow: 7px 7px 10px #888888;
+}
 
-  reflection img {
-  max-width: 30vh;
-  margin: 20px;
-  border: solid 3px orange;
-  
-  }
-  
+.reflection img {
+max-width: 55vh;
+max-height: 35vh;
+margin-bottom: 10px;
+}
+
 
 
 /*----------------------
@@ -226,7 +292,7 @@ h1, h2, p{
 
 h1, h2 {
   margin-bottom: 0;
-  line-height: 40px;
+  line-height: 70px;
   
 }
 
@@ -319,6 +385,8 @@ figcaption{
   font-size: 17px;
   font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  line-height: 25px; 
 }
 
 
@@ -364,48 +432,6 @@ Start content page4.html
   /*End navbar*/
   
 
-  /*Start content index.html*/
-
-  .introduction {
-    text-align: left;
-    display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
-    background-color: rgb(219, 201, 219);
-    margin: 20px 10px;
-  }
-
-  .introduction img {
-    max-width: 55vh;
-    max-height: 35vh;
-    float: right;
-    border: none;
-    border: solid 2px orange;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    box-shadow: 7px 7px 10px #888888;
-  }
-
-  #intro-photo {
-    float: left;
-  }
-
-  .introduction {
-    text-align: left;
-    display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
-    background-color: rgb(219, 201, 219);
-    margin: 20px 10px;
-  }
-  
-  p {
-    font-size: 17px;
-    line-height: 25px;
-  }
-
-  /*End content index.html*/
-
   /*Start footer*/
   
   footer{
@@ -446,47 +472,6 @@ Start content page4.html
 
   /*End navbar*/
 
-  /*Start content index.html*/
-
-  .introduction {
-    text-align: left;
-    display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
-    background-color: rgb(219, 201, 219);
-    margin: 20px 10px;
-  }
-
-  .introduction img {
-    max-width: 70vh;
-    float: right;
-    border: none;
-    border: solid 2px orange;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    box-shadow: 7px 7px 10px #888888;
-  }
-
-  #intro-photo {
-    float: left;
-  }
-
-  .introduction {
-    text-align: left;
-    display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
-    /*border: solid 3px orange;*/
-    background-color: rgb(219, 201, 219);
-    margin: 20px 10px;
-  }
-  
-  p {
-    font-size: 20px;
-    line-height: 25px;
-  }
-  
-  /*End content index.html*/
 
   /*Start footer*/
   
