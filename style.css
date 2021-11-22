@@ -352,7 +352,7 @@ image {
   .navbar {
     height: 15vh;
     flex-direction: row;
-    font-size: 1rem;
+    font-size: 4rem;
     flex-wrap: nowrap;
   }
   
