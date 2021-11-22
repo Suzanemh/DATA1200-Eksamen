@@ -320,6 +320,9 @@ image {
   margin: auto;
   font-size: 20px;
   line-height: 20px;  
+  background-image: url(images/Fakenews.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .topic h1{
@@ -336,9 +339,6 @@ image {
   color:rgb(52, 41, 209);
 }
 
-.topic img{
-  opacity: 0.20%;
-}
 
 
 
