@@ -394,6 +394,7 @@ figcaption{
 Start content page4.html
 ----------------------*/
 
+
 .topic{
   white-space:normal;
   text-align:center;
@@ -402,6 +403,8 @@ Start content page4.html
   font-size: 20px;
   text-indent: 50px;
   line-height: 20px;
+  border: 3px solid pink;
+
 
 }
 
