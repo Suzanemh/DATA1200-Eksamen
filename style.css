@@ -131,10 +131,10 @@ footer{
   bottom: 0;
   margin: 12px 8px;
   left: 0;
-  position: fixed;
+  position: relative;
   background-color: lightsalmon;
   font-size: 13px;
-  max-width: 50vh;
+  max-width: 45vh;
 }
 
 
@@ -143,143 +143,45 @@ footer{
 ----------------------*/
 
 /*----------------------
-Start content index.html
+Start content index.html + reflection-essay.html
 ----------------------*/
 
-.introduction img{
-  max-width: 30vh;
-  margin: 20px;
+.introduction, .reflection, .reflection2 {
+  display: flex;
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: rgb(219, 201, 219);
+  margin: 20px 10px;
+}
+
+.introduction img, .reflection img, .reflection2 img{
+  max-width: 40vh;
+  margin-top: 25px;
   border: solid 3px orange;
-  
+  box-shadow: 5px 5px 8px #888888;
 }
 
 figure img, figure iframe {
   max-width: 30vh;
 }
 
-.introduction, div {
+.introduction, .reflection, .reflection2, div, h1, h2 {
   margin: auto;
   text-align: center;
 }
 
-.introduction h1, h2 {
+.introduction, h1, h2 {
   margin-top: 0;
   line-height: 80px;
 }
-  /*index.html er laget 2 ganger(?)*/
-  /*Start content index.html*/
-
-  .introduction {
-    text-align: left;
-    display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
-    background-color: rgb(219, 201, 219);
-    margin: 20px 10px;
-  }
-
-  .introduction img {
-    max-width: 55vh;
-    max-height: 35vh;
-    float: right;
-    border: none;
-    border: solid 2px orange;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    box-shadow: 7px 7px 10px #888888;
-  }
-
-  #intro-photo {
-    float: left;
-  }
-
-  .introduction {
-    text-align: left;
-    display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
-    background-color: rgb(219, 201, 219);
-    margin: 20px 10px;
-  }
-  
-  p {
-    font-size: 17px;
-    line-height: 25px;
-  }
-
-  /*End content index.html*/
-
-
-
-/*----------------------
-End content index.html
-----------------------*/
-
-/*----------------------
-  Start content Reflection-essay.html
-----------------------*/
-
-
-  .reflection h1 {
-    text-align: center;
-    
-  }
-
-  .reflection h2 {
-    text-align: center;
-  }
-
-  .reflection2 {
-    text-align: left;
-    display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
-    background-color: rgb(219, 201, 219);
-    margin: 20px 10px;
-  }
-  
- .reflection3 {
-  text-align: right;
-  display: inline-block;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(219, 201, 219);
-  margin: 20px 10px;
-  }
  
- .reflection2 figure {
-    max-width: 55vh;
-    max-height: 35vh;
-    float: right;
-    border: none;
-    border: solid 2px orange;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    box-shadow: 7px 7px 10px #888888;
- }
-
- .reflection3 figure {
-  max-width: 55vh;
-  max-height: 35vh;
-  float: left;
-  border: none;
-  border: solid 2px orange;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  box-shadow: 7px 7px 10px #888888;
-}
-
-.reflection img {
-max-width: 55vh;
-max-height: 35vh;
-margin-bottom: 10px;
-}
 
 
 
 /*----------------------
-  End content Reflection-essay.html
+End content index.html + reflection-essay.html
 ----------------------*/
+
 
 /*----------------------
 h and p
@@ -300,13 +202,10 @@ h1 {
   font-size: 3rem;
 }
 
-h2{
+h2, h3{
   font-size: 2rem;
 }
 
-h3{
-  font-size: 2rem;
-}
 
 p{
   margin-top: 0;
@@ -448,12 +347,51 @@ Start content page4.html
   
   footer{
     font-size: 15px;
-    max-width: 80%;
+    max-width: 100%;
     padding: 7px;
     margin-left: 10px;
+    
   }
 
   /*End footer*/
+
+
+  /*Start content index.html + reflection-essay.html TABLET*/
+
+  .introduction, .reflection, .reflection2 {
+    text-align: left;
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: rgb(219, 201, 219);
+    margin: 20px 10px;
+  }
+
+  .reflection2 {
+    background-color: white;
+  }
+
+  .introduction img, .reflection img, .reflection2 img {
+    max-width: 55vh;
+    max-height: 35vh;
+    float: right;
+    border: solid 2px orange;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 10px #888888;
+  }
+
+  #intro-photo, .reflection2 img {
+    float: left;
+  }
+  
+  p {
+    font-size: 17px;
+    line-height: 25px;
+    margin: 20px;
+  }
+
+  /*End content index.html TABLET*/
 
 }
 
@@ -489,14 +427,50 @@ Start content page4.html
   
   footer{
     font-size: 15px;
-    max-width: 90%;
+    max-width: 100%;
     padding: 7px;
-    margin-left: 30px;
-    position: relative;
+    margin-left: 9px;
+    
   }
 
   /*End footer*/
 
+
+  
+/*
+
+
+/*Start content index.html + reflection-essay.html COMPUTER SCREEN*/
+
+.introduction, .reflection2, .reflection {
+  text-align: left;
+  display: flex;
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: rgb(219, 201, 219);
+  margin: 20px 10px;
+}
+
+.introduction img, .reflection img, .reflection2 img {
+  max-width: 55vh;
+  max-height: 35vh;
+  float: right;
+  border: solid 2px orange;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  box-shadow: 7px 7px 10px #888888;
+}
+
+#intro-photo, .reflection2 img {
+  float: left;
+}
+
+p {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+/*End index.html + reflection-essay.html COMPUTER SCREEN*/
 }
 
 
