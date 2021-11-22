@@ -131,10 +131,10 @@ footer{
   bottom: 0;
   margin: 12px 8px;
   left: 0;
-  position: fixed;
+  position: relative;
   background-color: lightsalmon;
   font-size: 13px;
-  max-width: 50vh;
+  max-width: 45vh;
 }
 
 
@@ -333,9 +333,10 @@ Start content page4.html
   
   footer{
     font-size: 15px;
-    max-width: 80%;
+    max-width: 100%;
     padding: 7px;
     margin-left: 10px;
+    
   }
 
   /*End footer*/
@@ -412,10 +413,10 @@ Start content page4.html
   
   footer{
     font-size: 15px;
-    max-width: 90%;
+    max-width: 100%;
     padding: 7px;
-    margin-left: 30px;
-    position: relative;
+    margin-left: 9px;
+    
   }
 
   /*End footer*/
