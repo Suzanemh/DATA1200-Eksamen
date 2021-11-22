@@ -14,7 +14,7 @@ body{
 ----------------------*/
 .navbar {
   background-color: white;
-  border-bottom: orange solid 2px;
+  border-bottom: rgba(255, 166, 0, 0.911) solid 2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -303,9 +303,15 @@ Start content page4.html
   text-indent: 50px;
   line-height: 20px;
   border: 3px solid pink;
-
+  border-radius: 15px;
 
 }
+
+
+.body {
+  font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 
 
