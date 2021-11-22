@@ -137,6 +137,7 @@ footer{
   font-size: 13px;
   max-width: 45vh;
   color:white;
+  height: 50px;
 }
 
 footer a{
@@ -465,6 +466,10 @@ Start content page4.html
 p {
   font-size: 17px;
   line-height: 25px;
+}
+
+h1, h2 {
+  line-height: 100px;
 }
 
 /*End index.html + reflection-essay.html COMPUTER SCREEN*/
