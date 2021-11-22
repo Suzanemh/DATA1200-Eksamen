@@ -303,7 +303,14 @@ Start content page4.html
 .center1{
   margin: auto;
   width: 60%;
-  padding: 10px;
+  padding: 10px;  
+}
+
+image {
+  background-image: url(images/Fakenews.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  opacity: 0.20;
 }
 
 .topic{
@@ -312,7 +319,7 @@ Start content page4.html
   width: auto;
   margin: auto;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 20px;  
 }
 
 .topic h1{
@@ -320,6 +327,20 @@ Start content page4.html
   margin-bottom: 60px;
   margin-top: 50px;
 }
+
+.topic a{
+  color:black;
+}
+
+.topic a:hover{
+  color:rgb(52, 41, 209);
+}
+
+.topic img{
+  opacity: 0.20%;
+}
+
+
 
 
 
