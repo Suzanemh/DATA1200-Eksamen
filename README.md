@@ -32,10 +32,17 @@ Dummy-text for reflection essay source:
 Simon Fraser University. (2021, april 19th). Moving From High School to University. 
 https://www.lib.sfu.ca/about/branches-depts/slc/learning/transition/high-school-university
 
+Pictures for reflection-essay:
 
+OsloMet. (u.å.). Utviklingsstudier. Hentet 22. november 2021 fra 
+https://www.oslomet.no/studier/lui/utviklingsstudier
 
+Psychology today. (u.å.) 
+https://www.psychologytoday.com/us/basics/sleep
 
+https://www.ung.no/Funksjonsnedsettelser/3059_Tilrettelegging_p%C3%A5_h%C3%B8yskoler_og_universitet.html
 
+http://blogs.brad.ac.uk/bradford-life/starting-university-getting-yourself-prepared/ 
 
 
 GIF:
