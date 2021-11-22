@@ -4,6 +4,9 @@ Website reference:
 
 Hamilton, T. (2021). Accessibility Testing Tutorial: What is, Tools & Examples. https://www.guru99.com/accessibility-testing.html
 
+Kiely, E. & Robertson, L. (2016). How to Spot Fake News,
+https://www.factcheck.org/2016/11/how-to-spot-fake-news/
+
 Rascia, T. (2016). Adding Syntax Highlighting to Code Snippets in a Blog or Website. https://www.taniarascia.com/adding-syntax-highlighting-to-code-snippets/
 
 

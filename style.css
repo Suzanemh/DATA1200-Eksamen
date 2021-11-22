@@ -134,7 +134,7 @@ footer{
   position: fixed;
   background-color: lightsalmon;
   font-size: 13px;
-  max-width: 45vh;
+  max-width: 50vh;
 }
 
 
@@ -399,10 +399,13 @@ Start content page4.html
   text-align:center;
   width: auto;
   margin: auto;
-  font-size: 25px;
+  font-size: 20px;
   text-indent: 50px;
-  line-height: 20px; 
+  line-height: 20px;
+
 }
+
+
 
 /*----------------------
   TABLET SCREENS
