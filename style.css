@@ -91,10 +91,13 @@ body{
 }
 
 
-.skip-to-content{
-  left: 50%;
-  text-decoration: none;
-  color: black;
+/*this code is retrieved from https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+.skip-to-content {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  overflow: hidden;
 }
 
 /*----------------------
@@ -351,7 +354,7 @@ Start content page4.html
 }
 
 
-.topic h1{
+.topic h1, h1{
   line-height: 80px;
   margin-bottom: 60px;
   margin-top: 50px;
@@ -459,7 +462,6 @@ Start content page4.html
 
   .container-index{
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
     column-gap: 20px;
     flex-wrap: nowrap; 
@@ -467,10 +469,9 @@ Start content page4.html
 
   .text-index {
     font-size: 20px;
-    text-align:right;
+    text-align: right;
     padding-left: 20px;
     width: 400px; 
-    margin:0;
     float:inline-end;
   }
 
@@ -489,6 +490,7 @@ Start content page4.html
     float:inline-end;
     max-width: 60vh;   
   }
+
   
 
   /*End index TABLET*/
