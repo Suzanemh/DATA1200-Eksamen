@@ -295,6 +295,7 @@ Start content page4.html
   line-height: 80px;
   margin-bottom: 60px;
   margin-top: 50px;
+  position: center;
 }
 
 .topic a{
