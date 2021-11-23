@@ -150,45 +150,13 @@ footer a{
 ----------------------*/
 
 /*----------------------
-Start content index.html + reflection-essay.html
+Start content index.html
 ----------------------*/
 
 
 
-.introduction, .reflection, .reflection2 {
-  display: flex;
-  display: inline-block;
-  flex-wrap: wrap;
-  background-color: rgb(235, 224, 224, 0.6);
-  margin: 20px 10px;
-}
-
-.introduction img, .reflection img, .reflection2 img{
-  max-width: 40vh;
-  margin-top: 25px;
-  border: solid 3px rgb(0, 0, 0);
-  box-shadow: 5px 5px 8px #888888;
-}
-
-figure img, figure iframe {
-  max-width: 30vh;
-}
-
-.introduction, .reflection, .reflection2, div, h1, h2 {
-  margin: auto;
-  text-align: center;
-}
-
-.introduction, h1, h2 {
-  margin-top: 0;
-  line-height: 80px;
-}
- 
-
-
-
 /*----------------------
-End content index.html + reflection-essay.html
+End content index.html
 ----------------------*/
 
 
