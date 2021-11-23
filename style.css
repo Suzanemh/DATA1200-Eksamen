@@ -366,7 +366,11 @@ image {
     display: block;
     font-weight: 700;
     padding: 15px 12px;
-    
+    font-size: 10px;
+  }
+
+  .skip-to-content{
+    font-size: 10px;
   }
 
   /*End navbar*/
@@ -398,31 +402,7 @@ image {
     float:inline-end;
   }
 
-  .introduction, .reflection, .reflection2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 20px 10px;
-  }
-
-  .reflection2 {
-    background-color: white;
-  }
-
-  .introduction img, .reflection img, .reflection2 img {
-    max-width: 55vh;
-    max-height: 35vh;
-    float: right;
-    border: solid 2px rgb(0, 0, 0);
-    margin-top: 30px;
-    margin-bottom: 10px;
-    box-shadow: 7px 7px 10px #888888;
-  }
-
-  #intro-photo, .reflection2 img {
-    float: left;
-  }
+  
   
   p {
     font-size: 17px;
