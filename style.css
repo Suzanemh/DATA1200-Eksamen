@@ -94,7 +94,7 @@ body{
 .skip-to-content{
   left: 50%;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 /*----------------------
@@ -130,7 +130,7 @@ body{
 footer{
   border: rgb(10, 23, 80) solid 2px;
   bottom: 0;
-  margin: 12px 8px;
+  margin: 12px 20px;
   left: 0;
   position: relative;
   background-color: rgb(10, 23, 80);
@@ -155,27 +155,45 @@ Start content index.html
 
 
 
+.container-index{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
+}
+
+.text-index {
+  font-size: 20px;
+  text-align:left;
+  width: fit-content;
+  padding-left: 20px;
+  width: 400px; 
+  margin:0;
+  float:inline-end;
+}
+
+.image-index{
+  width: fit-content;
+  padding-left: 20px;
+  width: 400px; 
+  margin: 30px;
+  float:inline-end;
+  max-width: 50vh;  
+  height: auto; 
+}
+
+
 /*----------------------
 End content index.html
 ----------------------*/
 
 
-/*----------------------
-h and p
-----------------------*/
-
-h1, h2, p{
- 
-  padding: 0;
-}
-
-h1, h2 {
-  margin-bottom: 0;
-  line-height: 70px;
-  
-}
 
 h1 {
+  text-align: center;
+  line-height: 10px;
+  margin: 50px;
   font-size: 3rem;
 }
 
@@ -183,11 +201,10 @@ h2, h3{
   font-size: 2rem;
 }
 
-
 p{
-  margin-top: 0;
   font-size: 20px;
   line-height: 30px;
+  margin: 20px;
 }
 
 
@@ -431,7 +448,9 @@ p {
 
 h1, h2 {
   line-height: 100px;
+  margin-bottom: 20px;
 }
+
 
 /*End index.html  COMPUTER SCREEN*/
 }
