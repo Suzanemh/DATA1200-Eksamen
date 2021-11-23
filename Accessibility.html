@@ -33,7 +33,7 @@
         <h1>Reflection of accessibility testing</h1>
         <h2> What is Accessibility Testing?</h2>
 
-        <p class="center">
+        <p class="center-accessibility">
             Technology is changing the way we live, but it needs to change how we access it, especially
             in the
             digital
@@ -81,8 +81,8 @@
                 at testingxperts blogs post. </a>
         </p>
 
-        <div class="container">
-            <div class="text">
+        <div class="container-accessibility">
+            <div class="text-accessibility">
                 <p>
                     Furthermore, there are great benefits to accessibility testing. Among other things, that
                     <strong>(1)</strong>Increases the
@@ -93,7 +93,7 @@
                 </p>
             </div>
 
-            <div class="image">
+            <div class="image-accessibility">
                 <figure>
                     <img src="images/benefits.png" alt="Benefits of accessibility (1) Increase the website usage and market sale,
                          (2) Enhances the brand image, and (3) Makes the website accessible to
@@ -107,7 +107,7 @@
 
 
         <h2>How to do Accessibility Testing, and which tools can we use?</h2>
-        <p class="center">
+        <p class="center-accessibility">
             In this section, we will present how this website was designed, with accessibility as the main
             focus.
             The
@@ -120,7 +120,7 @@
         <h3>Navigation bar</h3>
 
 
-        <div class="container">
+        <div class="container-accessibility">
             <pre>
                 <code class="language-html">
                 &lt;nav class=&quot;navbar&quot;&gt;
@@ -137,16 +137,16 @@
             </pre>
 
 
-            <div class="text">
-                <p>Navigation is the way users find and traverse the different pages 
+            <div class="text-accessibility">
+                <p>Navigation is the way users find and traverse the different pages
                     available on your site. For
-                    this reason, it is imperative that navigation is accessible. 
-                    The "skip to content-link" makes our website more accessible for blind users. 
-                    The link allows users who navigate with keyboard or screen readers to easily 
-                    skip to the main content without having to go through the header and 
-                    navigation-menu every time (W3Schools, n.d.). 
+                    this reason, it is imperative that navigation is accessible.
+                    The "skip to content-link" makes our website more accessible for blind users.
+                    The link allows users who navigate with keyboard or screen readers to easily
+                    skip to the main content without having to go through the header and
+                    navigation-menu every time (W3Schools, n.d.).
                     By their nature, links are tab-able and all keyboard users
-                    and screen readers will read them–so, if your navigation is coded 
+                    and screen readers will read them–so, if your navigation is coded
                     with links (see the code to left), a screen reader
                     should find when tabbing through the navigation list
                     (STVDIO, 2021). The code on the left is inspired by Rascia (2016) which highlight code syntax in a
@@ -159,7 +159,7 @@
 
 
         <h3>Use of heading and paragraph tags</h3>
-        <div class="container">
+        <div class="container-accessibility">
             <pre>
                 <code class="language-html">
                     &lt;h1&gt;Reflection of accessibility testing&lt;/h1&gt;
@@ -167,7 +167,7 @@
                     &lt;h2&gt;Why Accessibility Testing?&lt;/h2&gt;
                 </code>
             </pre>
-            <div class="text">
+            <div class="text-accessibility">
                 <p>Web pages must be readable by electronic “screen readers” — which are devices commonly used
                     by
                     the
@@ -189,7 +189,7 @@
 
 
         <h3>Use ALT text for images</h3>
-        <div class="container">
+        <div class="container-accessibility">
 
             <pre>
                 <code class="language-html">
@@ -200,7 +200,7 @@
             </pre>
 
 
-            <div class="text">
+            <div class="text-accessibility">
                 <p>Screen readers can also read the text in the ALT tags in embedded image files. These tags usually
                     contain a
                     description of any images, infographics, or other non-text information on the page. The more
@@ -214,7 +214,8 @@
 
         <h3>Use of descriptive links</h3>
 
-        <p class="center">It’s important for link text to make sense without the surrounding sentences or content. The
+        <p class="center-accessibility">It’s important for link text to make sense without the surrounding sentences or
+            content. The
             link
             text
             alone should convey the function and purpose of the link. Link text should also be unique and
@@ -230,8 +231,8 @@
 
         <h3>Color contrast</h3>
 
-        <div class="container">
-            <div class="text">
+        <div class="container-accessibility">
+            <div class="text-accessibility">
                 <p>Contrast and color use are vital to accessibility. Users, including users with visual disabilities,
                     must be able to perceive content on the page (WebAIM, 2021). In that case, we used an automated test
                     to check the contrast color of the website. The contrast ratio was X. Moreover, the values of
@@ -240,7 +241,7 @@
                 </p>
             </div>
 
-            <div class="image">
+            <div class="image-accessibility">
                 <figure>
                     <img src="images/Contrast.png"
                         alt="The test result after checking the color contrast using an automated test."
@@ -256,8 +257,8 @@
 
         <h3>AChecker web accessibility checker</h3>
 
-        <div class="container">
-            <div class="text">
+        <div class="container-accessibility">
+            <div class="text-accessibility">
                 <p>We used another automated tool named "AChecker". This time, we set the options to <strong>Enable
                         HTML, CSS and show sources validator</strong>. We also used both <strong> 2.0 (Level AA and
                         AAA)</strong>.
@@ -265,7 +266,7 @@
                 </p>
             </div>
 
-            <div class="image">
+            <div class="image-accessibility">
                 <figure>
                     <img src="images/AChecker.png" alt="The test result after using AChecker as an automated test."
                         title="AChecker automated test result." />
@@ -277,7 +278,8 @@
 
         </div>
         <h3>Avoid parallax effects</h3>
-        <p class="center">A parallax effect is a design trend where background elements move at speeds other than
+        <p class="center-accessibility">A parallax effect is a design trend where background elements move at speeds
+            other than
             foreground elements
             as they scroll. We first wanted to use this effect in the homepage, but after reading our advice for
             designing websites, we dropped the effect. Because this type of movement is harmful to people with

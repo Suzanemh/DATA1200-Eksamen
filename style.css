@@ -175,6 +175,7 @@ h1 {
 
 h2, h3{
   font-size: 2rem;
+  text-align: center;
 }
 
 p{
@@ -279,7 +280,11 @@ End content index.html
 Start content accesibility.html
 ----------------------*/
 
-.center{
+/*----------------------
+Start content accesibility.html
+----------------------*/
+
+.center-accessibility{
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -300,7 +305,7 @@ Start content accesibility.html
 
 
 .ulListe{
-  float: center;
+  float: center!important;
   width: max-content;
   list-style: inside;
   padding: 0px;
@@ -308,11 +313,12 @@ Start content accesibility.html
   font-size: 20px;
   line-height: 30px;
 
+
 }
 
 
 
-.container{
+.container-accessibility{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -320,7 +326,7 @@ Start content accesibility.html
   flex-wrap: wrap; 
 }
 
-.text {
+.text-accessibility {
   font-size: 20px;
   text-align:left;
   width: fit-content;
@@ -330,7 +336,7 @@ Start content accesibility.html
   float:inline-end;
 }
 
-.image{
+.image-accessibility{
   width: fit-content;
   padding-left: 20px;
   width: 500px; 
@@ -348,6 +354,10 @@ figcaption{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   line-height: 25px; 
+}
+
+.accessibility p{
+  text-align: center;
 }
 
 
