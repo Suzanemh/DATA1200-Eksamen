@@ -405,8 +405,10 @@ Start content page4.html
 }
 
 /*----------------------
-Start Fun page 
+Start Fun page
 -----------------------*/
+
+/* kode for slieshow/carousel from https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 .slideshow h1 {
   padding: 20px;
 }
