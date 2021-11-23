@@ -304,11 +304,11 @@ figcaption{
 Start content page4.html
 ----------------------*/
 
-.center1{
+/*.center1{
   margin: auto;
   width: 60%;
   padding: 10px;  
-}
+} */
 
 .topic{
   white-space:normal;
@@ -319,7 +319,7 @@ Start content page4.html
   line-height: 20px;
   background-image: url(images/fakenews.jpg);
   background-repeat: no-repeat;
-  background-position: bottom;  
+  background-position: bottom;
 }
 
 
@@ -327,6 +327,13 @@ Start content page4.html
   line-height: 80px;
   margin-bottom: 60px;
   margin-top: 50px;
+}
+
+.topic p{
+  margin: auto;
+  width: 60%;
+  padding: 10px;  
+
 }
 
 .topic a{
