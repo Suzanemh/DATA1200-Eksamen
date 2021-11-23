@@ -56,7 +56,7 @@ https://giphy.com/gifs/IntoAction-wheelchair-disabled-handicapped-0ozmBje9bTxfPl
 
 Pictures on index.html:
 Photo 1: https://unsplash.com/photos/vSchPA-YA_A
-Photo 2: https://unsplash.com/photos/vSchPA-YA_A
+Photo 2: https://unsplash.com/photos/93W0xn4961g
 
 
 Topic page(Page4):
