@@ -364,12 +364,8 @@ Start content page4.html
   line-height: 20px;
   background-image: url(images/fakenews.jpg); 
   background-repeat: no-repeat;
-<<<<<<< HEAD
   background-position: bottom;  
   
-=======
-  background-position: bottom;
->>>>>>> 7335f772cb72548ccced57a629978f718b5bd99c
 }
 
 .topic h1, h1{
