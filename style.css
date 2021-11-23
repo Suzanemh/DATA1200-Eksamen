@@ -277,12 +277,6 @@ Start content page4.html
 }
 
 
-image {
-  background-image: url(images/Fakenews.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  opacity: 0.20;
-}
 
 .topic{
   white-space:normal;
@@ -291,9 +285,10 @@ image {
   margin: auto;
   font-size: 20px;
   line-height: 20px;
-  background-image: url();
+  background-image: url(images/fakenews.jpg);
   background-repeat: no-repeat;
-  background-position: bottom;  
+  background-position: bottom center;
+  /*opacity: 0.20; */
 }
 
 .topic h1{
