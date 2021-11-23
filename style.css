@@ -94,7 +94,7 @@ body{
 .skip-to-content{
   left: 50%;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 /*----------------------
@@ -130,7 +130,7 @@ body{
 footer{
   border: rgb(10, 23, 80) solid 2px;
   bottom: 0;
-  margin: 12px 20px;
+  margin: 12px 8px;
   left: 0;
   position: relative;
   background-color: rgb(10, 23, 80);
@@ -150,50 +150,64 @@ footer a{
 ----------------------*/
 
 /*----------------------
-Start content index.html
+Start content index.html + reflection-essay.html
 ----------------------*/
 
 
 
-.container-index{
+.introduction, .reflection, .reflection2 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 15px;
-  flex-wrap: wrap; 
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: rgb(235, 224, 224, 0.6);
+  margin: 20px 10px;
 }
 
-.text-index {
-  font-size: 20px;
-  text-align:left;
-  width: fit-content;
-  padding-left: 20px;
-  width: 400px; 
-  margin:0;
-  float:inline-end;
+.introduction img, .reflection img, .reflection2 img{
+  max-width: 40vh;
+  margin-top: 25px;
+  border: solid 3px rgb(0, 0, 0);
+  box-shadow: 5px 5px 8px #888888;
 }
 
-.image-index{
-  width: fit-content;
-  padding-left: 20px;
-  width: 400px; 
-  margin: 30px;
-  float:inline-end;
-  max-width: 50vh;  
-  height: auto; 
+figure img, figure iframe {
+  max-width: 30vh;
 }
+
+.introduction, .reflection, .reflection2, div, h1, h2 {
+  margin: auto;
+  text-align: center;
+}
+
+.introduction, h1, h2 {
+  margin-top: 0;
+  line-height: 80px;
+}
+ 
+
 
 
 /*----------------------
-End content index.html
+End content index.html + reflection-essay.html
 ----------------------*/
 
 
+/*----------------------
+h and p
+----------------------*/
+
+h1, h2, p{
+ 
+  padding: 0;
+}
+
+h1, h2 {
+  margin-bottom: 0;
+  line-height: 70px;
+  
+}
 
 h1 {
-  text-align: center;
-  line-height: 10px;
-  margin: 50px;
   font-size: 3rem;
 }
 
@@ -201,10 +215,11 @@ h2, h3{
   font-size: 2rem;
 }
 
+
 p{
+  margin-top: 0;
   font-size: 20px;
   line-height: 30px;
-  margin: 20px;
 }
 
 
@@ -309,17 +324,15 @@ image {
   margin: auto;
   font-size: 20px;
   line-height: 20px;
-  background-image: url(images/fakenews.jpg);
+  background-image: url(images/Fakenews.png);
   background-repeat: no-repeat;
-  background-position: bottom center;
-  /*opacity: 0.20; */
+  background-position: bottom;  
 }
 
 .topic h1{
   line-height: 80px;
   margin-bottom: 60px;
   margin-top: 50px;
-  position: center;
 }
 
 .topic a{
@@ -329,12 +342,6 @@ image {
 .topic a:hover{
   color:rgb(52, 41, 209);
 }
-
-/*.topic p{
-  
-} */
-
-
 
 
 
@@ -360,11 +367,7 @@ image {
     display: block;
     font-weight: 700;
     padding: 15px 12px;
-    font-size: 10px;
-  }
-
-  .skip-to-content{
-    font-size: 10px;
+    
   }
 
   /*End navbar*/
@@ -383,7 +386,7 @@ image {
   /*End footer*/
 
 
-  /*Start content index.html TABLET*/
+  /*Start content index.html + reflection-essay.html TABLET*/
 
   
   .text {
@@ -396,7 +399,31 @@ image {
     float:inline-end;
   }
 
-  
+  .introduction, .reflection, .reflection2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+  }
+
+  .reflection2 {
+    background-color: white;
+  }
+
+  .introduction img, .reflection img, .reflection2 img {
+    max-width: 55vh;
+    max-height: 35vh;
+    float: right;
+    border: solid 2px rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 10px #888888;
+  }
+
+  #intro-photo, .reflection2 img {
+    float: left;
+  }
   
   p {
     font-size: 17px;
@@ -452,8 +479,32 @@ image {
   
 /*
 
-/*Start content index.htmlCOMPUTER SCREEN*/
+/*Test index+reflection*/
 
+/*Slutt test index+reflection*/
+/*Start content index.html + reflection-essay.html COMPUTER SCREEN*/
+
+.introduction, .reflection2, .reflection {
+  text-align: left;
+  display: flex;
+  display: inline-block;
+  flex-wrap: wrap;
+  margin: 20px 10px;
+}
+
+.introduction img, .reflection img, .reflection2 img {
+  max-width: 55vh;
+  max-height: 35vh;
+  float: right;
+  border: solid 2px rgba(0, 0, 0, 0.932);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  box-shadow: 7px 7px 10px #888888;
+}
+
+#intro-photo, .reflection2 img {
+  float: left;
+}
 
 p {
   font-size: 17px;
@@ -462,11 +513,7 @@ p {
 
 h1, h2 {
   line-height: 100px;
-  margin-bottom: 20px;
 }
 
-
-/*End index.html  COMPUTER SCREEN*/
+/*End index.html + reflection-essay.html COMPUTER SCREEN*/
 }
-
-
