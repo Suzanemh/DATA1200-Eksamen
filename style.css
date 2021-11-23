@@ -280,9 +280,6 @@ End content index.html
 Start content accesibility.html
 ----------------------*/
 
-/*----------------------
-Start content accesibility.html
-----------------------*/
 
 .center-accessibility{
   margin: auto;
@@ -352,7 +349,7 @@ figcaption{
   font-size: 17px;
   font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
+  text-align: auto;
   line-height: 25px; 
 }
 
@@ -572,7 +569,6 @@ font-size: 2rem;
     text-align:left;
     width: fit-content;
     padding-left: 20px;
-    width: 400px; 
     margin:0;
     float:inline-end;
   }
@@ -610,6 +606,41 @@ font-size: 2rem;
   }
 
   /*End content reflection.html TABLET*/
+
+
+   /*Start content accessibility.html TABLET*/
+   .center-accessibility{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
+
+  
+  
+  .container-accessibility{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: wrap; 
+  }
+  
+  .text-accessibility {
+    font-size: 20px;
+    text-align:left;
+    width: fit-content;
+    padding-left: 20px;
+    margin:0;
+    float:inline-end;
+  }
+
+  
+   /*End content accessibility.html TABLET*/
+  
+  
+
+  
 
   /*Start index TABLET*/
 
@@ -674,9 +705,6 @@ font-size: 2rem;
     padding: 15px 12px;
     
   }
-
-
-
 
 
   /*End navbar*/
