@@ -294,7 +294,6 @@ Start content page4.html
 }
 
 
-
 .topic{
   white-space:normal;
   text-align:left;
@@ -312,6 +311,7 @@ Start content page4.html
   line-height: 80px;
   margin-bottom: 60px;
   margin-top: 50px;
+  position: center;
 }
 
 .topic a{
@@ -321,6 +321,12 @@ Start content page4.html
 .topic a:hover{
   color:rgb(52, 41, 209);
 }
+
+/*.topic p{
+  
+} */
+
+
 
 
 
