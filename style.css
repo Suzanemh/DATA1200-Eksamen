@@ -156,33 +156,44 @@ footer a{
 Start content reflection-essay.html
 ----------------------*/
 
-.reflection, .reflection2 {
-  display: flex;
-  display: inline-block;
-  flex-wrap: wrap;
-  background-color: rgb(235, 224, 224, 0.6);
-  margin: 20px 10px;
-}
-
-.reflection img, .reflection2 img{
-  max-width: 40vh;
-  margin-top: 25px;
-  border: solid 3px rgb(0, 0, 0);
-  box-shadow: 5px 5px 8px #888888;
-}
-
-figure img, figure iframe {
-  max-width: 30vh;
-}
-
-.reflection, .reflection2, div, h1, h2 {
-  margin: auto;
-  text-align: center;
-}
 
 h1, h2 {
   margin-top: 0;
   line-height: 80px;
+  text-align: center;
+}
+
+.container-reflection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
+}
+
+.container-reflection2{
+  flex-direction: row-reverse;
+}
+
+.text-reflection{
+  font-size: 20px;
+  text-align:left;
+  width: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 600px; 
+  margin:0;
+  float:inline-end;
+}
+
+.text-reflection2{
+  flex-direction: row-reverse;
+}
+
+.image-reflection{
+  max-width: 50vh;  
+  margin: 20px 0px;
+  padding: 20px;
 }
  
 
