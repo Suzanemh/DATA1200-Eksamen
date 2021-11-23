@@ -308,14 +308,6 @@ Start content page4.html
   padding: 10px;  
 }
 
-
-/*image {
-  background-image: url(images/Fakenews.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  opacity: 0.20;
-} */
-
 .topic{
   white-space:normal;
   text-align:left;
@@ -327,6 +319,7 @@ Start content page4.html
   background-repeat: no-repeat;
   background-position: bottom;  
 }
+
 
 .topic h1{
   line-height: 80px;
