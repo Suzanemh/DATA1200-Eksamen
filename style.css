@@ -106,9 +106,9 @@ body{
     Start of footer and button skip-to-top
 ----------------------*/
 .button-up {
-  background-color: rgb(10, 23, 80);
+  background-color: rgb(84, 105, 201);
   border-radius: 16px;
-  border: rgb(10, 23, 80) solid 2px;
+  border: rgb(84, 105, 201) solid 2px;
   bottom: 0;
   margin: 12px 8px;
   position: fixed;
@@ -310,12 +310,14 @@ Start content accesibility.html
 .image{
   width: fit-content;
   padding-left: 20px;
-  width: 400px; 
+  width: 500px; 
   margin:0;
-  float:inline-end;
-  max-width: 100%;  
+  float:inline-end; 
   height: auto; 
+  max-width: 30vh;
 }
+
+
 
 figcaption{
   font-size: 17px;
@@ -336,15 +338,6 @@ Start content page4.html
   padding: 10px;  
 }
 
-
-
-image {
-  background-image: url(images/Fakenews.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  opacity: 0.20;
-}
-
 .topic{
   white-space:normal;
   text-align:left;
@@ -352,10 +345,11 @@ image {
   margin: auto;
   font-size: 20px;
   line-height: 20px;
-  background-image: url(images/Fakenews.png);
+  background-image: url(images/fakenews.jpg);
   background-repeat: no-repeat;
   background-position: bottom;  
 }
+
 
 .topic h1{
   line-height: 80px;
