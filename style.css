@@ -352,12 +352,6 @@ figcaption{
 Start content page4.html
 ----------------------*/
 
-/*.center1{
-  margin: auto;
-  width: 60%;
-  padding: 10px;  
-} */
-
 .topic{
   white-space:normal;
   text-align:left;
@@ -365,14 +359,9 @@ Start content page4.html
   margin: auto;
   font-size: 20px;
   line-height: 20px;
-}
-
-.topic::content{
-  content: "";
   background-image: url(images/fakenews.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-color: rgb(0, 0, 0);
 }
 
 
