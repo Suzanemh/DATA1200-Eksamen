@@ -13,6 +13,8 @@
 </head>
 
 
+
+
 <body>
     <!--Navigation to the other sites-->
     <nav class="navbar">
@@ -24,7 +26,6 @@
             <li><a href="page4.html">Topical information</a></li>
             <li><a href="fun.html">Fun</a></li>
         </ul>
-
     </nav>
 
 
@@ -48,8 +49,6 @@
             disadvantaged groups (Hamilton, 2021; TestingXperts, 2021).
 
         </p>
-
-
 
 
         <figure>
@@ -124,7 +123,7 @@
         <div class="container">
             <pre>
                 <code class="language-html">
-                    &lt;nav class=&quot;navbar&quot;&gt;
+                &lt;nav class=&quot;navbar&quot;&gt;
                     &lt;a class=&quot;logo&quot; href=&quot;index.html&quot;&gt;&lt;img src=&quot;images/Oslomet.png&quot; alt=&quot;OsloMet Logo&quot;&gt;&lt;/a&gt;
                     &lt;a class=&quot;skip-to-content&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
                     &lt;ul class=&quot;nav-list&quot;&gt;
@@ -139,14 +138,16 @@
 
 
             <div class="text">
-                <p>Navigation is the way users find and traverse the different pages available on your site. For
-                    this
-                    reason, it
-                    is imperative that navigation is accessible. By their nature, links are tab-able and all
-                    keyboard users
-                    and
-                    screen readers will read them–so, if your navigation is coded with links (see the code to left), a
-                    screen reader
+                <p>Navigation is the way users find and traverse the different pages 
+                    available on your site. For
+                    this reason, it is imperative that navigation is accessible. 
+                    The "skip to content-link" makes our website more accessible for blind users. 
+                    The link allows users who navigate with keyboard or screen readers to easily 
+                    skip to the main content without having to go through the header and 
+                    navigation-menu every time (W3Schools, n.d.). 
+                    By their nature, links are tab-able and all keyboard users
+                    and screen readers will read them–so, if your navigation is coded 
+                    with links (see the code to left), a screen reader
                     should find when tabbing through the navigation list
                     (STVDIO, 2021). The code on the left is inspired by Rascia (2016) which highlight code syntax in a
                     website rather than adding a screenshot. This allows screen readers to read the entire
@@ -228,6 +229,53 @@
                 found at testingxperts blogs post."</i> </p>
 
         <h3>Color contrast</h3>
+
+        <div class="container">
+            <div class="text">
+                <p>Contrast and color use are vital to accessibility. Users, including users with visual disabilities,
+                    must be able to perceive content on the page (WebAIM, 2021). In that case, we used an automated test
+                    to check the contrast color of the website. The contrast ratio was X. Moreover, the values of
+                    <strong>normal text</strong>, <strong>large text</strong> and <strong>graphical objects and user
+                        interface components</strong> is passed, see figure 3.
+                </p>
+            </div>
+
+            <div class="image">
+                <figure>
+                    <img src="images/Contrast.png"
+                        alt="The test result after checking the color contrast using an automated test."
+                        title="Color contrast automated test result." />
+
+                    <figcaption>Figure 3. Color contrast automated test result</figcaption>
+                </figure>
+
+            </div>
+
+        </div>
+
+
+        <h3>AChecker web accessibility checker</h3>
+
+        <div class="container">
+            <div class="text">
+                <p>We used another automated tool named "AChecker". This time, we set the options to <strong>Enable
+                        HTML, CSS and show sources validator</strong>. We also used both <strong> 2.0 (Level AA and
+                        AAA)</strong>.
+                    The test results after checking was "Congratulations! No known problems", see figure 4.
+                </p>
+            </div>
+
+            <div class="image">
+                <figure>
+                    <img src="images/AChecker.png" alt="The test result after using AChecker as an automated test."
+                        title="AChecker automated test result." />
+
+                    <figcaption>Figure 4. AChecker automated test result.</figcaption>
+                </figure>
+
+            </div>
+
+        </div>
         <h3>Avoid parallax effects</h3>
         <p class="center">A parallax effect is a design trend where background elements move at speeds other than
             foreground elements
@@ -241,7 +289,8 @@
 
     <footer>
         <address>
-            Get in touch! Send an email to:
+            Get in touch!<br>
+            Send an email to:
             <a href="mailto:test@hotmail.com">student@gmail.com</a>
             or call/text me at:
             <a href="tel:+4798112211">+47 99110033</a>

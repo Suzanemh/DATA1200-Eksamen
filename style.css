@@ -4,7 +4,7 @@
 
 body{
   margin: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -14,7 +14,7 @@ body{
 ----------------------*/
 .navbar {
   background-color: white;
-  border-bottom: orange solid 2px;
+  border-bottom: rgba(10, 23, 80) solid 2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,6 +24,7 @@ body{
   z-index: 100;
   height: 40vh;
   font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar ul {
@@ -44,7 +45,7 @@ body{
 }
 
 .navbar ul a:hover{
-  background-color: orange;
+  background-color:rgb(10, 23, 80);
   color: white;
 }
 
@@ -90,11 +91,17 @@ body{
 }
 
 
-.skip-to-content{
-  left: 50%;
-  text-decoration: none;
-  color: black;
+/*.skip-to-content code (below) is retrieved from https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+.skip-to-content {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  overflow: hidden;
 }
+
+
+
 
 /*----------------------
   End of navbar
@@ -105,9 +112,9 @@ body{
     Start of footer and button skip-to-top
 ----------------------*/
 .button-up {
-  background-color: orange;
+  background-color: rgb(84, 105, 201);
   border-radius: 16px;
-  border: rgb(255, 150, 0) solid 2px;
+  border: rgb(84, 105, 201) solid 2px;
   bottom: 0;
   margin: 12px 8px;
   position: fixed;
@@ -127,14 +134,20 @@ body{
 }
 
 footer{
-  border: rgb(255, 150, 0) solid 2px;
+  border: rgb(10, 23, 80) solid 2px;
   bottom: 0;
   margin: 12px 8px;
   left: 0;
-  position: fixed;
-  background-color: lightsalmon;
+  position: relative;
+  background-color: rgb(10, 23, 80);
   font-size: 13px;
   max-width: 45vh;
+  color:white;
+  height: 50px;
+}
+
+footer a{
+  color:white;
 }
 
 
@@ -142,178 +155,124 @@ footer{
   End of footer and button skip-to-top
 ----------------------*/
 
-/*----------------------
-Start content index.html
-----------------------*/
-
-.introduction img{
-  max-width: 30vh;
-  margin: 20px;
-  border: solid 3px orange;
-  
-}
-
-figure img, figure iframe {
-  max-width: 30vh;
-}
-
-.introduction, div {
-  margin: auto;
-  text-align: center;
-}
-
-.introduction h1, h2 {
-  margin-top: 0;
-  line-height: 80px;
-}
-  /*index.html er laget 2 ganger(?)*/
-  /*Start content index.html*/
-
-  .introduction {
-    text-align: left;
-    display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
-    background-color: rgb(219, 201, 219);
-    margin: 20px 10px;
-  }
-
-  .introduction img {
-    max-width: 55vh;
-    max-height: 35vh;
-    float: right;
-    border: none;
-    border: solid 2px orange;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    box-shadow: 7px 7px 10px #888888;
-  }
-
-  #intro-photo {
-    float: left;
-  }
-
-  .introduction {
-    text-align: left;
-    display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
-    background-color: rgb(219, 201, 219);
-    margin: 20px 10px;
-  }
-  
-  p {
-    font-size: 17px;
-    line-height: 25px;
-  }
-
-  /*End content index.html*/
-
-
 
 /*----------------------
-End content index.html
-----------------------*/
-
-/*----------------------
-  Start content Reflection-essay.html
-----------------------*/
-
-
-  .reflection h1 {
-    text-align: center;
-    
-  }
-
-  .reflection h2 {
-    text-align: center;
-  }
-
-  .reflection2 {
-    text-align: left;
-    display: flex;
-    display: inline-block;
-    flex-wrap: wrap;
-    background-color: rgb(219, 201, 219);
-    margin: 20px 10px;
-  }
-  
- .reflection3 {
-  text-align: right;
-  display: inline-block;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(219, 201, 219);
-  margin: 20px 10px;
-  }
- 
- .reflection2 figure {
-    max-width: 55vh;
-    max-height: 35vh;
-    float: right;
-    border: none;
-    border: solid 2px orange;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    box-shadow: 7px 7px 10px #888888;
- }
-
- .reflection3 figure {
-  max-width: 55vh;
-  max-height: 35vh;
-  float: left;
-  border: none;
-  border: solid 2px orange;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  box-shadow: 7px 7px 10px #888888;
-}
-
-.reflection img {
-max-width: 55vh;
-max-height: 35vh;
-margin-bottom: 10px;
-}
-
-
-
-/*----------------------
-  End content Reflection-essay.html
-----------------------*/
-
-/*----------------------
-h and p
+Start general headings and paragraphs
 ----------------------*/
 
 h1, h2, p{
- 
   padding: 0;
 }
 
 h1, h2 {
-  margin-bottom: 0;
-  line-height: 70px;
-  
+  line-height: 60px;
+  text-align: center;
 }
 
 h1 {
   font-size: 3rem;
 }
 
-h2{
-  font-size: 2rem;
-}
-
-h3{
+h2, h3{
   font-size: 2rem;
 }
 
 p{
-  margin-top: 0;
   font-size: 20px;
   line-height: 30px;
 }
 
+/*----------------------
+End general headings and paragraphs
+----------------------*/
+
+/*----------------------
+Start content reflection-essay.html
+----------------------*/
+
+.container-reflection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
+}
+
+.container-reflection2{
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
+}
+
+.text-reflection{
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 700px; 
+  margin:0;
+  float:inline-end;
+}
+
+.text-reflection2{
+  flex-direction: row-reverse;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 700px; 
+  margin:0;
+  float:inline-end;
+}
+
+.image-reflection{
+  max-width: 50vh;  
+  margin: 20px 0px;
+  padding: 20px;
+}
+ 
+
+
+
+/*----------------------
+End content reflection-essay.html
+----------------------*/
+
+/*----------------------
+Start content index
+----------------------*/
+
+
+.container-index{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
+}
+
+.text-index {
+  font-size: 20px;
+  text-align:left;
+  width: fit-content;
+  padding-left: 20px;
+  width: 400px; 
+  margin:0;
+  float:inline-end;
+}
+
+.image-index{
+  max-width: 50vh;  
+  margin: 20px 0px;
+}
+
+
+/*----------------------
+End content index.html
+----------------------*/
 
 
  /*----------------------
@@ -374,12 +333,14 @@ Start content accesibility.html
 .image{
   width: fit-content;
   padding-left: 20px;
-  width: 400px; 
+  width: 500px; 
   margin:0;
-  float:inline-end;
-  max-width: 100%;  
+  float:inline-end; 
   height: auto; 
+  max-width: 30vh;
 }
+
+
 
 figcaption{
   font-size: 17px;
@@ -396,13 +357,38 @@ Start content page4.html
 
 .topic{
   white-space:normal;
-  text-align:center;
+  text-align:left;
   width: auto;
   margin: auto;
-  font-size: 25px;
-  text-indent: 50px;
-  line-height: 20px; 
+  font-size: 20px;
+  line-height: 20px;
+  background-image: url(images/fakenews.jpg); 
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
+
+.topic h1, h1{
+  line-height: 80px;
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+
+.topic p{
+  margin: auto;
+  width: 60%;
+  padding: 10px;  
+
+}
+
+.topic a{
+  color:black;
+}
+
+.topic a:hover{
+  color:rgb(52, 41, 209);
+}
+
+
 
 /*----------------------
 Start Fun page
@@ -551,6 +537,7 @@ font-size: 2rem;
     
   }
 
+
   /*End navbar*/
   
 
@@ -558,20 +545,98 @@ font-size: 2rem;
   
   footer{
     font-size: 15px;
-    max-width: 80%;
+    max-width: 100%;
     padding: 7px;
     margin-left: 10px;
+    
   }
 
   /*End footer*/
 
 
-  /* Slideshow container, fun page */
-.slideshow-container {
-  max-width: 850px;
-  position: relative;
-  margin: auto;
-}
+  /*Start content reflection-essay.html TABLET*/
+
+  
+  .text {
+    font-size: 20px;
+    text-align:left;
+    width: fit-content;
+    padding-left: 20px;
+    width: 400px; 
+    margin:0;
+    float:inline-end;
+  }
+
+  .reflection, .reflection2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+  }
+
+  .reflection2 {
+    background-color: white;
+  }
+
+  .reflection img, .reflection2 img {
+    max-width: 55vh;
+    max-height: 35vh;
+    float: right;
+    border: solid 2px rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 10px #888888;
+  }
+
+  .reflection2 img {
+    float: left;
+  }
+  
+  p {
+    font-size: 17px;
+    line-height: 25px;
+    margin: 20px;
+  }
+
+  /*End content reflection.html TABLET*/
+
+  /*Start index TABLET*/
+
+  .container-index{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    flex-wrap: nowrap; 
+  }
+
+  .text-index {
+    font-size: 20px;
+    text-align: right;
+    padding-left: 20px;
+    width: 400px; 
+    float:inline-end;
+  }
+
+  #container-index2{
+    flex-direction: row-reverse;
+  }
+
+  #text-index2{
+    text-align: left;
+  }
+
+  .image-index{
+    width: fit-content;
+    padding-left: 20px;
+    margin: 30px;
+    float:inline-end;
+    max-width: 60vh;   
+  }
+
+  
+
+  /*End index TABLET*/
 
 }
 
@@ -600,6 +665,10 @@ font-size: 2rem;
     
   }
 
+
+
+
+
   /*End navbar*/
 
 
@@ -607,21 +676,75 @@ font-size: 2rem;
   
   footer{
     font-size: 15px;
-    max-width: 90%;
+    max-width: 100%;
     padding: 7px;
-    margin-left: 30px;
+    margin-left: 9px;
+    
   }
 
   /*End footer*/
 
 
-  /* Slideshow container, fun page */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+
+/*Start content reflection-essay.html COMPUTER SCREEN*/
+
+.container-reflection, .container-reflection2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
 }
 
+.container-reflection2 {
+  flex-direction: row-reverse;
 }
 
+.container-reflection img, .container-reflection2 img {
+  max-width: 60vh;
+  max-height: 55vh;
+  float: right;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  
+}
 
+.container-reflection2 img {
+  float: left;
+}
+
+p {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+h1, h2 {
+  line-height: 100px;
+}
+
+/*End reflection-essay.html COMPUTER SCREEN*/
+
+  /*Start index.html COMPUTER SCREEN*/
+  #container-index2{
+    flex-direction: row-reverse;
+    row-gap: 50px;
+  }
+
+  #text-index2{
+    text-align: left;
+  }
+
+  .text-index{
+    text-align: right;
+  }
+
+  .container-index{
+    column-gap: 50px;
+  }
+
+  .image-index{
+    max-width: 80vh;
+  }
+
+
+}
