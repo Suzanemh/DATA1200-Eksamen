@@ -25,6 +25,9 @@ uutilsynet. (2021). 1.4.12 Tekstavstand (Nivå AA) | Tilsynet for universell utf
 
 Yale University. (2021). Links | Usability & Web Accessibility. https://usability.yale.edu/web-accessibility/articles/links
 
+WebAIM. (2021). WebAIM: Contrast and Color Accessibility—Understanding WCAG 2 Contrast and Color Requirements. https://webaim.org/articles/contrast/
+
+
 
 WCAG. (2021). Understanding Success Criterion 2.3.3: Animation from Interactions. https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html
 
