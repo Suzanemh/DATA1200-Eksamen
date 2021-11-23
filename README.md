@@ -55,3 +55,12 @@ http://blogs.brad.ac.uk/bradford-life/starting-university-getting-yourself-prepa
 
 GIF:
 https://giphy.com/gifs/IntoAction-wheelchair-disabled-handicapped-0ozmBje9bTxfPlKO7m 
+
+
+Pictures on index.html:
+Photo 1: https://unsplash.com/photos/vSchPA-YA_A
+Photo 2: https://unsplash.com/photos/93W0xn4961g
+
+
+Topic page(Page4):
+Background image: https://unsplash.com/photos/2TS23o0-pUc
