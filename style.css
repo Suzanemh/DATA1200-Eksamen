@@ -309,13 +309,12 @@ Start content page4.html
 }
 
 
-
-image {
+/*image {
   background-image: url(images/Fakenews.png);
   background-repeat: no-repeat;
   background-position: bottom;
   opacity: 0.20;
-}
+} */
 
 .topic{
   white-space:normal;
@@ -324,7 +323,7 @@ image {
   margin: auto;
   font-size: 20px;
   line-height: 20px;
-  background-image: url(images/Fakenews.png);
+  background-image: url(images/fakenews.jpg);
   background-repeat: no-repeat;
   background-position: bottom;  
 }
