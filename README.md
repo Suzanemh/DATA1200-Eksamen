@@ -13,6 +13,7 @@ Rascia, T. (2016). Adding Syntax Highlighting to Code Snippets in a Blog or Webs
 
 Smith, J. (2018). Website Accessibility Checklist: 10 Steps Towards Website Compliance. DotCMS Content Management System. https://dotcms.com/blog/post/website-accessibility-checklist-10-steps-towards-website-compliance
 
+Student. (2021). Assignment module 4: Fake news and critical thinking in the digital era [Unpublished obligatory assignment 3, DATA1100], OsloMet.
 
 STVDIO. (2021). Navigation | Accessibility Guidelines. http://web-accessibility.carnegiemuseums.org/code/navigation/
 

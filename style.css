@@ -153,12 +153,10 @@ footer a{
 ----------------------*/
 
 /*----------------------
-Start content index.html + reflection-essay.html
+Start content reflection-essay.html
 ----------------------*/
 
-
-
-.introduction, .reflection, .reflection2 {
+.reflection, .reflection2 {
   display: flex;
   display: inline-block;
   flex-wrap: wrap;
@@ -166,7 +164,7 @@ Start content index.html + reflection-essay.html
   margin: 20px 10px;
 }
 
-.introduction img, .reflection img, .reflection2 img{
+.reflection img, .reflection2 img{
   max-width: 40vh;
   margin-top: 25px;
   border: solid 3px rgb(0, 0, 0);
@@ -177,12 +175,12 @@ figure img, figure iframe {
   max-width: 30vh;
 }
 
-.introduction, .reflection, .reflection2, div, h1, h2 {
+.reflection, .reflection2, div, h1, h2 {
   margin: auto;
   text-align: center;
 }
 
-.introduction, h1, h2 {
+h1, h2 {
   margin-top: 0;
   line-height: 80px;
 }
@@ -191,9 +189,39 @@ figure img, figure iframe {
 
 
 /*----------------------
-End content index.html + reflection-essay.html
+End content reflection-essay.html
 ----------------------*/
 
+/*Start content index*/
+
+
+.container-index{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
+}
+
+.text-index {
+  font-size: 20px;
+  text-align:left;
+  width: fit-content;
+  padding-left: 20px;
+  width: 400px; 
+  margin:0;
+  float:inline-end;
+}
+
+.image-index{
+  max-width: 50vh;  
+  margin: 20px 0px;
+}
+
+
+/*----------------------
+End content index.html
+----------------------*/
 
 /*----------------------
 h and p
@@ -307,11 +335,11 @@ figcaption{
 Start content page4.html
 ----------------------*/
 
-.center1{
+/*.center1{
   margin: auto;
   width: 60%;
   padding: 10px;  
-}
+} */
 
 .topic{
   white-space:normal;
@@ -322,8 +350,12 @@ Start content page4.html
   line-height: 20px;
   background-image: url(images/fakenews.jpg);
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-position: bottom;  
   
+=======
+  background-position: bottom;
+>>>>>>> 7335f772cb72548ccced57a629978f718b5bd99c
 }
 
 
@@ -331,6 +363,13 @@ Start content page4.html
   line-height: 80px;
   margin-bottom: 60px;
   margin-top: 50px;
+}
+
+.topic p{
+  margin: auto;
+  width: 60%;
+  padding: 10px;  
+
 }
 
 .topic a{
@@ -385,7 +424,7 @@ Start content page4.html
   /*End footer*/
 
 
-  /*Start content index.html + reflection-essay.html TABLET*/
+  /*Start content reflection-essay.html TABLET*/
 
   
   .text {
@@ -398,7 +437,7 @@ Start content page4.html
     float:inline-end;
   }
 
-  .introduction, .reflection, .reflection2 {
+  .reflection, .reflection2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,7 +449,7 @@ Start content page4.html
     background-color: white;
   }
 
-  .introduction img, .reflection img, .reflection2 img {
+  .reflection img, .reflection2 img {
     max-width: 55vh;
     max-height: 35vh;
     float: right;
@@ -420,7 +459,7 @@ Start content page4.html
     box-shadow: 7px 7px 10px #888888;
   }
 
-  #intro-photo, .reflection2 img {
+  .reflection2 img {
     float: left;
   }
   
@@ -430,7 +469,45 @@ Start content page4.html
     margin: 20px;
   }
 
-  /*End content index.html TABLET*/
+  /*End content reflection.html TABLET*/
+
+  /*Start index TABLET*/
+
+  .container-index{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    column-gap: 20px;
+    flex-wrap: nowrap; 
+  }
+
+  .text-index {
+    font-size: 20px;
+    text-align:right;
+    padding-left: 20px;
+    width: 400px; 
+    margin:0;
+    float:inline-end;
+  }
+
+  #container-index2{
+    flex-direction: row-reverse;
+  }
+
+  #text-index2{
+    text-align: left;
+  }
+
+  .image-index{
+    width: fit-content;
+    padding-left: 20px;
+    margin: 30px;
+    float:inline-end;
+    max-width: 60vh;   
+  }
+  
+
+  /*End index TABLET*/
 
 }
 
@@ -479,15 +556,10 @@ Start content page4.html
   /*End footer*/
 
 
-  
-/*
 
-/*Test index+reflection*/
+/*Start content reflection-essay.html COMPUTER SCREEN*/
 
-/*Slutt test index+reflection*/
-/*Start content index.html + reflection-essay.html COMPUTER SCREEN*/
-
-.introduction, .reflection2, .reflection {
+.reflection2, .reflection {
   text-align: left;
   display: flex;
   display: inline-block;
@@ -495,7 +567,7 @@ Start content page4.html
   margin: 20px 10px;
 }
 
-.introduction img, .reflection img, .reflection2 img {
+.reflection img, .reflection2 img {
   max-width: 55vh;
   max-height: 35vh;
   float: right;
@@ -505,7 +577,7 @@ Start content page4.html
   box-shadow: 7px 7px 10px #888888;
 }
 
-#intro-photo, .reflection2 img {
+.reflection2 img {
   float: left;
 }
 
@@ -518,5 +590,34 @@ h1, h2 {
   line-height: 100px;
 }
 
+<<<<<<< HEAD
 /*End index.html + reflection-essay.html COMPUTER SCREEN*/
 }
+=======
+/*End reflection-essay.html COMPUTER SCREEN*/
+
+  /*Start index.html COMPUTER SCREEN*/
+  #container-index2{
+    flex-direction: row-reverse;
+    row-gap: 50px;
+  }
+
+  #text-index2{
+    text-align: left;
+  }
+
+  .text-index{
+    text-align: right;
+  }
+
+  .container-index{
+    column-gap: 50px;
+  }
+
+  .image-index{
+    max-width: 80vh;
+  }
+
+
+}
+>>>>>>> 7335f772cb72548ccced57a629978f718b5bd99c
