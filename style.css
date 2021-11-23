@@ -359,11 +359,10 @@ Start content page4.html
   margin: auto;
   font-size: 20px;
   line-height: 20px;
-  background-image: url(images/fakenews.jpg);
+  background-image: url(images/fakenews.jpg); 
   background-repeat: no-repeat;
   background-position: bottom;
 }
-
 
 .topic h1, h1{
   line-height: 80px;
