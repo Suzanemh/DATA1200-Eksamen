@@ -353,7 +353,7 @@ Start content page4.html
   /*End footer*/
 
 
-  /*Start content index.html + reflection-essay.html TABLET*/
+  /*Start content index.html TABLET*/
 
   
   .text {
@@ -422,32 +422,8 @@ Start content page4.html
   
 /*
 
-/*Test index+reflection*/
+/*Start content index.htmlCOMPUTER SCREEN*/
 
-/*Slutt test index+reflection*/
-/*Start content index.html + reflection-essay.html COMPUTER SCREEN*/
-
-.introduction, .reflection2, .reflection {
-  text-align: left;
-  display: flex;
-  display: inline-block;
-  flex-wrap: wrap;
-  margin: 20px 10px;
-}
-
-.introduction img, .reflection img, .reflection2 img {
-  max-width: 55vh;
-  max-height: 35vh;
-  float: right;
-  border: solid 2px rgba(0, 0, 0, 0.932);
-  margin-top: 30px;
-  margin-bottom: 10px;
-  box-shadow: 7px 7px 10px #888888;
-}
-
-#intro-photo, .reflection2 img {
-  float: left;
-}
 
 p {
   font-size: 17px;
@@ -458,7 +434,7 @@ h1, h2 {
   line-height: 100px;
 }
 
-/*End index.html + reflection-essay.html COMPUTER SCREEN*/
+/*End index.html  COMPUTER SCREEN*/
 }
 
 
