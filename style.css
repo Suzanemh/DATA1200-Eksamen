@@ -91,10 +91,13 @@ body{
 }
 
 
-.skip-to-content{
-  left: 50%;
-  text-decoration: none;
-  color: black;
+/*.skip-to-content code (below) is retrieved from https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+.skip-to-content {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  overflow: hidden;
 }
 
 
@@ -152,37 +155,83 @@ footer a{
   End of footer and button skip-to-top
 ----------------------*/
 
+
+/*----------------------
+Start general headings and paragraphs
+----------------------*/
+
+h1, h2, p{
+  padding: 0;
+}
+
+h1, h2 {
+  line-height: 60px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2, h3{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/*----------------------
+End general headings and paragraphs
+----------------------*/
+
 /*----------------------
 Start content reflection-essay.html
 ----------------------*/
 
-.reflection, .reflection2 {
+.container-reflection{
   display: flex;
-  display: inline-block;
-  flex-wrap: wrap;
-  background-color: rgb(235, 224, 224, 0.6);
-  margin: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
 }
 
-.reflection img, .reflection2 img{
-  max-width: 40vh;
-  margin-top: 25px;
-  border: solid 3px rgb(0, 0, 0);
-  box-shadow: 5px 5px 8px #888888;
+.container-reflection2{
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
 }
 
-figure img, figure iframe {
-  max-width: 30vh;
+.text-reflection{
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 700px; 
+  margin:0;
+  float:inline-end;
 }
 
-.reflection, .reflection2, div, h1, h2 {
-  margin: auto;
-  text-align: center;
+.text-reflection2{
+  flex-direction: row-reverse;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 700px; 
+  margin:0;
+  float:inline-end;
 }
 
-h1, h2 {
-  margin-top: 0;
-  line-height: 80px;
+.image-reflection{
+  max-width: 50vh;  
+  margin: 20px 0px;
+  padding: 20px;
 }
  
 
@@ -192,7 +241,9 @@ h1, h2 {
 End content reflection-essay.html
 ----------------------*/
 
-/*Start content index*/
+/*----------------------
+Start content index
+----------------------*/
 
 
 .container-index{
@@ -222,37 +273,6 @@ End content reflection-essay.html
 /*----------------------
 End content index.html
 ----------------------*/
-
-/*----------------------
-h and p
-----------------------*/
-
-h1, h2, p{
- 
-  padding: 0;
-}
-
-h1, h2 {
-  margin-bottom: 0;
-  line-height: 70px;
-  
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-h2, h3{
-  font-size: 2rem;
-}
-
-
-p{
-  margin-top: 0;
-  font-size: 20px;
-  line-height: 30px;
-}
-
 
 
  /*----------------------
@@ -335,12 +355,6 @@ figcaption{
 Start content page4.html
 ----------------------*/
 
-/*.center1{
-  margin: auto;
-  width: 60%;
-  padding: 10px;  
-} */
-
 .topic{
   white-space:normal;
   text-align:left;
@@ -348,7 +362,7 @@ Start content page4.html
   margin: auto;
   font-size: 20px;
   line-height: 20px;
-  background-image: url(images/fakenews.jpg);
+  background-image: url(images/fakenews.jpg); 
   background-repeat: no-repeat;
 <<<<<<< HEAD
   background-position: bottom;  
@@ -358,8 +372,7 @@ Start content page4.html
 >>>>>>> 7335f772cb72548ccced57a629978f718b5bd99c
 }
 
-
-.topic h1{
+.topic h1, h1{
   line-height: 80px;
   margin-bottom: 60px;
   margin-top: 50px;
@@ -475,7 +488,6 @@ Start content page4.html
 
   .container-index{
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
     column-gap: 20px;
     flex-wrap: nowrap; 
@@ -483,10 +495,9 @@ Start content page4.html
 
   .text-index {
     font-size: 20px;
-    text-align:right;
+    text-align: right;
     padding-left: 20px;
     width: 400px; 
-    margin:0;
     float:inline-end;
   }
 
@@ -505,6 +516,7 @@ Start content page4.html
     float:inline-end;
     max-width: 60vh;   
   }
+
   
 
   /*End index TABLET*/
@@ -559,25 +571,28 @@ Start content page4.html
 
 /*Start content reflection-essay.html COMPUTER SCREEN*/
 
-.reflection2, .reflection {
-  text-align: left;
+.container-reflection, .container-reflection2 {
   display: flex;
-  display: inline-block;
-  flex-wrap: wrap;
-  margin: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
 }
 
-.reflection img, .reflection2 img {
-  max-width: 55vh;
-  max-height: 35vh;
+.container-reflection2 {
+  flex-direction: row-reverse;
+}
+
+.container-reflection img, .container-reflection2 img {
+  max-width: 60vh;
+  max-height: 55vh;
   float: right;
-  border: solid 2px rgba(0, 0, 0, 0.932);
   margin-top: 30px;
   margin-bottom: 10px;
-  box-shadow: 7px 7px 10px #888888;
+  
 }
 
-.reflection2 img {
+.container-reflection2 img {
   float: left;
 }
 
