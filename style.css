@@ -282,12 +282,14 @@ Start content accesibility.html
 .image{
   width: fit-content;
   padding-left: 20px;
-  width: 400px; 
+  width: 500px; 
   margin:0;
-  float:inline-end;
-  max-width: 100%;  
+  float:inline-end; 
   height: auto; 
+  max-width: 30vh;
 }
+
+
 
 figcaption{
   font-size: 17px;
@@ -355,7 +357,7 @@ image {
   .navbar {
     height: 15vh;
     flex-direction: row;
-    font-size: 4rem;
+    font-size: 1rem;
     flex-wrap: nowrap;
   }
   
