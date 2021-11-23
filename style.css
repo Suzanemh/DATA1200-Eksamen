@@ -153,6 +153,8 @@ footer a{
 Start content index.html + reflection-essay.html
 ----------------------*/
 
+
+
 .introduction, .reflection, .reflection2 {
   display: flex;
   display: inline-block;
@@ -385,10 +387,21 @@ image {
 
   /*Start content index.html + reflection-essay.html TABLET*/
 
+  
+  .text {
+    font-size: 20px;
+    text-align:left;
+    width: fit-content;
+    padding-left: 20px;
+    width: 400px; 
+    margin:0;
+    float:inline-end;
+  }
+
   .introduction, .reflection, .reflection2 {
-    text-align: left;
     display: flex;
-    display: inline-block;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin: 20px 10px;
   }
