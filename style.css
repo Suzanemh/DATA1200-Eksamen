@@ -91,7 +91,7 @@ body{
 }
 
 
-/*this code is retrieved from https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+/*.skip-to-content code (below) is retrieved from https://www.w3schools.com/accessibility/accessibility_skip_links.php */
 .skip-to-content {
   position: absolute;
   left: -10000px;
@@ -152,16 +152,40 @@ footer a{
   End of footer and button skip-to-top
 ----------------------*/
 
+
+/*----------------------
+Start general headings and paragraphs
+----------------------*/
+
+h1, h2, p{
+  padding: 0;
+}
+
+h1, h2 {
+  line-height: 60px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2, h3{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/*----------------------
+End general headings and paragraphs
+----------------------*/
+
 /*----------------------
 Start content reflection-essay.html
 ----------------------*/
-
-
-h1, h2 {
-  margin-top: 0;
-  line-height: 80px;
-  text-align: center;
-}
 
 .container-reflection{
   display: flex;
@@ -203,7 +227,9 @@ h1, h2 {
 End content reflection-essay.html
 ----------------------*/
 
-/*Start content index*/
+/*----------------------
+Start content index
+----------------------*/
 
 
 .container-index{
@@ -233,37 +259,6 @@ End content reflection-essay.html
 /*----------------------
 End content index.html
 ----------------------*/
-
-/*----------------------
-h and p
-----------------------*/
-
-h1, h2, p{
- 
-  padding: 0;
-}
-
-h1, h2 {
-  margin-bottom: 0;
-  line-height: 70px;
-  
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-h2, h3{
-  font-size: 2rem;
-}
-
-
-p{
-  margin-top: 0;
-  font-size: 20px;
-  line-height: 30px;
-}
-
 
 
  /*----------------------
