@@ -173,21 +173,32 @@ h1, h2 {
 
 .container-reflection2{
   flex-direction: row-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
 }
 
 .text-reflection{
   font-size: 20px;
-  text-align:left;
   width: fit-content;
   padding-left: 20px;
   padding-bottom: 20px;
-  width: 600px; 
+  width: 700px; 
   margin:0;
   float:inline-end;
 }
 
 .text-reflection2{
   flex-direction: row-reverse;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 700px; 
+  margin:0;
+  float:inline-end;
 }
 
 .image-reflection{
@@ -564,25 +575,28 @@ Start content page4.html
 
 /*Start content reflection-essay.html COMPUTER SCREEN*/
 
-.reflection2, .reflection {
-  text-align: left;
+.container-reflection, .container-reflection2 {
   display: flex;
-  display: inline-block;
-  flex-wrap: wrap;
-  margin: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap; 
 }
 
-.reflection img, .reflection2 img {
-  max-width: 55vh;
-  max-height: 35vh;
+.container-reflection2 {
+  flex-direction: row-reverse;
+}
+
+.container-reflection img, .container-reflection2 img {
+  max-width: 60vh;
+  max-height: 55vh;
   float: right;
-  border: solid 2px rgba(0, 0, 0, 0.932);
   margin-top: 30px;
   margin-bottom: 10px;
-  box-shadow: 7px 7px 10px #888888;
+  
 }
 
-.reflection2 img {
+.container-reflection2 img {
   float: left;
 }
 
