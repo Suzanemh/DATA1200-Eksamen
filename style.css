@@ -106,9 +106,9 @@ body{
     Start of footer and button skip-to-top
 ----------------------*/
 .button-up {
-  background-color: rgb(10, 23, 80);
+  background-color: rgb(84, 105, 201);
   border-radius: 16px;
-  border: rgb(10, 23, 80) solid 2px;
+  border: rgb(84, 105, 201) solid 2px;
   bottom: 0;
   margin: 12px 8px;
   position: fixed;
