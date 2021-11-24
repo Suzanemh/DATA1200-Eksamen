@@ -32,6 +32,8 @@ WebAIM. (2021). WebAIM: Contrast and Color Accessibility—Understanding WCAG 2 
 
 WCAG. (2021). Understanding Success Criterion 2.3.3: Animation from Interactions. https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html
 
+W3schools. (2021). How TO - slideshow. W3schools. https://www.w3schools.com/howto/howto_js_slideshow.asp
+
 
 
 Dummy-text for reflection essay reference:
@@ -66,3 +68,9 @@ Photo 2: https://unsplash.com/photos/93W0xn4961g
 
 Topic page(Page4):
 Background image: https://unsplash.com/photos/2TS23o0-pUc
+
+Pictures on Fun.html: 
+Eirik Skarstein. (2018). People near body of water. Hentet fra https://unsplash.com/photos/sphlovA7EjI
+Nick Night. (2019). River surrounded with green trees near road. Hentet fra: https://unsplash.com/photos/nQzTDqCGY-s
+Ranurte. (2020). People walking on escalator inside building. Hentet fra: https://unsplash.com/photos/2tTtqktiwO0
+
