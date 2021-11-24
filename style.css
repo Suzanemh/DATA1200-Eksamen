@@ -309,8 +309,6 @@ Start content accesibility.html
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   line-height: 30px;
-
-
 }
 
 
@@ -354,7 +352,7 @@ figcaption{
 }
 
 .accessibility p{
-  text-align: center;
+  text-align: left;
 }
 
 
