@@ -675,9 +675,17 @@ font-size: 2rem;
     max-width: 60vh;   
   }
 
-  
 
   /*End index TABLET*/
+
+
+  /* Start FUN PAGE TABLEt*/
+
+  .slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
 
 }
 
@@ -782,6 +790,13 @@ h1, h2 {
 
   .image-index{
     max-width: 80vh;
+  }
+
+  /* Start FUN PAGE COMPUTER */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
   }
 
 
