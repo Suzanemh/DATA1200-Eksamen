@@ -509,15 +509,48 @@ Start Fun page
   to {opacity: 1}
 }
 
-.fun h2, h3, h4, h5, h6 {
-padding: 20px;
-font-size: 2rem; 
+.fun h2 {
+  font-family: 'Brush Script MT', cursive;
+  color: #FF0000; 
+  padding: 10px; 
+  font-size: 5rem; 
+}
+
+.fun h3 {
+  font-family: 'Brush Script MT', cursive;
+  color:#3F7F4B; 
+  padding: 10px; 
+  font-size: 5rem; 
+}
+
+.fun h4 {
+  font-family: 'Brush Script MT', cursive;
+  color:#A33CA6; 
+  padding: 10px; 
+  font-size: 5rem; 
+}
+
+.fun h5 {
+  font-family: 'Brush Script MT', cursive;
+  color:#6D62D4; 
+  padding: 10px; 
+  font-size: 5rem; 
+}
+
+
+.fun h6 {
+  font-family: 'Brush Script MT', cursive;
+  color:#71EC6D; 
+  padding: 10px; 
+  font-size: 5rem; 
 }
 
 .fun p {
   font-size: 1.5rem; 
   padding: 10px;
 }
+
+
 
 /*----------------------
   TABLET SCREENS
