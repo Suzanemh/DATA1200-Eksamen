@@ -64,7 +64,7 @@ body {
 .logo {
     float: left;
     display: block;
-    padding: 10px;
+    padding: 20px;
     margin-left: 5px;
     white-space: nowrap;
 }
@@ -72,7 +72,7 @@ body {
 .logo img {
     border-radius: 70%;
     transition: 1s;
-    width: 6vh;
+    width: 50vh;
 }
 
 .logo img:hover {
@@ -86,7 +86,7 @@ body {
     display: flex;
     font-size: 1.5rem;
     font-weight: 800;
-    padding-right: 18px;
+    padding-right: 20px;
     text-decoration: none;
     transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
 }
@@ -624,6 +624,9 @@ Start Fun page
         text-align: center;
         margin: 10px auto;
     }
+    .logo img {
+        width: 10vh;
+    }
 }
 
 
@@ -646,6 +649,9 @@ Start Fun page
         display: block;
         font-weight: 700;
         padding: 15px 12px;
+    }
+    .logo img {
+        width: 7vh;
     }
     /*End navbar*/
     /*Start footer*/
