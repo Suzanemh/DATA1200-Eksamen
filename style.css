@@ -601,52 +601,175 @@ Start Fun page
 ----------------------*/
 
 @media screen and (min-width: 600px) and (max-width: 960px) {
-    /* Start FUN PAGE TABLEt*/
-    .slideshow-container {
-        max-width: 800px;
-        position: relative;
-        margin: auto;
+    
+
+    /*start navbar*/
+    .navbar {
+      height: 15vh;
+      flex-direction: row;
+      font-size: 1rem;
+      flex-wrap: nowrap;
     }
-    .fun .box {
-        width: 700px;
-        height: auto;
-        border: 7px solid black;
-        padding: 50px;
-        margin: 40px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center, space-between;
-        align-items: center;
-        align-self: center;
-        text-align: center;
-        margin: 10px auto;
+    
+    .navbar ul {
+      display: inline-block;
     }
-    .logo img {
-        width: 10vh;
+    
+    .navbar ul a{
+      display: block;
+      font-weight: 700;
+      padding: 15px 12px;
     }
-    /*index TABLET*/
-    .container-index {
-        display: flex;
-        align-items: center;
-        column-gap: 20px;
-        flex-wrap: nowrap;
-        margin: 10px;
+  
+    /*End navbar*/
+    
+  
+    /*Start footer*/
+    
+    footer{
+      margin: 0;
+      width: 100%;
+      position:absolute;
+      bottom: 0;
+      font-size: 15px;
+      padding: 7px;
     }
+  
+    /*End footer*/
+  
+    /*Start content reflection-essay.html TABLET*/
+  
+    
+    .text {
+      font-size: 20px;
+      text-align:left;
+      width: fit-content;
+      padding-left: 20px;
+      margin:0;
+      float:inline-end;
+    }
+  
+    .reflection, .reflection2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 20px 10px;
+    }
+  
+    .reflection2 {
+      background-color: white;
+    }
+  
+    .reflection img, .reflection2 img {
+      max-width: 55vh;
+      max-height: 35vh;
+      float: right;
+      border: solid 2px rgb(0, 0, 0);
+      margin-top: 30px;
+      margin-bottom: 10px;
+      box-shadow: 7px 7px 10px #888888;
+    }
+  
+    .reflection2 img {
+      float: left;
+    }
+    
+    p {
+      font-size: 17px;
+      line-height: 25px;
+      margin: 20px;
+    }
+  
+    /*End content reflection.html TABLET*/
+  
+     /*Start content accessibility.html TABLET*/
+   .center-accessibility{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
+
+  
+  
+  .container-accessibility{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: wrap; 
+  }
+  
+  .text-accessibility {
+    font-size: 20px;
+    text-align:left;
+    width: fit-content;
+    padding-left: 20px;
+    margin:0;
+    float:inline-end;
+  }
+
+  
+   /*End content accessibility.html TABLET*/
+    
+    
+  
+    
+  
+    /*Start index TABLET*/
+  
+    .container-index{
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      flex-wrap: nowrap; 
+      margin:10px;
+    }
+  
     .text-index {
-        font-size: 15px;
-        text-align: right;
-        padding-left: 0px;
-        text-align: left;
-        margin: 10px;
+      font-size: 15px;
+      text-align: right;
+      padding-left: 0px;
+      text-align: left;
+      margin: 10px;
     }
-    .image-index {
-        width: fit-content;
-        padding-left: 10px;
-        margin: 8px;
-        max-width: 50vh;
+  
+    .image-index{
+      width: fit-content;
+      padding-left: 10px;
+      margin: 8px;
+      max-width: 50vh;   
     }
-}
+  
+    /*End index TABLET*/
+  
+    /* Start FUN PAGE TABLEt*/
+  
+    .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      margin: auto;
+    }
+  
+    .fun .box {
+      width: 700px;
+      height: auto; 
+      border: 7px solid black;
+      padding: 50px; 
+      margin: 40px; 
+      display: flex; 
+      flex-direction: column; 
+      flex-wrap: nowrap; 
+      justify-content: center, space-between;
+      align-items: center; 
+      align-self: center; 
+      text-align: center; 
+      margin: 10px auto;
+    } 
+  
+  }
+  
 
 
 /*----------------------
