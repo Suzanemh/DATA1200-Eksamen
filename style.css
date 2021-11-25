@@ -214,31 +214,32 @@ Start content reflection-essay.html
     flex-wrap: wrap;
 }
 
-.text-reflection {
-    font-size: 20px;
-    width: fit-content;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    width: 700px;
-    margin: 0;
-    float: inline-end;
+.text-reflection{
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 700px; 
+  margin:0px;
+  float:inline-end;
 }
 
-.text-reflection2 {
-    flex-direction: row-reverse;
-    font-size: 20px;
-    width: fit-content;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    width: 650px;
-    margin: 0;
-    float: inline-end;
+.text-reflection2{
+  flex-direction: row-reverse;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 700px; 
+  margin:0px;
+  float:inline-end;
 }
 
-.image-reflection {
-    max-width: 100vh;
-    margin: 20px 0px;
-    padding: 20px;
+.image-reflection{
+  max-width:100vh;  
+  margin: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 
@@ -384,11 +385,11 @@ Start content page4.html
     margin-top: 50px;
 }
 
-.topic p {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-    width: 480px;
+.topic p{
+  margin: auto;
+  width: 60%;
+  padding: 10px; 
+  width: 480px;
 }
 
 .topic a {
