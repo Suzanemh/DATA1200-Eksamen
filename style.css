@@ -525,7 +525,7 @@ Start Fun page
 }
 
 .fun .box {
-  width: 800px;
+  width: 350px;
   height: auto; 
   border: 7px solid black;
   padding: 50px; 
@@ -751,6 +751,23 @@ Start Fun page
     margin: auto;
   }
 
+  .fun .box {
+    width: 700px;
+    height: auto; 
+    border: 7px solid black;
+    padding: 50px; 
+    margin: 40px; 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    justify-content: center, space-between;
+    align-items: center; 
+    align-self: center; 
+    text-align: center; 
+    margin: 10px auto;
+    
+  } 
+
 }
 
 /*----------------------
@@ -865,6 +882,23 @@ h1, h2 {
     position: relative;
     margin: auto;
   }
+
+  .fun .box {
+    width: 800px;
+    height: auto; 
+    border: 7px solid black;
+    padding: 50px; 
+    margin: 40px; 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    justify-content: center, space-between;
+    align-items: center; 
+    align-self: center; 
+    text-align: center; 
+    margin: 10px auto;
+    
+  } 
 
 
 }
