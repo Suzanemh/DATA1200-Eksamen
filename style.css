@@ -72,7 +72,7 @@ body {
 .logo img {
     border-radius: 70%;
     transition: 1s;
-    width: 50vh;
+    width: 40vh;
 }
 
 .logo img:hover {
