@@ -55,6 +55,8 @@ https://www.ung.no/Funksjonsnedsettelser/3059_Tilrettelegging_p%C3%A5_h%C3%B8ysk
 University of Bradford. (2020, July 21st). Starting university – getting yourself prepared. Obtained November 22nd from:
 http://blogs.brad.ac.uk/bradford-life/starting-university-getting-yourself-prepared/ 
 
+
+
 W3Schools. (n.d.) Accessibility Skip links. Obtained November 23rd 2021 from https://www.w3schools.com/accessibility/accessibility_skip_links.php 
 
 GIF:
@@ -62,7 +64,7 @@ https://giphy.com/gifs/IntoAction-wheelchair-disabled-handicapped-0ozmBje9bTxfPl
 
 
 Pictures on index.html:
-Photo 1: https://unsplash.com/photos/vSchPA-YA_A
+Photo: https://unsplash.com/photos/ZslFOaqzERU
 Photo 2: https://unsplash.com/photos/93W0xn4961g
 
 

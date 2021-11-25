@@ -233,13 +233,11 @@ Start content reflection-essay.html
 }
 
 .image-reflection{
-  max-width: 50vh;  
+  max-width:100vh;  
   margin: 20px 0px;
   padding: 20px;
 }
  
-
-
 
 /*----------------------
 End content reflection-essay.html
@@ -287,10 +285,7 @@ Start content accesibility.html
   margin: auto;
   width: 50%;
   padding: 10px;
-  list-style: inside;
-  
-  
-  
+  list-style: inside;  
 }
 
 
@@ -321,7 +316,6 @@ Start content accesibility.html
   margin:0;
   float:inline-end; 
   height: auto; 
-  
 }
 
 figure img{
@@ -399,7 +393,6 @@ Start content page4.html
   margin: auto;
   width: 60%;
   padding: 10px;  
-
 }
 
 .topic a{
@@ -472,11 +465,12 @@ Start Fun page
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color:rgb(0, 0, 0); 
+  background-color: white;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 15px;
   width: 100%;
   text-align: center;
 }
@@ -602,7 +596,6 @@ Start Fun page
     display: block;
     font-weight: 700;
     padding: 15px 12px;
-    
   }
 
 
@@ -618,8 +611,6 @@ Start Fun page
     bottom: 0;
     font-size: 15px;
     padding: 7px;
-  
-   
   }
 
   /*End footer*/
@@ -713,32 +704,23 @@ Start Fun page
     align-items: center;
     column-gap: 20px;
     flex-wrap: nowrap; 
-    margin:50px;
+    margin:10px;
   }
 
   .text-index {
-    font-size: 20px;
+    font-size: 15px;
     text-align: right;
-    padding-left: 20px;
-    width: 50px; 
-    float:inline-end;
+    padding-left: 0px;
     text-align: left;
+    margin: 10px;
   }
 
-  #container-index2{
-    flex-direction: row-reverse;
-  }
-
-  #text-index2{
-    text-align: left;
-  }
 
   .image-index{
     width: fit-content;
-    padding-left: 20px;
-    margin: 30px;
-    float:inline-end;
-    max-width: 60vh;   
+    padding-left: 10px;
+    margin: 10px;
+    max-width: 50vh;   
   }
 
 
@@ -767,7 +749,6 @@ Start Fun page
     align-self: center; 
     text-align: center; 
     margin: 10px auto;
-    
   } 
 
 }
@@ -857,25 +838,20 @@ h1, h2 {
 /*End reflection-essay.html COMPUTER SCREEN*/
 
   /*Start index.html COMPUTER SCREEN*/
-  #container-index2{
-    flex-direction: row-reverse;
-    row-gap: 50px;
-  }
 
-  #text-index2{
-    text-align: left;
-  }
-
-  .text-index{
-    text-align: right;
-  }
 
   .container-index{
     column-gap: 50px;
   }
 
+  .text-index{
+    line-height: 30px;
+    margin: 15px;
+  }
+
   .image-index{
     max-width: 80vh;
+    max-height: 70vh;
   }
 
   /* Start FUN PAGE COMPUTER */
