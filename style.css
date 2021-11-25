@@ -602,6 +602,34 @@ Start Fun page
   .logo img {
     width: 10vh;
   }
+
+  /*index TABLET*/
+  .container-index{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    flex-wrap: nowrap; 
+    margin:10px;
+  }
+
+  .text-index {
+    font-size: 15px;
+    text-align: right;
+    padding-left: 0px;
+    text-align: left;
+    margin: 10px;
+  }
+
+  .image-index{
+    width: fit-content;
+    padding-left: 10px;
+    margin: 8px;
+    max-width: 50vh;   
+  }
+
+
+
+
 }
 
 /*----------------------
