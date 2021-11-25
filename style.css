@@ -352,13 +352,13 @@ Start content page4.html
 }
 
 .background-image {
-  width: 70%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  background-image: url(images/falsenews.png);
+  background-image: url(images/fakenews.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   opacity: 0.4;
@@ -374,7 +374,7 @@ Start content page4.html
   margin: auto;
   width: 60%;
   padding: 10px;
-  width: 480px;
+  /*width: 480px; */
 }
 
 .topic a {
