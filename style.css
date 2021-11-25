@@ -607,7 +607,7 @@ Start Fun page
 
   /*start navbar*/
   .navbar {
-    height: 15vh;
+    max-height: 30vh;
     flex-direction: row;
     font-size: 1rem;
     flex-wrap: nowrap;
