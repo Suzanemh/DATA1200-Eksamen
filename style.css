@@ -190,6 +190,10 @@ p {
     line-height: 30px;
 }
 
+#italics {
+  font-style: italic; 
+}
+
 
 /*----------------------
 End general headings and paragraphs
@@ -541,11 +545,6 @@ Start Fun page
     }
 }
 
-.surprise {
-    width: 50%;
-    text-align: center;
-    margin: auto;
-}
 
 .fun .box {
     width: 350px;
