@@ -264,13 +264,12 @@ Start content index
     text-align: left;
     width: fit-content;
     width: 400px;
-    margin: 60px;
-    float: inline-end;
+    margin: 10px;
 }
 
 .image-index {
-    max-width: 50vh;
-    margin: 20px 0px;
+    max-width: 100vh;
+    margin: 10 px 0px;
 }
 
 
@@ -288,7 +287,6 @@ Start content accesibility.html
     width: 50%;
     padding: 10px;
     list-style: inside;
-    text-align: center;
 }
 
 .language-html {
@@ -336,7 +334,7 @@ figure img {
 figcaption {
     font-size: 17px;
     font-style: italic;
-    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     text-align: center;
     line-height: 25px;
 }
@@ -346,10 +344,10 @@ figcaption {
 }
 
 .GIF {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-    align-items: center;
 }
 
 
@@ -368,13 +366,13 @@ Start content page4.html
 }
 
 .background-image {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 50%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-    background-image: url(images/fakenews.jpg);
+    background-image: url(images/falsenews.png);
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 0.4;
@@ -390,6 +388,7 @@ Start content page4.html
     margin: auto;
     width: 60%;
     padding: 10px;
+    width: 480px;
 }
 
 .topic a {
@@ -413,7 +412,7 @@ Start Fun page
 /* kode for slideshow/carousel from https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 
@@ -531,19 +530,19 @@ Start Fun page
 
 @-webkit-keyframes fade {
     from {
-        opacity: .4
+        opacity: 0.4;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes fade {
     from {
-        opacity: .4
+        opacity: 0.4;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -564,32 +563,32 @@ Start Fun page
 }
 
 .fun h2 {
-    font-family: 'Brush Script MT', cursive;
-    color: #FF0000;
+    font-family: "Brush Script MT", cursive;
+    color: #ff0000;
     font-size: 5rem;
 }
 
 .fun h3 {
-    font-family: 'Brush Script MT', cursive;
-    color: #3F7F4B;
+    font-family: "Brush Script MT", cursive;
+    color: #3f7f4b;
     font-size: 5rem;
 }
 
 .fun h4 {
-    font-family: 'Brush Script MT', cursive;
-    color: #A33CA6;
+    font-family: "Brush Script MT", cursive;
+    color: #a33ca6;
     font-size: 5rem;
 }
 
 .fun h5 {
-    font-family: 'Brush Script MT', cursive;
-    color: #6D62D4;
+    font-family: "Brush Script MT", cursive;
+    color: #6d62d4;
     font-size: 5rem;
 }
 
 .fun h6 {
-    font-family: 'Brush Script MT', cursive;
-    color: #71EC6D;
+    font-family: "Brush Script MT", cursive;
+    color: #71ec6d;
     font-size: 5rem;
 }
 
@@ -604,115 +603,6 @@ Start Fun page
 ----------------------*/
 
 @media screen and (min-width: 600px) and (max-width: 960px) {
-    /*start navbar*/
-    .navbar {
-        height: 15vh;
-        flex-direction: row;
-        font-size: 1rem;
-        flex-wrap: nowrap;
-    }
-    .navbar ul {
-        display: inline-block;
-    }
-    .navbar ul a {
-        display: block;
-        font-weight: 700;
-        padding: 15px 12px;
-    }
-    /*End navbar*/
-    /*Start footer*/
-    footer {
-        margin: 0;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        font-size: 15px;
-        padding: 7px;
-    }
-    /*End footer*/
-    /*Start content reflection-essay.html TABLET*/
-    .text {
-        font-size: 20px;
-        text-align: left;
-        width: fit-content;
-        padding-left: 20px;
-        margin: 0;
-        float: inline-end;
-    }
-    .reflection,
-    .reflection2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 20px 10px;
-    }
-    .reflection2 {
-        background-color: white;
-    }
-    .reflection img,
-    .reflection2 img {
-        max-width: 55vh;
-        max-height: 35vh;
-        float: right;
-        border: solid 2px rgb(0, 0, 0);
-        margin-top: 30px;
-        margin-bottom: 10px;
-        box-shadow: 7px 7px 10px #888888;
-    }
-    .reflection2 img {
-        float: left;
-    }
-    p {
-        font-size: 17px;
-        line-height: 25px;
-        margin: 20px;
-    }
-    /*End content reflection.html TABLET*/
-    /*Start content accessibility.html TABLET*/
-    .center-accessibility {
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-    }
-    .container-accessibility {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 15px;
-        flex-wrap: wrap;
-    }
-    .text-accessibility {
-        font-size: 20px;
-        text-align: left;
-        width: fit-content;
-        padding-left: 20px;
-        margin: 0;
-        float: inline-end;
-    }
-    /*End content accessibility.html TABLET*/
-    /*Start index TABLET*/
-    .container-index {
-        display: flex;
-        align-items: center;
-        column-gap: 20px;
-        flex-wrap: nowrap;
-        margin: 10px;
-    }
-    .text-index {
-        font-size: 15px;
-        text-align: right;
-        padding-left: 0px;
-        text-align: left;
-        margin: 10px;
-    }
-    .image-index {
-        width: fit-content;
-        padding-left: 10px;
-        margin: 10px;
-        max-width: 50vh;
-    }
-    /*End index TABLET*/
     /* Start FUN PAGE TABLEt*/
     .slideshow-container {
         max-width: 800px;
@@ -811,6 +701,7 @@ Start Fun page
     .image-index {
         max-width: 80vh;
         max-height: 70vh;
+        margin-bottom: 20px;
     }
     /* Start FUN PAGE COMPUTER */
     .slideshow-container {
