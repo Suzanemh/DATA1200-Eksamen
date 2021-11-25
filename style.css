@@ -351,11 +351,6 @@ figcaption {
     text-align: center;
 }
 
-.GIF {
-    display: block;
-    margin-left: 140px;
-}
-
 
 /*----------------------
 Start content page4.html
@@ -733,10 +728,6 @@ Start Fun page
         text-align: center;
         margin: 10px auto;
     }
-    .GIF {
-        display: block;
-        margin: 0;
-    }
 }
 
 
@@ -839,10 +830,7 @@ Start Fun page
         margin: 10px auto;
     }
     /* Start ACCESSIBILITY PAGE COMPUTER */
-    .GIF {
-        display: block;
-        margin-left: 700px;
-    }
+  
     figcaption {
         font-size: 17px;
         font-style: italic;
