@@ -79,7 +79,7 @@ body{
 }
 
 .logo img:hover{
-  box-shadow: 0 0 15px 10px rgb(12, 26, 158);
+  box-shadow: 0 0 15px 10px yellow;
 }
 
 .logo a {
@@ -227,7 +227,7 @@ Start content reflection-essay.html
   width: fit-content;
   padding-left: 20px;
   padding-bottom: 20px;
-  width: 700px; 
+  width: 650px; 
   margin:0;
   float:inline-end;
 }
@@ -254,7 +254,7 @@ Start content index
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 60px;
+  margin: 0px;
   flex-wrap: wrap; 
 }
 
@@ -713,13 +713,14 @@ Start Fun page
     align-items: center;
     column-gap: 20px;
     flex-wrap: nowrap; 
+    margin:50px;
   }
 
   .text-index {
     font-size: 20px;
     text-align: right;
     padding-left: 20px;
-    width: 400px; 
+    width: 50px; 
     float:inline-end;
     text-align: left;
   }
@@ -832,7 +833,7 @@ Start Fun page
 }
 
 .container-reflection img, .container-reflection2 img {
-  max-width: 60vh;
+  max-width: 90vh;
   max-height: 55vh;
   float: right;
   margin-top: 30px;
