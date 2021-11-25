@@ -233,13 +233,11 @@ Start content reflection-essay.html
 }
 
 .image-reflection{
-  max-width: 50vh;  
+  max-width:100vh;  
   margin: 20px 0px;
   padding: 20px;
 }
  
-
-
 
 /*----------------------
 End content reflection-essay.html
@@ -287,10 +285,7 @@ Start content accesibility.html
   margin: auto;
   width: 50%;
   padding: 10px;
-  list-style: inside;
-  
-  
-  
+  list-style: inside;  
 }
 
 
@@ -321,7 +316,6 @@ Start content accesibility.html
   margin:0;
   float:inline-end; 
   height: auto; 
-  
 }
 
 figure img{
@@ -399,7 +393,6 @@ Start content page4.html
   margin: auto;
   width: 60%;
   padding: 10px;  
-
 }
 
 .topic a{
@@ -472,11 +465,12 @@ Start Fun page
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color:rgb(0, 0, 0); 
+  background-color: white;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 15px;
   width: 100%;
   text-align: center;
 }
@@ -602,7 +596,6 @@ Start Fun page
     display: block;
     font-weight: 700;
     padding: 15px 12px;
-    
   }
 
 
@@ -618,8 +611,6 @@ Start Fun page
     bottom: 0;
     font-size: 15px;
     padding: 7px;
-  
-   
   }
 
   /*End footer*/
@@ -758,7 +749,6 @@ Start Fun page
     align-self: center; 
     text-align: center; 
     margin: 10px auto;
-    
   } 
 
 }
