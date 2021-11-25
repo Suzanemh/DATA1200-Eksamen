@@ -31,10 +31,12 @@ W3schools. (2021). How TO - slideshow. W3schools. https://www.w3schools.com/howt
 
 DUMMY-TEXT FOR REFLECTION ESSEY REFERENCE: 
 
+
+
 Simon Fraser University. (2021, April 19th). Moving From High School to University. 
 https://www.lib.sfu.ca/about/branches-depts/slc/learning/transition/high-school-university
 
-https://www.hopkinsmedicine.org/health/wellness-and-prevention/the-science-of-sleep-understanding-what-happens-when-you-sleep
+John Hopkins Medicine. (n. d.). The Science of Sleep: Understanding What Happens When You Sleep. Obtained November 25th 2021 from: https://www.hopkinsmedicine.org/health/wellness-and-prevention/the-science-of-sleep-understanding-what-happens-when-you-sleep
 
 
 PICTURES FOR REFLECTION-ESSAY REFERENCE:
