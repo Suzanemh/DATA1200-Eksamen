@@ -1,135 +1,247 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" href="img/Logo.png" type="image/x-icon"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css" /><link rel="stylesheet" href="style.css"><title>Accessibility</title></head><body><!--Navigation to the other sites--><nav class="navbar"><a class="logo" href="index.html"><img src="images/Oslomet.png" alt="OsloMet Logo"></a><a class="skip-to-content" href="#main">Skip to content</a><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="reflection-essay.html">Reflection essay</a></li><li><a href="accessibility.html">Accessibility</a></li><li><a href="topical.html">Topical information</a></li><li><a href="fun.html">Fun</a></li></ul></nav><div class="accessibility"><h1>Reflection of accessibility testing</h1><h2>What is Accessibility Testing?</h2><p class="center-accessibility">Technology is changing the way we live,
-but it needs to change how we access it,
-especially in the digital age that provides innovation and new opportunities to everyone who consumes it. It requires a lot of effort in creating a technology that can be used by ‘everyone’. Accessibility Testing is defined as a type of Software Testing performed to ensure that the application being tested is usable by people with disabilities like hearing,
-color blindness,
-old age and other disadvantaged groups (Hamilton, 2021;
-TestingXperts, 2021). </p><figure><div class="GIF"><iframe src="https://giphy.com/embed/0ozmBje9bTxfPlKO7m" alt="A GIF with the following words: Accessibility for all" title="GIF" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IntoAction-wheelchair-disabled-handicapped-0ozmBje9bTxfPlKO7m"></a></p><figcaption>Figure 1. GIF animation: Accessibility for all</figcaption></div></figure><h2>Why Accessibility Testing?</h2><p class="center-accessibility">There are several reasons to test accessibility. Some of the reasons are : </p><ul><div class="center-accessibility"><li>Cater to market for Disabled People</li><li>Abide by Accessibility Legislations</li><li>Avoid Potential Law Suits</li></div></ul><p class="center-accessibility">More information about these reasons can be found <a href="https://www.testingxperts.com/blog/Why-Accessibility-Testing-is-Important#The%20Need%20For%20Accessibility%20Testing">at testingxperts blogs post. </a></p><div class="container-accessibility"><div class="text-accessibility"><p>Furthermore,
-there are great benefits to accessibility testing. Among other things,
-that <strong>(1)</strong>Increases the website usage and market share,
-<strong>(2)</strong>Enhances the brand image,
-and <strong>(3)</strong>Makes the website accessible to society (TestingXperts, 2021). </p></div><div class="image-accessibility"><figure><img src="images/benefits.png" alt="Benefits of accessibility (1) Increase the website usage and market sale,
- (2) Enhances the brand image,
-and (3) Makes the website accessible to society." title="Benefits of accessibility " />
- <figcaption>Figure 2. Benefits of accessibility testing</figcaption></figure></div></div><h2>How to do Accessibility Testing,
-and which tools can we use?</h2><p class="center-accessibility">In this section,
-we will present how this website was designed,
-with accessibility as the main focus. The structure of this section is <strong>(1)</strong>presentation of design and implementation that contributes to universal design and <strong>(2)</strong>examples of its use. </p><h3>Navigation bar</h3><div class="container-accessibility"><pre><code class="language-html">&lt;
-nav class=&quot;
-navbar&quot;
-&gt;
-&lt;
-a class=&quot;
-logo&quot;
-href=&quot;
-index.html&quot;
-&gt;
-&lt;
-img src=&quot;
-images/Oslomet.png&quot;
-alt=&quot;
-OsloMet Logo&quot;
-&gt;
-&lt;
-/a&gt;
-&lt;
-a class=&quot;
-skip-to-content&quot;
-href=&quot;
-#main&quot;
-&gt;
-Skip to content&lt;
-/a&gt;
-&lt;
-ul class=&quot;
-nav-list&quot;
-&gt;
-&lt;
-li&gt;
-&lt;
-a href=&quot;
-index.html&quot;
-&gt;
-Home&lt;
-/a&gt;
-&lt;
-/li&gt;
-&lt;
-li&gt;
-&lt;
-a href=&quot;
-reflection-essay.html&quot;
-&gt;
-Reflection essay&lt;
-/a&gt;
-&lt;
-/li&gt;
-&lt;
-li&gt;
-&lt;
-a href=&quot;
-accessibility.html&quot;
-&gt;
-Accessibility&lt;
-/a&gt;
-&lt;
-/li&gt;
-&lt;
-li&gt;
-&lt;
-a href=&quot;
-page4.html&quot;
-&gt;
-Topical information&lt;
-/a&gt;
-&lt;
-/li&gt;
-&lt;
-/ul&gt;
-&lt;
-/nav&gt;
-</code></pre><div class="text-accessibility"><p>Navigation is the way users find and traverse the different pages available on your site. For this reason,
-it is imperative that navigation is accessible. The "skip to content-link" makes our website more accessible for blind users. The link allows users who navigate with keyboard or screen readers to easily skip to the main content without having to go through the header and navigation-menu every time (W3Schools, n.d.). By their nature,
-links are tab-able and all keyboard users and screen readers will read them–so,
-if your navigation is coded with links (see the code to left),
-a screen reader should find when tabbing through the navigation list (STVDIO, 2021). The code on the left is inspired by Rascia (2016) which highlight code syntax in a website rather than adding a screenshot. This allows screen readers to read the entire code. </p></div></div><h3>Use of heading and paragraph tags</h3><div class="container-accessibility"><pre><code class="language-html">&lt;
-h1&gt;
-Reflection of accessibility testing&lt;
-/h1&gt;
-&lt;
-h2&gt;
-What is Accessibility Testing?&lt;
-/h2&gt;
-&lt;
-h2&gt;
-Why Accessibility Testing?&lt;
-/h2&gt;
-</code></pre><div class="text-accessibility"><p>Web pages must be readable by electronic “screen readers” — which are devices commonly used by the visually impaired to surf the internet (Smith, 2018). Screen readers use heading tagsto navigate and prioritize the content. The strategic use of heading tags will not only make the site more easily manageable by screen readers but it will also make it more optimized for search engines (Smith, 2018). Therefor,
-it is important that there is a connection between the heading and the paragraph tag,
-so the website is more likely to be universally designed.</p></div></div><h3>Use ALT text for images</h3><div class="container-accessibility"><pre><code class="language-html">alt=&quot;
-What to avoid when referring to a link.&quot;
-alt=&quot;
-Use of descriptive link text&quot;
-</code></pre><div class="text-accessibility"><p>Screen readers can also read the text in the ALT tags in embedded image files. These tags usually contain a description of any images,
-infographics,
-or other non-text information on the page. The more descriptive the image,
-the better for the user (Smith, 2018).</p></div></div><h3>Use of descriptive links</h3><p class="center-accessibility">It’s important for link text to make sense without the surrounding sentences or content. The link text alone should convey the function and purpose of the link. Link text should also be unique and easy to speak out loud (Yale University, 2021). In that case,
-Avoid link text like “Click Here,
-” “More,
-” and “Read More.” These kinds of links can be confusing when a screen reader reads them out of context. In our website,
-we provided this by giving a descriptive link. Example of this is when we refer a link by writing: <br><i>"More information about these reasons can be
- found at testingxperts blogs post."</i> </p>
- <h3>Avoid parallax effects</h3><p class="center-accessibility">A parallax effect is a design trend where background elements move at speeds other than foreground elements as they scroll. We first wanted to use this effect in the homepage,
-but after reading our advice for designing websites,
-we dropped the effect. Because this type of movement is harmful to people with vestibular disorders and should be avoided or used with extreme caution and restraint (WCAG, 2021).</p></div><h3>Color contrast</h3><div class="container-accessibility"><div class="text-accessibility"><p>Contrast and color use are vital to accessibility. Users,
-including users with visual disabilities,
-must be able to perceive content on the page (WebAIM, 2021). In that case,
-we used an automated test to check the contrast color of the website. The contrast ratio was X. Moreover,
-the values of <strong>normal text</strong>,
-<strong>large text</strong>and <strong>graphical objects and user interface components</strong>is passed,
-see figure 3. </p></div><div class="image-accessibility"><figure><img src="images/Contrast.png" alt="The test result after checking the color contrast using an automated test." title="Color contrast automated test result." /><figcaption>Figure 3. Color contrast automated test result</figcaption></figure></div></div><h3>AChecker web accessibility checker</h3><div class="container-accessibility testing"><div class="full-width"><p>We used another automated tool named "AChecker". This time,
-we set the options to <strong>Enable HTML,
-CSS and show sources validator</strong>. We also used both <strong>2.0 (Level AA and AAA)</strong>. The test results after checking was "Congratulations! No known problems",
-see figure 4. </p><figure><img src="images/AChecker.png" alt="The test result after using AChecker as an automated test." title="AChecker automated test result." /><figcaption>Figure 4. AChecker automated test result.</figcaption></figure></div></div><footer><address>Get in touch!<br>Send an email to : <a href="mailto:test@hotmail.com">student@gmail.com</a>or call/text me at : <a href="tel:+4798112211">+47 99110033</a></address><a class="button-up" href="#top"><img src="images/arrow.png" alt="click here to get to the top of the page"></a></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script></body></html>
+/*----------------------
+  Mobile first!
+----------------------*/
+
+body {
+    margin: 0;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 65px;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+}
+
+
+/*----------------------
+    Start of navbar
+----------------------*/
+
+.navbar {
+    background-color: white;
+    border-bottom: rgba(10, 23, 80) solid 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*flex-direction: column;*/
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    font-size: 15px;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.navbar ul a {
+    display: block;
+    border-radius: 20px;
+    color: black;
+    font-weight: 700;
+    padding: 15px 12px;
+    text-decoration: none;
+    transition: background-color 0.6s ease, color 0.3s;
+}
+
+.navbar ul a:hover {
+    background-color: rgb(10, 23, 80);
+    color: white;
+}
+
+.nav-list {
+    margin-right: 10%;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+}
+
+.logo {
+    float: left;
+    display: block;
+    padding: 10px;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+
+.logo img {
+    border-radius: 70%;
+    transition: 1s;
+    width: 6vh;
+}
+
+.logo img:hover {
+    box-shadow: 0 0 15px 10px yellow;
+}
+
+.logo a {
+    align-items: center;
+    border-radius: 50px;
+    color: black;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-right: 18px;
+    text-decoration: none;
+    transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+/*.skip-to-content code (below) is retrieved from https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+
+.skip-to-content {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    overflow: hidden;
+}
+
+
+/*----------------------
+  End of navbar
+----------------------*/
+
+
+/*----------------------
+    Start of footer and button skip-to-top
+----------------------*/
+
+.button-up {
+    background-color: rgb(84, 105, 201);
+    border-radius: 16px;
+    border: rgb(84, 105, 201) solid 2px;
+    bottom: 0;
+    margin: 12px 8px;
+    position: fixed;
+    right: 0;
+}
+
+.button-up img {
+    filter: invert(100%);
+    padding: 8px;
+    transform: rotate(-90deg);
+    transition: 0.2s;
+    width: 50px;
+}
+
+.button-up img:hover {
+    width: 70px;
+}
+
+footer {
+    border: rgb(10, 23, 80) solid 2px;
+    bottom: 0;
+    margin: 12px 8px;
+    left: 0;
+    position: relative;
+    background-color: rgb(10, 23, 80);
+    font-size: 13px;
+    color: white;
+    height: 50px;
+}
+
+footer a {
+    color: white;
+}
+
+
+/*----------------------
+  End of footer and button skip-to-top
+----------------------*/
+
+
+/*----------------------
+Start general headings and paragraphs
+----------------------*/
+
+h1,
+h2,
+p {
+    padding: 0;
+}
+
+h1,
+h2 {
+    line-height: 60px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2,
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/*----------------------
+End general headings and paragraphs
+----------------------*/
+
+
+/*----------------------
+Start content reflection-essay.html
+----------------------*/
+
+.container-reflection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.container-reflection2 {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.text-reflection {
+    font-size: 20px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 700px;
+    margin: 0;
+    float: inline-end;
+}
+
+.text-reflection2 {
+    flex-direction: row-reverse;
+    font-size: 20px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 650px;
+    margin: 0;
+    float: inline-end;
+}
+
+.image-reflection {
+    max-width: 100vh;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+
 /*----------------------
 End content reflection-essay.html
 ----------------------*/
@@ -260,7 +372,7 @@ Start content page4.html
     top: 0;
     left: 0;
     z-index: -1;
-    background-image: url(images/fakenews.jpg);
+    background-image: url(images/falsenews.png);
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 0.4;
