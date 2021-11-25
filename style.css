@@ -713,32 +713,23 @@ Start Fun page
     align-items: center;
     column-gap: 20px;
     flex-wrap: nowrap; 
-    margin:50px;
+    margin:10px;
   }
 
   .text-index {
-    font-size: 20px;
+    font-size: 15px;
     text-align: right;
-    padding-left: 20px;
-    width: 50px; 
-    float:inline-end;
+    padding-left: 0px;
     text-align: left;
+    margin: 10px;
   }
 
-  #container-index2{
-    flex-direction: row-reverse;
-  }
-
-  #text-index2{
-    text-align: left;
-  }
 
   .image-index{
     width: fit-content;
-    padding-left: 20px;
-    margin: 30px;
-    float:inline-end;
-    max-width: 60vh;   
+    padding-left: 10px;
+    margin: 10px;
+    max-width: 50vh;   
   }
 
 
@@ -857,25 +848,20 @@ h1, h2 {
 /*End reflection-essay.html COMPUTER SCREEN*/
 
   /*Start index.html COMPUTER SCREEN*/
-  #container-index2{
-    flex-direction: row-reverse;
-    row-gap: 50px;
-  }
 
-  #text-index2{
-    text-align: left;
-  }
-
-  .text-index{
-    text-align: right;
-  }
 
   .container-index{
     column-gap: 50px;
   }
 
+  .text-index{
+    line-height: 30px;
+    margin: 15px;
+  }
+
   .image-index{
     max-width: 80vh;
+    max-height: 70vh;
   }
 
   /* Start FUN PAGE COMPUTER */
