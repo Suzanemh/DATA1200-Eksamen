@@ -3,12 +3,12 @@
 ----------------------*/
 
 body {
-    margin: 0;
-    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
-    padding-bottom: 65px;
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
+  margin: 0;
+  font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 65px;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
 }
 
 
@@ -17,48 +17,48 @@ body {
 ----------------------*/
 
 .navbar {
-    background-color: white;
-    border-bottom: rgba(10, 23, 80) solid 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /*flex-direction: column;*/
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    font-size: 15px;
-    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  border-bottom: rgba(10, 23, 80) solid 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*flex-direction: column;*/
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  font-size: 15px;
+  font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar ul {
-    display: flex;
-    list-style: none;
-    overflow: hidden;
-    flex-direction: column;
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+  flex-direction: column;
 }
 
 .navbar ul a {
-    display: block;
-    border-radius: 20px;
-    color: black;
-    font-weight: 700;
-    padding: 15px 12px;
-    text-decoration: none;
-    transition: background-color 0.6s ease, color 0.3s;
+  display: block;
+  border-radius: 20px;
+  color: black;
+  font-weight: 700;
+  padding: 15px 12px;
+  text-decoration: none;
+  transition: background-color 0.6s ease, color 0.3s;
 }
 
 .navbar ul a:hover {
-    background-color: rgb(10, 23, 80);
-    color: white;
+  background-color: rgb(10, 23, 80);
+  color: white;
 }
 
 .nav-list {
-    margin-right: 10%;
+  margin-right: 10%;
 }
 
 .navbar li {
-    display: inline-block;
-    list-style: none;
+  display: inline-block;
+  list-style: none;
 }
 
 
@@ -67,44 +67,44 @@ body {
 ----------------------*/
 
 .logo {
-    float: left;
-    display: block;
-    padding: 20px;
-    margin-left: 5px;
-    white-space: nowrap;
+  float: left;
+  display: block;
+  padding: 20px;
+  margin-left: 5px;
+  white-space: nowrap;
 }
 
 .logo img {
-    border-radius: 70%;
-    transition: 1s;
-    width: 30vh;
+  border-radius: 70%;
+  transition: 1s;
+  width: 30vh;
 }
 
 .logo img:hover {
-    box-shadow: 0 0 15px 10px yellow;
+  box-shadow: 0 0 15px 10px yellow;
 }
 
 .logo a {
-    align-items: center;
-    border-radius: 50px;
-    color: black;
-    display: flex;
-    font-size: 1.5rem;
-    font-weight: 800;
-    padding-right: 20px;
-    text-decoration: none;
-    transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
+  align-items: center;
+  border-radius: 50px;
+  color: black;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-right: 20px;
+  text-decoration: none;
+  transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
 }
 
 
 /*.skip-to-content code (below) is retrieved from https://www.w3schools.com/accessibility/accessibility_skip_links.php */
 
 .skip-to-content {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    overflow: hidden;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  overflow: hidden;
 }
 
 
@@ -118,39 +118,39 @@ body {
 ----------------------*/
 
 .button-up {
-    background-color: rgb(84, 105, 201);
-    border-radius: 16px;
-    bottom: 0;
-    margin: 12px 8px;
-    position: fixed;
-    right: 0;
+  background-color: rgb(84, 105, 201);
+  border-radius: 16px;
+  bottom: 0;
+  margin: 12px 8px;
+  position: fixed;
+  right: 0;
 }
 
 .button-up img {
-    filter: invert(100%);
-    padding: 8px;
-    transform: rotate(-90deg);
-    transition: 0.2s;
-    width: 50px;
+  filter: invert(100%);
+  padding: 8px;
+  transform: rotate(-90deg);
+  transition: 0.2s;
+  width: 50px;
 }
 
 .button-up img:hover {
-    width: 70px;
+  width: 70px;
 }
 
 footer {
-    bottom: 0;
-    margin: 12px 8px;
-    left: 0;
-    position: relative;
-    background-color: rgb(10, 23, 80);
-    font-size: 13px;
-    color: white;
-    height: 50px;
+  bottom: 0;
+  margin: 12px 8px;
+  left: 0;
+  position: relative;
+  background-color: rgb(10, 23, 80);
+  font-size: 13px;
+  color: white;
+  height: 50px;
 }
 
 footer a {
-    color: white;
+  color: white;
 }
 
 
@@ -166,32 +166,32 @@ Start general headings and paragraphs
 h1,
 h2,
 p {
-    padding: 0;
+  padding: 0;
 }
 
 h1,
 h2 {
-    line-height: 60px;
-    text-align: center;
+  line-height: 60px;
+  text-align: center;
 }
 
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 h2,
 h3 {
-    font-size: 2rem;
-    text-align: center;
+  font-size: 2rem;
+  text-align: center;
 }
 
 p {
-    font-size: 20px;
-    line-height: 30px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 #italics {
-  font-style: italic; 
+  font-style: italic;
 }
 
 
@@ -205,48 +205,48 @@ Start content reflection-essay.html
 ----------------------*/
 
 .container-reflection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 15px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap;
 }
 
 .container-reflection2 {
-    flex-direction: row-reverse;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 15px;
-    flex-wrap: wrap;
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap;
 }
 
 .text-reflection {
-    font-size: 20px;
-    width: fit-content;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    width: 600px;
-    margin: 0px;
-    float: inline-end;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 600px;
+  margin: 0px;
+  float: inline-end;
 }
 
 .text-reflection2 {
-    flex-direction: row-reverse;
-    font-size: 20px;
-    width: fit-content;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    width: 600px;
-    margin: 0px;
-    float: inline-end;
+  flex-direction: row-reverse;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 600px;
+  margin: 0px;
+  float: inline-end;
 }
 
 .image-reflection {
-    max-width: 100vh;
-    margin: 0px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+  max-width: 100vh;
+  margin: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 
@@ -260,24 +260,24 @@ Start content index
 ----------------------*/
 
 .container-index {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  flex-wrap: wrap;
 }
 
 .text-index {
-    font-size: 20px;
-    text-align: left;
-    width: fit-content;
-    width: 400px;
-    margin: 10px;
+  font-size: 20px;
+  text-align: left;
+  width: fit-content;
+  width: 400px;
+  margin: 10px;
 }
 
 .image-index {
-    max-width: 100vh;
-    margin: 10 px 0px;
+  max-width: 100vh;
+  margin: 10 px 0px;
 }
 
 
@@ -291,64 +291,64 @@ Start content accesibility.html
 ----------------------*/
 
 .center-accessibility {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    list-style: inside;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  list-style: inside;
 }
 
 .language-html {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 .container-accessibility {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 15px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap;
 }
 
 .text-accessibility {
-    font-size: 20px;
-    text-align: center;
-    width: fit-content;
-    width: 500px;
-    margin: 0;
-    float: inline-end;
+  font-size: 20px;
+  text-align: center;
+  width: fit-content;
+  width: 500px;
+  margin: 0;
+  float: inline-end;
 }
 
 .image-accessibility {
-    width: fit-content;
-    width: 500px;
-    margin: 0;
-    float: inline-end;
-    height: auto;
+  width: fit-content;
+  width: 500px;
+  margin: 0;
+  float: inline-end;
+  height: auto;
 }
 
 figure img {
-    max-width: 150%;
+  max-width: 150%;
 }
 
 .full-width {
-    font-size: 20px;
-    text-align: center;
-    width: fit-content;
-    width: 1000px;
-    margin: 0;
-    float: inline-end;
+  font-size: 20px;
+  text-align: center;
+  width: fit-content;
+  width: 1000px;
+  margin: 0;
+  float: inline-end;
 }
 
 figcaption {
-    font-size: 17px;
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    text-align: center;
-    line-height: 25px;
+  font-size: 17px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  line-height: 25px;
 }
 
 .accessibility p {
-    text-align: center;
+  text-align: center;
 }
 
 
@@ -357,40 +357,40 @@ Start content page4.html
 ----------------------*/
 
 .topic {
-    white-space: normal;
-    text-align: left;
-    width: auto;
-    margin: auto;
-    font-size: 20px;
-    line-height: 20px;
-    position: relative;
+  white-space: normal;
+  text-align: left;
+  width: auto;
+  margin: auto;
+  font-size: 20px;
+  line-height: 20px;
+  position: relative;
 }
 
 .background-image {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-image: url(images/fakenews.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(images/fakenews.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  opacity: 0.4;
 }
 
 .topic h1 {
-    line-height: 80px;
-    margin-bottom: 60px;
-    margin-top: 50px;
+  line-height: 80px;
+  margin-bottom: 60px;
+  margin-top: 50px;
 }
 
 .topic a {
-    color: black;
+  color: black;
 }
 
 .topic a:hover {
-    color: rgb(52, 41, 209);
+  color: rgb(52, 41, 209);
 }
 
 
@@ -399,30 +399,30 @@ Start Fun page
 -----------------------*/
 
 .slideshow h1 {
-    padding: 20px;
+  padding: 20px;
 }
 
 
 /* kode for slideshow/carousel from https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
 /* Slideshow container */
 
 .slideshow-container {
-    max-width: 400px;
-    position: relative;
-    margin: auto;
+  max-width: 400px;
+  position: relative;
+  margin: auto;
 }
 
 
 /* Hide the images by default */
 
 .mySlides {
-    display: none;
+  display: none;
 }
 
 
@@ -430,34 +430,34 @@ Start Fun page
 
 .prev,
 .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
 
 /* Position the "next button" to the right */
 
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 
 /* Position the "previous button" to the left*/
 
 .prev {
-    left: 0;
-    border-radius: 3px 0 0 3px;
+  left: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 
@@ -465,84 +465,276 @@ Start Fun page
 
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
 /* Caption text */
 
 .text {
-    color: rgb(0, 0, 0);
-    background-color: white;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 15px;
-    width: 100%;
-    text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
 }
 
 
 /* Number text (1/3 etc) */
 
 .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
 
 /* The dots/bullets/indicators */
 
 .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 .active,
 .dot:hover {
-    background-color: #717171;
+  background-color: #717171;
 }
 
 
 /* Fading animation */
 
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-    from {
-        opacity: 0.4;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-    from {
-        opacity: 0.4;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 
 .fun .box {
-    width: 350px;
+  width: 350px;
+  height: auto;
+  border: 7px solid black;
+  padding: 50px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center, space-between;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.fun h2 {
+  font-family: "Brush Script MT", cursive;
+  color: #ff0000;
+  font-size: 5rem;
+}
+
+.fun h3 {
+  font-family: "Brush Script MT", cursive;
+  color: #3f7f4b;
+  font-size: 5rem;
+}
+
+.fun h4 {
+  font-family: "Brush Script MT", cursive;
+  color: #a33ca6;
+  font-size: 5rem;
+}
+
+.fun h5 {
+  font-family: "Brush Script MT", cursive;
+  color: #6d62d4;
+  font-size: 5rem;
+}
+
+.fun h6 {
+  font-family: "Brush Script MT", cursive;
+  color: #71ec6d;
+  font-size: 5rem;
+}
+
+.fun p {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+
+/*----------------------
+  TABLET SCREENS
+----------------------*/
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+
+  /*start navbar*/
+  .navbar {
+    max-height: 30vh;
+    flex-direction: row;
+    font-size: 1rem;
+    flex-wrap: nowrap;
+  }
+
+  .navbar ul {
+    display: inline-block;
+  }
+
+  .navbar ul a {
+    display: block;
+    font-weight: 700;
+    padding: 15px 12px;
+  }
+
+  /*End navbar*/
+  /*Start footer*/
+  footer {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  /*End footer*/
+  /*Start content reflection-essay.html TABLET*/
+  .text {
+    font-size: 20px;
+    text-align: left;
+    width: fit-content;
+    padding-left: 20px;
+    margin: 0;
+    float: inline-end;
+  }
+
+  .reflection,
+  .reflection2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+  }
+
+  .reflection2 {
+    background-color: white;
+  }
+
+  .reflection img,
+  .reflection2 img {
+    max-width: 55vh;
+    max-height: 35vh;
+    float: right;
+    border: solid 2px rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 10px #888888;
+  }
+
+  .reflection2 img {
+    float: left;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 25px;
+    margin: 20px;
+  }
+
+  /*End content reflection.html TABLET*/
+  /*Start content accessibility.html TABLET*/
+  .center-accessibility {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .container-accessibility {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .text-accessibility {
+    font-size: 20px;
+    text-align: left;
+    width: fit-content;
+    padding-left: 20px;
+    margin: 0;
+    float: inline-end;
+  }
+
+  /*End content accessibility.html TABLET*/
+  /*Start index TABLET*/
+  .container-index {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    flex-wrap: nowrap;
+    margin: 10px;
+  }
+
+  .text-index {
+    font-size: 15px;
+    text-align: right;
+    padding-left: 0px;
+    text-align: left;
+    margin: 10px;
+  }
+
+  .image-index {
+    width: fit-content;
+    padding-left: 10px;
+    margin: 8px;
+    max-width: 50vh;
+  }
+
+  /*End index TABLET*/
+  /* Start FUN PAGE TABLEt*/
+  .slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
+
+  .fun .box {
+    width: 700px;
     height: auto;
     border: 7px solid black;
     padding: 50px;
@@ -555,179 +747,7 @@ Start Fun page
     align-self: center;
     text-align: center;
     margin: 10px auto;
-}
-
-.fun h2 {
-    font-family: "Brush Script MT", cursive;
-    color: #ff0000;
-    font-size: 5rem;
-}
-
-.fun h3 {
-    font-family: "Brush Script MT", cursive;
-    color: #3f7f4b;
-    font-size: 5rem;
-}
-
-.fun h4 {
-    font-family: "Brush Script MT", cursive;
-    color: #a33ca6;
-    font-size: 5rem;
-}
-
-.fun h5 {
-    font-family: "Brush Script MT", cursive;
-    color: #6d62d4;
-    font-size: 5rem;
-}
-
-.fun h6 {
-    font-family: "Brush Script MT", cursive;
-    color: #71ec6d;
-    font-size: 5rem;
-}
-
-.fun p {
-    font-size: 1.5rem;
-    padding: 10px;
-}
-
-
-/*----------------------
-  TABLET SCREENS
-----------------------*/
-
-@media screen and (min-width: 600px) and (max-width: 960px) {
-    /*start navbar*/
-    .navbar {
-        max-height: 30vh;
-        flex-direction: row;
-        font-size: 1rem;
-        flex-wrap: nowrap;
-    }
-    .navbar ul {
-        display: inline-block;
-    }
-    .navbar ul a {
-        display: block;
-        font-weight: 700;
-        padding: 15px 12px;
-    }
-    /*End navbar*/
-    /*Start footer*/
-    footer {
-        margin: 0;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        font-size: 15px;
-        padding: 7px;
-    }
-    /*End footer*/
-    /*Start content reflection-essay.html TABLET*/
-    .text {
-        font-size: 20px;
-        text-align: left;
-        width: fit-content;
-        padding-left: 20px;
-        margin: 0;
-        float: inline-end;
-    }
-    .reflection,
-    .reflection2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 20px 10px;
-    }
-    .reflection2 {
-        background-color: white;
-    }
-    .reflection img,
-    .reflection2 img {
-        max-width: 55vh;
-        max-height: 35vh;
-        float: right;
-        border: solid 2px rgb(0, 0, 0);
-        margin-top: 30px;
-        margin-bottom: 10px;
-        box-shadow: 7px 7px 10px #888888;
-    }
-    .reflection2 img {
-        float: left;
-    }
-    p {
-        font-size: 17px;
-        line-height: 25px;
-        margin: 20px;
-    }
-    /*End content reflection.html TABLET*/
-    /*Start content accessibility.html TABLET*/
-    .center-accessibility {
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-    }
-    .container-accessibility {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 15px;
-        flex-wrap: wrap;
-    }
-    .text-accessibility {
-        font-size: 20px;
-        text-align: left;
-        width: fit-content;
-        padding-left: 20px;
-        margin: 0;
-        float: inline-end;
-    }
-    /*End content accessibility.html TABLET*/
-    /*Start index TABLET*/
-    .container-index {
-        display: flex;
-        align-items: center;
-        column-gap: 20px;
-        flex-wrap: nowrap;
-        margin: 10px;
-    }
-    .text-index {
-        font-size: 15px;
-        text-align: right;
-        padding-left: 0px;
-        text-align: left;
-        margin: 10px;
-    }
-    .image-index {
-        width: fit-content;
-        padding-left: 10px;
-        margin: 8px;
-        max-width: 50vh;
-    }
-    /*End index TABLET*/
-    /* Start FUN PAGE TABLEt*/
-    .slideshow-container {
-        max-width: 800px;
-        position: relative;
-        margin: auto;
-    }
-    .fun .box {
-        width: 700px;
-        height: auto;
-        border: 7px solid black;
-        padding: 50px;
-        margin: 40px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center, space-between;
-        align-items: center;
-        align-self: center;
-        text-align: center;
-        margin: 10px auto;
-    }
+  }
 }
 
 
@@ -739,121 +759,140 @@ Start Fun page
 ----------------------*/
 
 @media screen and (min-width: 960px) {
-    /*start navbar*/
-    .navbar {
-        height: 10vh;
-        flex-direction: row;
-        font-size: 1rem;
-        flex-wrap: nowrap;
-    }
-    .navbar ul {
-        display: inline-block;
-    }
-    .navbar ul a {
-        display: block;
-        font-weight: 700;
-        padding: 15px 12px;
-    }
-    .logo img {
-        width: 7vh;
-    }
-    /*End navbar*/
-    /*Start footer*/
-    footer {
-        margin: 0;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        font-size: 15px;
-        padding: 10px;
-    }
-    /*End footer*/
-    /*Start content reflection-essay.html COMPUTER SCREEN*/
-    .container-reflection,
-    .container-reflection2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 15px;
-        flex-wrap: wrap;
-    }
-    .container-reflection2 {
-        flex-direction: row-reverse;
-    }
-    .container-reflection img,
-    .container-reflection2 img {
-        max-width: 90vh;
-        max-height: 55vh;
-        float: right;
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
-    .container-reflection2 img {
-        float: left;
-    }
-    h1,
-    h2 {
-        line-height: 100px;
-    }
-    /*End reflection-essay.html COMPUTER SCREEN*/
-    /*Start index.html COMPUTER SCREEN*/
-    .container-index {
-        column-gap: 50px;
-    }
-    .text-index {
-        margin: 15px;
-    }
-    .image-index {
-        max-width: 80vh;
-        max-height: 70vh;
-        margin-bottom: 20px;
-    }
-    /* Start FUN PAGE COMPUTER */
-    .slideshow-container {
-        max-width: 1000px;
-        position: relative;
-        margin: auto;
-    }
-    .fun .box {
-        width: 800px;
-        height: auto;
-        border: 7px solid black;
-        padding: 50px;
-        margin: 40px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center, space-between;
-        align-items: center;
-        align-self: center;
-        text-align: center;
-        margin: 10px auto;
-    }
-    /* Start ACCESSIBILITY PAGE COMPUTER */
-  
-    figcaption {
-        font-size: 17px;
-        font-style: italic;
-        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-        text-align: left;
-        line-height: 25px;
-    }
-    .center-accessibility {
-        font-size: 25px;
-        line-height: normal;
-        text-align: center;
-    }
-    /* TOPICAL PAGE */
-    .topic p {
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-        float: center;
-        font-size: 25px;
-        line-height: normal;
-    }
-    p {
-        font-size: 25px;
-        line-height: normal;
-    }
+
+  /*start navbar*/
+  .navbar {
+    height: 10vh;
+    flex-direction: row;
+    font-size: 1rem;
+    flex-wrap: nowrap;
+  }
+
+  .navbar ul {
+    display: inline-block;
+  }
+
+  .navbar ul a {
+    display: block;
+    font-weight: 700;
+    padding: 15px 12px;
+  }
+
+  .logo img {
+    width: 7vh;
+  }
+
+  /*End navbar*/
+  /*Start footer*/
+  footer {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  /*End footer*/
+  /*Start content reflection-essay.html COMPUTER SCREEN*/
+  .container-reflection,
+  .container-reflection2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .container-reflection2 {
+    flex-direction: row-reverse;
+  }
+
+  .container-reflection img,
+  .container-reflection2 img {
+    max-width: 90vh;
+    max-height: 55vh;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .container-reflection2 img {
+    float: left;
+  }
+
+  h1,
+  h2 {
+    line-height: 100px;
+  }
+
+  /*End reflection-essay.html COMPUTER SCREEN*/
+  /*Start index.html COMPUTER SCREEN*/
+  .container-index {
+    column-gap: 50px;
+  }
+
+  .text-index {
+    margin: 15px;
+  }
+
+  .image-index {
+    max-width: 80vh;
+    max-height: 70vh;
+    margin-bottom: 20px;
+  }
+
+  /* Start FUN PAGE COMPUTER */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .fun .box {
+    width: 800px;
+    height: auto;
+    border: 7px solid black;
+    padding: 50px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center, space-between;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  /* Start ACCESSIBILITY PAGE COMPUTER */
+
+  figcaption {
+    font-size: 17px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: left;
+    line-height: 25px;
+  }
+
+  .center-accessibility {
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  /* TOPICAL PAGE */
+  .topic p {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    float: center;
+    font-size: 25px;
+    line-height: normal;
+  }
+
+  p {
+    font-size: 25px;
+    line-height: normal;
+  }
 }
