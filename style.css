@@ -646,6 +646,10 @@ Start Fun page
         margin: 8px;
         max-width: 50vh;
     }
+    .GIF {
+        display: block;
+        position: sticky;
+    }
 }
 
 
