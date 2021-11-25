@@ -225,11 +225,20 @@ Start content reflection-essay.html
   float: inline-end;
 }
 
+<<<<<<< HEAD
 .image-reflection {
   max-width: 50vh;
   margin: 20px 0px;
   padding: 20px;
 }
+=======
+.image-reflection{
+  max-width:100vh;  
+  margin: 20px 0px;
+  padding: 20px;
+}
+ 
+>>>>>>> 7bd38c4b4044bd404b5fcfc10898d2a027a2d1eb
 
 /*----------------------
 End content reflection-essay.html
@@ -273,7 +282,11 @@ Start content accesibility.html
   margin: auto;
   width: 50%;
   padding: 10px;
+<<<<<<< HEAD
   list-style: inside;
+=======
+  list-style: inside;  
+>>>>>>> 7bd38c4b4044bd404b5fcfc10898d2a027a2d1eb
 }
 
 .language-html {
@@ -299,10 +312,17 @@ Start content accesibility.html
 
 .image-accessibility {
   width: fit-content;
+<<<<<<< HEAD
   width: 500px;
   margin: 0;
   float: inline-end;
   height: auto;
+=======
+  width: 500px; 
+  margin:0;
+  float:inline-end; 
+  height: auto; 
+>>>>>>> 7bd38c4b4044bd404b5fcfc10898d2a027a2d1eb
 }
 
 figure img {
@@ -374,8 +394,12 @@ Start content page4.html
 .topic p {
   margin: auto;
   width: 60%;
+<<<<<<< HEAD
   padding: 10px;
   width: 510px;
+=======
+  padding: 10px;  
+>>>>>>> 7bd38c4b4044bd404b5fcfc10898d2a027a2d1eb
 }
 
 .topic a {
@@ -449,11 +473,12 @@ Start Fun page
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color:rgb(0, 0, 0); 
+  background-color: white;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 15px;
   width: 100%;
   text-align: center;
 }
@@ -732,7 +757,12 @@ Start Fun page
     align-self: center;
     text-align: center;
     margin: 10px auto;
+<<<<<<< HEAD
   }
+=======
+  } 
+
+>>>>>>> 7bd38c4b4044bd404b5fcfc10898d2a027a2d1eb
 }
 
 /*----------------------
