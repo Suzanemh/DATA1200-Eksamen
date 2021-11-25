@@ -2,7 +2,7 @@
   Mobile first!
 ----------------------*/
 
-body{
+body {
   margin: 0;
   font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 65px;
@@ -10,8 +10,6 @@ body{
   width: 100%;
   min-height: 100%;
 }
-
-
 
 /*----------------------
     Start of navbar
@@ -38,7 +36,7 @@ body{
   flex-direction: column;
 }
 
-.navbar ul a{
+.navbar ul a {
   display: block;
   border-radius: 20px;
   color: black;
@@ -48,21 +46,19 @@ body{
   transition: background-color 0.6s ease, color 0.3s;
 }
 
-.navbar ul a:hover{
-  background-color:rgb(10, 23, 80);
+.navbar ul a:hover {
+  background-color: rgb(10, 23, 80);
   color: white;
 }
 
-.nav-list{
+.nav-list {
   margin-right: 10%;
 }
-
 
 .navbar li {
   display: inline-block;
   list-style: none;
 }
-
 
 .logo {
   float: left;
@@ -72,13 +68,13 @@ body{
   white-space: nowrap;
 }
 
-.logo img{
+.logo img {
   border-radius: 70%;
   transition: 1s;
   width: 6vh;
 }
 
-.logo img:hover{
+.logo img:hover {
   box-shadow: 0 0 15px 10px yellow;
 }
 
@@ -94,7 +90,6 @@ body{
   transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
 }
 
-
 /*.skip-to-content code (below) is retrieved from https://www.w3schools.com/accessibility/accessibility_skip_links.php */
 .skip-to-content {
   position: absolute;
@@ -104,13 +99,9 @@ body{
   overflow: hidden;
 }
 
-
-
-
 /*----------------------
   End of navbar
 ----------------------*/
-
 
 /*----------------------
     Start of footer and button skip-to-top
@@ -132,12 +123,12 @@ body{
   transition: 0.2s;
   width: 50px;
 }
-  
+
 .button-up img:hover {
   width: 70px;
 }
 
-footer{
+footer {
   border: rgb(10, 23, 80) solid 2px;
   bottom: 0;
   margin: 12px 8px;
@@ -145,29 +136,30 @@ footer{
   position: relative;
   background-color: rgb(10, 23, 80);
   font-size: 13px;
-  color:white;
+  color: white;
   height: 50px;
 }
 
-footer a{
-  color:white;
+footer a {
+  color: white;
 }
-
 
 /*----------------------
   End of footer and button skip-to-top
 ----------------------*/
 
-
 /*----------------------
 Start general headings and paragraphs
 ----------------------*/
 
-h1, h2, p{
+h1,
+h2,
+p {
   padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   line-height: 60px;
   text-align: center;
 }
@@ -176,12 +168,13 @@ h1 {
   font-size: 3rem;
 }
 
-h2, h3{
+h2,
+h3 {
   font-size: 2rem;
   text-align: center;
 }
 
-p{
+p {
   font-size: 20px;
   line-height: 30px;
 }
@@ -194,52 +187,49 @@ End general headings and paragraphs
 Start content reflection-essay.html
 ----------------------*/
 
-.container-reflection{
+.container-reflection {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 15px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
-.container-reflection2{
+.container-reflection2 {
   flex-direction: row-reverse;
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 15px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
-.text-reflection{
+.text-reflection {
   font-size: 20px;
   width: fit-content;
   padding-left: 20px;
   padding-bottom: 20px;
-  width: 700px; 
-  margin:0;
-  float:inline-end;
+  width: 700px;
+  margin: 0;
+  float: inline-end;
 }
 
-.text-reflection2{
+.text-reflection2 {
   flex-direction: row-reverse;
   font-size: 20px;
   width: fit-content;
   padding-left: 20px;
   padding-bottom: 20px;
-  width: 650px; 
-  margin:0;
-  float:inline-end;
+  width: 650px;
+  margin: 0;
+  float: inline-end;
 }
 
-.image-reflection{
-  max-width: 50vh;  
+.image-reflection {
+  max-width: 50vh;
   margin: 20px 0px;
   padding: 20px;
 }
- 
-
-
 
 /*----------------------
 End content reflection-essay.html
@@ -249,126 +239,112 @@ End content reflection-essay.html
 Start content index
 ----------------------*/
 
-
-.container-index{
+.container-index {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .text-index {
   font-size: 20px;
-  text-align:left;
+  text-align: left;
   width: fit-content;
-  width: 400px; 
-  margin:60px;
-  float:inline-end;
+  width: 400px;
+  margin: 60px;
+  float: inline-end;
 }
 
-.image-index{
-  max-width: 50vh;  
+.image-index {
+  max-width: 50vh;
   margin: 20px 0px;
 }
-
 
 /*----------------------
 End content index.html
 ----------------------*/
 
-
- /*----------------------
+/*----------------------
 Start content accesibility.html
 ----------------------*/
 
-
-.center-accessibility{
+.center-accessibility {
   margin: auto;
   width: 50%;
   padding: 10px;
   list-style: inside;
-  
-  
-  
 }
 
-
-.language-html{
-  background-color:white !important;
+.language-html {
+  background-color: white !important;
 }
 
-.container-accessibility{
+.container-accessibility {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 15px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .text-accessibility {
   font-size: 20px;
-  text-align:center;
+  text-align: center;
   width: fit-content;
-  width: 500px; 
-  margin:0;
-  float:inline-end;
+  width: 500px;
+  margin: 0;
+  float: inline-end;
 }
 
 .image-accessibility {
   width: fit-content;
-  width: 500px; 
-  margin:0;
-  float:inline-end; 
-  height: auto; 
-  
+  width: 500px;
+  margin: 0;
+  float: inline-end;
+  height: auto;
 }
 
-figure img{
+figure img {
   max-width: 100%;
 }
 
 .full-width {
   font-size: 20px;
-  text-align:center;
+  text-align: center;
   width: fit-content;
- 
-  width: 1000px; 
-  margin:0;
-  float:inline-end;
+
+  width: 1000px;
+  margin: 0;
+  float: inline-end;
 }
 
-
-
-
-figcaption{
+figcaption {
   font-size: 17px;
   font-style: italic;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
-  line-height: 25px; 
+  line-height: 25px;
 }
 
-.accessibility p{
+.accessibility p {
   text-align: center;
 }
 
-.GIF{
+.GIF {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
 }
 
-
- /*----------------------
+/*----------------------
 Start content page4.html
 ----------------------*/
 
-.topic{
-
-  white-space:normal;
-  text-align:left;
+.topic {
+  white-space: normal;
+  text-align: left;
   width: auto;
   margin: auto;
   font-size: 20px;
@@ -376,41 +352,39 @@ Start content page4.html
   position: relative;
 }
 
-.background-image{
+.background-image {
   width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-image: url(images/fakenews.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    opacity: 0.4;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(images/fakenews.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  opacity: 0.4;
 }
 
-.topic h1{
+.topic h1 {
   line-height: 80px;
   margin-bottom: 60px;
   margin-top: 50px;
 }
 
-.topic p{
+.topic p {
   margin: auto;
   width: 60%;
-  padding: 10px;  
-
+  padding: 10px;
+  width: 510px;
 }
 
-.topic a{
-  color:black;
+.topic a {
+  color: black;
 }
 
-.topic a:hover{
-  color:rgb(52, 41, 209);
+.topic a:hover {
+  color: rgb(52, 41, 209);
 }
-
-
 
 /*----------------------
 Start Fun page
@@ -420,10 +394,11 @@ Start Fun page
   padding: 20px;
 }
 
-
 /* kode for slideshow/carousel from https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -438,7 +413,8 @@ Start Fun page
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -461,13 +437,14 @@ Start Fun page
 
 /* Position the "previous button" to the left*/
 .prev {
-  left: 0; 
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -502,7 +479,8 @@ Start Fun page
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -515,77 +493,80 @@ Start Fun page
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .fun .box {
   width: 350px;
-  height: auto; 
+  height: auto;
   border: 7px solid black;
-  padding: 50px; 
-  margin: 40px; 
-  display: flex; 
-  flex-direction: column; 
-  flex-wrap: nowrap; 
+  padding: 50px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center, space-between;
-  align-items: center; 
-  align-self: center; 
-  text-align: center; 
+  align-items: center;
+  align-self: center;
+  text-align: center;
 
   margin: 10px auto;
-  
-} 
-
+}
 
 .fun h2 {
-  font-family: 'Brush Script MT', cursive;
-  color: #FF0000;  
-  font-size: 5rem; 
+  font-family: "Brush Script MT", cursive;
+  color: #ff0000;
+  font-size: 5rem;
 }
 
 .fun h3 {
-  font-family: 'Brush Script MT', cursive;
-  color:#3F7F4B; 
-  font-size: 5rem; 
+  font-family: "Brush Script MT", cursive;
+  color: #3f7f4b;
+  font-size: 5rem;
 }
 
 .fun h4 {
-  font-family: 'Brush Script MT', cursive;
-  color:#A33CA6; 
-  font-size: 5rem; 
+  font-family: "Brush Script MT", cursive;
+  color: #a33ca6;
+  font-size: 5rem;
 }
 
 .fun h5 {
-  font-family: 'Brush Script MT', cursive;
-  color:#6D62D4; 
-  font-size: 5rem; 
+  font-family: "Brush Script MT", cursive;
+  color: #6d62d4;
+  font-size: 5rem;
 }
 
 .fun h6 {
-  font-family: 'Brush Script MT', cursive;
-  color:#71EC6D; 
-  font-size: 5rem; 
+  font-family: "Brush Script MT", cursive;
+  color: #71ec6d;
+  font-size: 5rem;
 }
 
 .fun p {
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   padding: 10px;
 }
-
-
 
 /*----------------------
   TABLET SCREENS
 ----------------------*/
 
-@media  screen and (min-width: 600px) and (max-width: 960px) {
-
+@media screen and (min-width: 600px) and (max-width: 960px) {
   /*start navbar*/
   .navbar {
     height: 15vh;
@@ -593,51 +574,45 @@ Start Fun page
     font-size: 1rem;
     flex-wrap: nowrap;
   }
-  
+
   .navbar ul {
     display: inline-block;
   }
-  
-  .navbar ul a{
+
+  .navbar ul a {
     display: block;
     font-weight: 700;
     padding: 15px 12px;
-    
   }
 
-
   /*End navbar*/
-  
 
   /*Start footer*/
-  
-  footer{
+
+  footer {
     margin: 0;
     width: 100%;
-    position:absolute;
+    position: absolute;
     bottom: 0;
     font-size: 15px;
     padding: 7px;
-  
-   
   }
 
   /*End footer*/
 
-
   /*Start content reflection-essay.html TABLET*/
 
-  
   .text {
     font-size: 20px;
-    text-align:left;
+    text-align: left;
     width: fit-content;
     padding-left: 20px;
-    margin:0;
-    float:inline-end;
+    margin: 0;
+    float: inline-end;
   }
 
-  .reflection, .reflection2 {
+  .reflection,
+  .reflection2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -649,7 +624,8 @@ Start Fun page
     background-color: white;
   }
 
-  .reflection img, .reflection2 img {
+  .reflection img,
+  .reflection2 img {
     max-width: 55vh;
     max-height: 35vh;
     float: right;
@@ -662,7 +638,7 @@ Start Fun page
   .reflection2 img {
     float: left;
   }
-  
+
   p {
     font-size: 17px;
     line-height: 25px;
@@ -671,79 +647,68 @@ Start Fun page
 
   /*End content reflection.html TABLET*/
 
-
-   /*Start content accessibility.html TABLET*/
-   .center-accessibility{
+  /*Start content accessibility.html TABLET*/
+  .center-accessibility {
     margin: auto;
     width: 50%;
     padding: 10px;
   }
-  
 
-  
-  
-  .container-accessibility{
+  .container-accessibility {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 15px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
   }
-  
+
   .text-accessibility {
     font-size: 20px;
-    text-align:left;
+    text-align: left;
     width: fit-content;
     padding-left: 20px;
-    margin:0;
-    float:inline-end;
+    margin: 0;
+    float: inline-end;
   }
 
-  
-   /*End content accessibility.html TABLET*/
-  
-  
-
-  
+  /*End content accessibility.html TABLET*/
 
   /*Start index TABLET*/
 
-  .container-index{
+  .container-index {
     display: flex;
     align-items: center;
     column-gap: 20px;
-    flex-wrap: nowrap; 
-    margin:50px;
+    flex-wrap: nowrap;
+    margin: 50px;
   }
 
   .text-index {
     font-size: 20px;
     text-align: right;
     padding-left: 20px;
-    width: 50px; 
-    float:inline-end;
+    width: 50px;
+    float: inline-end;
     text-align: left;
   }
 
-  #container-index2{
+  #container-index2 {
     flex-direction: row-reverse;
   }
 
-  #text-index2{
+  #text-index2 {
     text-align: left;
   }
 
-  .image-index{
+  .image-index {
     width: fit-content;
     padding-left: 20px;
     margin: 30px;
-    float:inline-end;
-    max-width: 60vh;   
+    float: inline-end;
+    max-width: 60vh;
   }
 
-
   /*End index TABLET*/
-
 
   /* Start FUN PAGE TABLEt*/
 
@@ -755,21 +720,19 @@ Start Fun page
 
   .fun .box {
     width: 700px;
-    height: auto; 
+    height: auto;
     border: 7px solid black;
-    padding: 50px; 
-    margin: 40px; 
-    display: flex; 
-    flex-direction: column; 
-    flex-wrap: nowrap; 
+    padding: 50px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center, space-between;
-    align-items: center; 
-    align-self: center; 
-    text-align: center; 
+    align-items: center;
+    align-self: center;
+    text-align: center;
     margin: 10px auto;
-    
-  } 
-
+  }
 }
 
 /*----------------------
@@ -777,7 +740,6 @@ Start Fun page
 ----------------------*/
 
 @media screen and (min-width: 960px) {
-
   /*start navbar*/
   .navbar {
     height: 10vh;
@@ -785,96 +747,91 @@ Start Fun page
     font-size: 1rem;
     flex-wrap: nowrap;
   }
-  
+
   .navbar ul {
     display: inline-block;
   }
-  
-  .navbar ul a{
+
+  .navbar ul a {
     display: block;
     font-weight: 700;
     padding: 15px 12px;
-    
   }
-
 
   /*End navbar*/
 
-
   /*Start footer*/
-  
-  footer{
-  
+
+  footer {
     margin: 0;
     width: 100%;
-    position:absolute;
+    position: absolute;
     bottom: 0;
     font-size: 15px;
     padding: 10px;
-    
   }
 
   /*End footer*/
 
+  /*Start content reflection-essay.html COMPUTER SCREEN*/
 
+  .container-reflection,
+  .container-reflection2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+  }
 
-/*Start content reflection-essay.html COMPUTER SCREEN*/
+  .container-reflection2 {
+    flex-direction: row-reverse;
+  }
 
-.container-reflection, .container-reflection2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 15px;
-  flex-wrap: wrap; 
-}
+  .container-reflection img,
+  .container-reflection2 img {
+    max-width: 90vh;
+    max-height: 55vh;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
 
-.container-reflection2 {
-  flex-direction: row-reverse;
-}
+  .container-reflection2 img {
+    float: left;
+  }
 
-.container-reflection img, .container-reflection2 img {
-  max-width: 90vh;
-  max-height: 55vh;
-  float: right;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  
-}
+  p {
+    font-size: 17px;
+    line-height: 25px;
+  }
 
-.container-reflection2 img {
-  float: left;
-}
+  h1,
+  h2 {
+    line-height: 100px;
+  }
 
-p {
-  font-size: 17px;
-  line-height: 25px;
-}
-
-h1, h2 {
-  line-height: 100px;
-}
-
-/*End reflection-essay.html COMPUTER SCREEN*/
+  /*End reflection-essay.html COMPUTER SCREEN*/
 
   /*Start index.html COMPUTER SCREEN*/
-  #container-index2{
+  #container-index2 {
     flex-direction: row-reverse;
     row-gap: 50px;
   }
 
-  #text-index2{
+  #text-index2 {
     text-align: left;
   }
 
-  .text-index{
+  .text-index {
     text-align: right;
   }
 
-  .container-index{
+  .container-index {
     column-gap: 50px;
   }
 
-  .image-index{
+  .image-index {
     max-width: 80vh;
   }
 
@@ -887,20 +844,17 @@ h1, h2 {
 
   .fun .box {
     width: 800px;
-    height: auto; 
+    height: auto;
     border: 7px solid black;
-    padding: 50px; 
-    margin: 40px; 
-    display: flex; 
-    flex-direction: column; 
-    flex-wrap: nowrap; 
+    padding: 50px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center, space-between;
-    align-items: center; 
-    align-self: center; 
-    text-align: center; 
+    align-items: center;
+    align-self: center;
+    text-align: center;
     margin: 10px auto;
-    
-  } 
-
-
+  }
 }
