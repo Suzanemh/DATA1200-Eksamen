@@ -522,6 +522,12 @@ Start Fun page
   }
 }
 
+.surprise{
+  width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
 .fun .box {
   width: 350px;
   height: auto;
