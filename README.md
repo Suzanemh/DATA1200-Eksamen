@@ -34,6 +34,8 @@ DUMMY-TEXT FOR REFLECTION ESSEY REFERENCE:
 Simon Fraser University. (2021, April 19th). Moving From High School to University. 
 https://www.lib.sfu.ca/about/branches-depts/slc/learning/transition/high-school-university
 
+https://www.hopkinsmedicine.org/health/wellness-and-prevention/the-science-of-sleep-understanding-what-happens-when-you-sleep
+
 
 PICTURES FOR REFLECTION-ESSAY REFERENCE:
 
