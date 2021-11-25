@@ -734,6 +734,10 @@ Start Fun page
         text-align: center;
         margin: 10px auto;
     }
+    .GIF {
+        display: block;
+        margin: 0;
+    }
 }
 
 
