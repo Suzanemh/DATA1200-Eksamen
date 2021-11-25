@@ -26,8 +26,8 @@ body{
   top: 0;
   width: 100%;
   z-index: 100;
-  height: 40vh;
-  font-size: 20px;
+  height: 50vh;
+  font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -721,6 +721,7 @@ Start Fun page
     padding-left: 20px;
     width: 400px; 
     float:inline-end;
+    text-align: left;
   }
 
   #container-index2{
