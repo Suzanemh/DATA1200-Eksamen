@@ -225,20 +225,12 @@ Start content reflection-essay.html
   float: inline-end;
 }
 
-<<<<<<< HEAD
-.image-reflection {
-  max-width: 50vh;
-  margin: 20px 0px;
-  padding: 20px;
-}
-=======
 .image-reflection{
   max-width:100vh;  
   margin: 20px 0px;
   padding: 20px;
 }
  
->>>>>>> 7bd38c4b4044bd404b5fcfc10898d2a027a2d1eb
 
 /*----------------------
 End content reflection-essay.html
@@ -260,14 +252,14 @@ Start content index
   font-size: 20px;
   text-align: left;
   width: fit-content;
-  width: 400px;
-  margin: 60px;
-  float: inline-end;
+  width: 400px; 
+  margin: 10px;
+  
 }
 
-.image-index {
-  max-width: 50vh;
-  margin: 20px 0px;
+.image-index{
+  max-width: 100vh;  
+  margin: 10 px 0px;
 }
 
 /*----------------------
@@ -282,11 +274,7 @@ Start content accesibility.html
   margin: auto;
   width: 50%;
   padding: 10px;
-<<<<<<< HEAD
-  list-style: inside;
-=======
   list-style: inside;  
->>>>>>> 7bd38c4b4044bd404b5fcfc10898d2a027a2d1eb
 }
 
 .language-html {
@@ -312,17 +300,10 @@ Start content accesibility.html
 
 .image-accessibility {
   width: fit-content;
-<<<<<<< HEAD
-  width: 500px;
-  margin: 0;
-  float: inline-end;
-  height: auto;
-=======
   width: 500px; 
   margin:0;
   float:inline-end; 
   height: auto; 
->>>>>>> 7bd38c4b4044bd404b5fcfc10898d2a027a2d1eb
 }
 
 figure img {
@@ -394,12 +375,7 @@ Start content page4.html
 .topic p {
   margin: auto;
   width: 60%;
-<<<<<<< HEAD
-  padding: 10px;
-  width: 510px;
-=======
   padding: 10px;  
->>>>>>> 7bd38c4b4044bd404b5fcfc10898d2a027a2d1eb
 }
 
 .topic a {
@@ -705,32 +681,23 @@ Start Fun page
     align-items: center;
     column-gap: 20px;
     flex-wrap: nowrap;
-    margin: 50px;
+    margin: 10px;
   }
 
   .text-index {
-    font-size: 20px;
+    font-size: 15px;
     text-align: right;
-    padding-left: 20px;
-    width: 50px;
-    float: inline-end;
+    padding-left: 0px;
     text-align: left;
+    margin: 10px;
   }
 
-  #container-index2 {
-    flex-direction: row-reverse;
-  }
-
-  #text-index2 {
-    text-align: left;
-  }
 
   .image-index {
     width: fit-content;
-    padding-left: 20px;
-    margin: 30px;
-    float: inline-end;
-    max-width: 60vh;
+    padding-left: 10px;
+    margin: 10px;
+    max-width: 50vh;   
   }
 
   /*End index TABLET*/
@@ -757,12 +724,8 @@ Start Fun page
     align-self: center;
     text-align: center;
     margin: 10px auto;
-<<<<<<< HEAD
-  }
-=======
   } 
 
->>>>>>> 7bd38c4b4044bd404b5fcfc10898d2a027a2d1eb
 }
 
 /*----------------------
@@ -844,25 +807,20 @@ Start Fun page
   /*End reflection-essay.html COMPUTER SCREEN*/
 
   /*Start index.html COMPUTER SCREEN*/
-  #container-index2 {
-    flex-direction: row-reverse;
-    row-gap: 50px;
-  }
-
-  #text-index2 {
-    text-align: left;
-  }
-
-  .text-index {
-    text-align: right;
-  }
 
   .container-index {
     column-gap: 50px;
   }
 
-  .image-index {
+  .text-index{
+    line-height: 30px;
+    margin: 15px;
+  }
+
+  .image-index{
     max-width: 80vh;
+    max-height: 70vh;
+    margin-bottom: 20px;
   }
 
   /* Start FUN PAGE COMPUTER */
