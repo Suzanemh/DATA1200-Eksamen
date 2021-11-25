@@ -225,12 +225,11 @@ Start content reflection-essay.html
   float: inline-end;
 }
 
-.image-reflection{
-  max-width:100vh;  
+.image-reflection {
+  max-width: 100vh;
   margin: 20px 0px;
   padding: 20px;
 }
- 
 
 /*----------------------
 End content reflection-essay.html
@@ -252,13 +251,12 @@ Start content index
   font-size: 20px;
   text-align: left;
   width: fit-content;
-  width: 400px; 
+  width: 400px;
   margin: 10px;
-  
 }
 
-.image-index{
-  max-width: 100vh;  
+.image-index {
+  max-width: 100vh;
   margin: 10 px 0px;
 }
 
@@ -274,7 +272,7 @@ Start content accesibility.html
   margin: auto;
   width: 50%;
   padding: 10px;
-  list-style: inside;  
+  list-style: inside;
 }
 
 .language-html {
@@ -300,10 +298,10 @@ Start content accesibility.html
 
 .image-accessibility {
   width: fit-content;
-  width: 500px; 
-  margin:0;
-  float:inline-end; 
-  height: auto; 
+  width: 500px;
+  margin: 0;
+  float: inline-end;
+  height: auto;
 }
 
 figure img {
@@ -375,7 +373,8 @@ Start content page4.html
 .topic p {
   margin: auto;
   width: 60%;
-  padding: 10px;  
+  padding: 10px;
+  width: 480px;
 }
 
 .topic a {
@@ -449,7 +448,7 @@ Start Fun page
 
 /* Caption text */
 .text {
-  color:rgb(0, 0, 0); 
+  color: rgb(0, 0, 0);
   background-color: white;
   font-size: 15px;
   padding: 8px 12px;
@@ -692,12 +691,11 @@ Start Fun page
     margin: 10px;
   }
 
-
   .image-index {
     width: fit-content;
     padding-left: 10px;
     margin: 10px;
-    max-width: 50vh;   
+    max-width: 50vh;
   }
 
   /*End index TABLET*/
@@ -724,8 +722,7 @@ Start Fun page
     align-self: center;
     text-align: center;
     margin: 10px auto;
-  } 
-
+  }
 }
 
 /*----------------------
@@ -812,12 +809,12 @@ Start Fun page
     column-gap: 50px;
   }
 
-  .text-index{
+  .text-index {
     line-height: 30px;
     margin: 15px;
   }
 
-  .image-index{
+  .image-index {
     max-width: 80vh;
     max-height: 70vh;
     margin-bottom: 20px;
