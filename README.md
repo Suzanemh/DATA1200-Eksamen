@@ -19,18 +19,23 @@ TestingXperts. (2021). Blog—Why Accessibility Testing is Important. TestingXpe
 
 uutilsynet. (2021). 1.4.12 Tekstavstand (Nivå AA) | Tilsynet for universell utforming av ikt. https://www.uutilsynet.no/wcag-standarden/1412-tekstavstand-niva-aa/146
 
-Yale University. (2021). Links | Usability & Web Accessibility. https://usability.yale.edu/web-accessibility/articles/links
 
-WebAIM. (2021). WebAIM: Contrast and Color Accessibility—Understanding WCAG 2 Contrast and Color Requirements. https://webaim.org/articles/contrast/
 
 WCAG. (2021). Understanding Success Criterion 2.3.3: Animation from Interactions. https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html
 
+WCAG 2.1 AA. (n.d.). Color Contrast Accessibility Validator. Retrieved 25 November 2021, from https://color.a11y.com/?wc3
+
+
+W3C. (2021). The W3C Markup Validation Service. https://validator.w3.org/
+
 W3schools. (2021). How TO - slideshow. W3schools. https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+Yale University. (2021). Links | Usability & Web Accessibility. https://usability.yale.edu/web-accessibility/articles/links
+
 
 
 
 DUMMY-TEXT FOR REFLECTION ESSEY REFERENCE: 
-
 
 
 Simon Fraser University. (2021, April 19th). Moving From High School to University. 
