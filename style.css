@@ -79,7 +79,7 @@ body{
 }
 
 .logo img:hover{
-  box-shadow: 0 0 15px 10px yellow;
+  box-shadow: 0 0 15px 10px rgb(12, 26, 158);
 }
 
 .logo a {
