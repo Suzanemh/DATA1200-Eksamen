@@ -254,7 +254,7 @@ Start content index
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 60px;
+  margin: 0px;
   flex-wrap: wrap; 
 }
 
@@ -713,13 +713,14 @@ Start Fun page
     align-items: center;
     column-gap: 20px;
     flex-wrap: nowrap; 
+    margin:50px;
   }
 
   .text-index {
     font-size: 20px;
     text-align: right;
     padding-left: 20px;
-    width: 400px; 
+    width: 50px; 
     float:inline-end;
   }
 
